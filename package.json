@@ -1,0 +1,19 @@
+{
+  "name": "saas_template_automation_solution",
+  "version": "1.0.0",
+  "description": "This is a solution for the automation testing for saas-template application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roman1137/saas-template-automation.git"
+  },
+  "author": "Roman Borodavka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roman1137/saas-template-automation/issues"
+  },
+  "homepage": "https://github.com/Roman1137/saas-template-automation#readme"
+}
