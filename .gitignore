@@ -1,5 +1,15 @@
+# node modules
 node_modules
 
-# Ignores compiled TypeScript files
+# allure-report
+allure-report
+
+# allure results
+allure-results
+
+# folder where TS compiles puts files
+built
+
+# compiled TypeScript files
 *.js.map
 *.js
