@@ -1,9 +1,8 @@
 import * as chai from "chai";
+import chaiHttp = require("chai-http");
 import {IAllure} from "../allureTypes/IAllure";
 import {Severity} from "../allureTypes/severity";
-import chaiHttp = require("chai-http");
 
-require("mocha-allure-reporter");
 declare const allure: IAllure;
 
 chai.use(chaiHttp);

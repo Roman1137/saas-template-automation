@@ -43,7 +43,7 @@ describe("My testHealth check test 22222222222222", async () => {
     it("Send request2", async () => {
         const testStep = allure.createStep("initial", async () => {
 
-            await allure.createAttachment("my first attachment", "hello world")
+            await allure.createAttachment("my first attachment", "hello world");
 
             const response = await chai
                 .request("http://localhost:8182")
@@ -63,6 +63,8 @@ describe("My testHealth check test 22222222222222", async () => {
             .request("http://localhost:8182")
             .get("/healthcheck")
             .send();
+
+        await allure.createAttachment("my second attachment", "hello world");
 
         console.log(response);
     });
