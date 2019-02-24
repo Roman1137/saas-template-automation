@@ -1,4 +1,6 @@
 --require ts-node/register
 --watch-extensions ts
+-slow 2000
+--timeout 5000
 --reporter mocha-multi-reporters
 --reporter-options configFile=reporterConfig.json

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha --opts mocha.opts test/*.ts",
+    "testsParalel": "mocha-parallel-tests --opts mocha.opts test/*.ts",
     "report": "node node_modules/allure-commandline/bin/allure generate --clean"
   },
   "repository": {
@@ -25,10 +26,11 @@
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
     "mocha": "^6.0.1",
+    "mocha-allure-reporter": "^1.4.0",
+    "mocha-multi-reporters": "^1.1.7",
+    "mocha-parallel-tests": "2.0.1",
     "ts-node": "^8.0.2",
     "tslint": "^5.12.1",
-    "typescript": "^3.3.3333",
-    "mocha-allure-reporter": "^1.4.0",
-    "mocha-multi-reporters": "^1.1.7"
+    "typescript": "^3.3.3333"
   }
 }
