@@ -1,12 +1,13 @@
 import * as chai from "chai";
-import {Severity} from "../allureTypes/severity";
+import {Severity} from "../loggers/reporterLogger/allureTypes/severity";
 import chaiHttp = require("chai-http");
-import {CommonLogger} from "../logger";
-import {IAllure} from "../allureTypes/IAllure";
+import {ConsoleLogger} from "../loggers/consoleLogger/consoleLogger";
 
-declare const allure: IAllure;
+import {ReporterLogger} from "../loggers/reporterLogger/ReporterLogger";
 
 chai.use(chaiHttp);
+
+
 
 describe("My testHealth check test 22222222222222", async () => {
 
@@ -31,26 +32,24 @@ describe("My testHealth check test 22222222222222", async () => {
     });*/
 
     it("Send request", async () => {
-        allure.feature('Open browser');
-        allure.story('search someting in google');
+        ReporterLogger.feature('Open browser');
+        ReporterLogger.story('search someting in google');
 
-        allure.description("Some description");
-        allure.severity(Severity.MINOR);
-        allure.addEnvironment("Local", "localhost");
+        ReporterLogger.description("Some description");
+        ReporterLogger.severity(Severity.MINOR);
+        ReporterLogger.addEnvironment("Local", "localhost");
 
         chai.expect(true).to.equal(true);
     });
 
-    it.only("Send request2", async () => {
-        const logger = new CommonLogger();
-
-        const sendRequest = allure.createStep("send GET request", async () => {
-            logger.info("sending GET Message");
+    it("Send request2", async () => {
+        const sendRequest = ReporterLogger.createStep("send GET request", async () => {
+            ConsoleLogger.info("sending GET Message");
         });
 
-        const testStep = allure.createStep("initial", async () => {
+        const testStep = ReporterLogger.createStep("initial", async () => {
 
-            await allure.createAttachment("my first attachment", "hello world");
+            await ReporterLogger.createAttachment("my first attachment", "hello world");
 
             const response = await chai
                 .request("http://localhost:8182")
@@ -59,14 +58,14 @@ describe("My testHealth check test 22222222222222", async () => {
 
             sendRequest();
 
-            logger.info("hello from allure and log4js");
-            await allure.createAttachment("my first attachment", response.text);
+            ConsoleLogger.info("hello from allure and log4js");
+            await ReporterLogger.createAttachment("my first attachment", response.text);
             chai.expect(true).to.equal(true);
         });
 
         await testStep();
 
-        const assert = allure.createStep("expect true, to equal true", async () => {
+        const assert = ReporterLogger.createStep("expect true, to equal true", async () => {
             chai.expect(true).to.equal(true);
         });
 
@@ -82,7 +81,7 @@ describe("My testHealth check test 22222222222222", async () => {
             .get("/healthcheck")
             .send();
 
-        await allure.createAttachment("my second attachment", "hello world");
+        await ReporterLogger.createAttachment("my second attachment", "hello world");
 
         console.log(response);
     });

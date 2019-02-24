@@ -1,7 +1,7 @@
 import * as chai from "chai";
 import chaiHttp = require("chai-http");
-import {IAllure} from "../allureTypes/IAllure";
-import {Severity} from "../allureTypes/severity";
+import {IAllure} from "../loggers/reporterLogger/allureTypes/IAllure";
+import {Severity} from "../loggers/reporterLogger/allureTypes/severity";
 
 declare const allure: IAllure;
 
