@@ -1,9 +1,10 @@
 import * as chai from "chai";
 import {Severity} from "../allureTypes/severity";
 import chaiHttp = require("chai-http");
+import {CommonLogger} from "../logger";
+import {IAllure} from "../allureTypes/IAllure";
 
-require("mocha-allure-reporter");
-declare const allure: any;
+declare const allure: IAllure;
 
 chai.use(chaiHttp);
 
@@ -40,7 +41,7 @@ describe("My testHealth check test 22222222222222", async () => {
         chai.expect(true).to.equal(true);
     });
 
-    it("Send request2", async () => {
+    it.only("Send request2", async () => {
         const testStep = allure.createStep("initial", async () => {
 
             await allure.createAttachment("my first attachment", "hello world");
@@ -52,7 +53,9 @@ describe("My testHealth check test 22222222222222", async () => {
 
             console.log(response);
 
-            await allure.createAttachment("my first attachment", response.text)
+            const logger = new CommonLogger();
+            logger.info("hello from allure and log4js");
+            await allure.createAttachment("my first attachment", response.text);
         });
 
         await testStep();
