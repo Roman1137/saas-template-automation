@@ -42,6 +42,12 @@ describe("My testHealth check test 22222222222222", async () => {
     });
 
     it.only("Send request2", async () => {
+        const logger = new CommonLogger();
+
+        const sendRequest = allure.createStep("send GET request", async () => {
+            logger.info("sending GET Message");
+        });
+
         const testStep = allure.createStep("initial", async () => {
 
             await allure.createAttachment("my first attachment", "hello world");
@@ -51,14 +57,23 @@ describe("My testHealth check test 22222222222222", async () => {
                 .get("/healthcheck")
                 .send();
 
-            console.log(response);
+            sendRequest();
 
-            const logger = new CommonLogger();
             logger.info("hello from allure and log4js");
             await allure.createAttachment("my first attachment", response.text);
+            chai.expect(true).to.equal(true);
         });
 
         await testStep();
+
+        const assert = allure.createStep("expect true, to equal true", async () => {
+            chai.expect(true).to.equal(true);
+        });
+
+        await assert();
+
+        chai.expect(true).to.equal(true);
+
     });
 
     it("Send request3", async () => {
