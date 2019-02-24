@@ -32,11 +32,22 @@ describe("My testHealth check test", async () => {
 
     it("Send request", async () => {
         allure.feature('Open browser');
-        allure.story('search someting in google');
+        allure.story('some story name');
+
+        allure.addArgument("language", "Typescript");
 
         allure.description("Some description");
         allure.severity(Severity.NORMAL);
         allure.addEnvironment("Local", "localhost");
+
+        chai.expect(true).to.equal(true);
+    });
+
+    it("Test step", async () => {
+        allure.addLabel("My Lable", "Lable value");
+        allure.epic("Romans epic");
+        allure.addArgument("County", "Ukraine");
+
 
         chai.expect(true).to.equal(true);
     });

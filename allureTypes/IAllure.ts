@@ -1,8 +1,3 @@
-// Global preconditions file
-
-// --reporter spec
-// --reporter mocha-allure-reporter
-
 import {Severity} from "./severity";
 
 export interface IAllure {
@@ -28,6 +23,10 @@ export interface IAllure {
      */
     severity(severity: Severity);
     /**
+     * assign epic to test
+     */
+    epic(epicName: string);
+    /**
      * assign feature to test
      */
     feature(featureName: string);
@@ -43,4 +42,8 @@ export interface IAllure {
      * save environment value.It is similar to addArgument method, but it is designed to store more verbose data, like HTTP - links to test page or used package version.
      */
     addEnvironment(name: string, value: string);
+    /**
+     * assign any label to test
+     */
+    addLabel(labelName: string, labelValue: string);
 }
