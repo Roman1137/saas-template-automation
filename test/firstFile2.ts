@@ -1,14 +1,13 @@
 import * as chai from "chai";
-import {IAllure} from "../allureTypes/IAllure";
 import {Severity} from "../allureTypes/severity";
 import chaiHttp = require("chai-http");
 
 require("mocha-allure-reporter");
-declare const allure: IAllure;
+declare const allure: any;
 
 chai.use(chaiHttp);
 
-describe("My testHealth check test", async () => {
+describe("My testHealth check test 22222222222222", async () => {
 
    /* beforeEach(() => {
         allure.feature('Open browser');
@@ -35,7 +34,7 @@ describe("My testHealth check test", async () => {
         allure.story('search someting in google');
 
         allure.description("Some description");
-        allure.severity(Severity.NORMAL);
+        allure.severity(Severity.MINOR);
         allure.addEnvironment("Local", "localhost");
 
         chai.expect(true).to.equal(true);
@@ -44,12 +43,16 @@ describe("My testHealth check test", async () => {
     it("Send request2", async () => {
         const testStep = allure.createStep("initial", async () => {
 
+            await allure.createAttachment("my first attachment", "hello world")
+
             const response = await chai
                 .request("http://localhost:8182")
                 .get("/healthcheck")
                 .send();
 
             console.log(response);
+
+            await allure.createAttachment("my first attachment", response.text)
         });
 
         await testStep();
