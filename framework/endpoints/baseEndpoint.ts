@@ -1,6 +1,7 @@
 import * as chai from "chai";
 import * as request from "superagent";
 import {IContactInfoModel} from "../models/request+response/ContactInfoModel";
+import {IContentType} from "../models/request+response/IContentType";
 
 export class BaseEndpoint {
 

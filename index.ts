@@ -1,7 +1,6 @@
 import * as dotenv from "dotenv";
 import {ConsoleLogger} from "./loggers/consoleLogger/consoleLogger";
 
-
 dotenv.config();
 process.env.NODE_ENV = process.env.NODE_ENV || "local";
 let path;
@@ -24,6 +23,3 @@ switch (process.env.NODE_ENV) {
 }
 dotenv.config({ path });
 
-before(() => ConsoleLogger.info(`Mocha Test Started at ${process.env.NODE_ENV} environment`));
-
-after(() => ConsoleLogger.info("Mocha Test Finished"));

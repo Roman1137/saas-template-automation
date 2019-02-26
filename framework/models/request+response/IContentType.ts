@@ -1,4 +1,4 @@
-interface IContentType {
+export interface IContentType {
     name: string;
     value: string;
 }

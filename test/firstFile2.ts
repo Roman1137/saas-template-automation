@@ -12,7 +12,7 @@ chai.use(chaiHttp);
 
 
 
-describe("My testHealth check test 22222222222222", async () => {
+describe.skip("My testHealth check test 22222222222222", async () => {
 
    /* beforeEach(() => {
         allure.feature('Open browser');
@@ -34,7 +34,7 @@ describe("My testHealth check test 22222222222222", async () => {
         console.log(response);
     });*/
 
-    it.only("Send request", async () => {
+    it("Send request", async () => {
         console.log("a");
         console.log("a");
 
@@ -97,7 +97,7 @@ describe("My testHealth check test 22222222222222", async () => {
         console.log(response);
     });
 
-    it.only("Get Contans test", async () => {
+    it("Get Contans test", async () => {
         const resposne = await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
             .get("/api/v1/contacts/1")
