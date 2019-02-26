@@ -1,5 +1,5 @@
-import {ConsoleLogger} from "./loggers/consoleLogger/consoleLogger";
 import * as dotenv from "dotenv";
+import {ConsoleLogger} from "./loggers/consoleLogger/consoleLogger";
 
 
 dotenv.config();

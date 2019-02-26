@@ -4,6 +4,7 @@ import chaiHttp = require("chai-http");
 import {ConsoleLogger} from "../loggers/consoleLogger/consoleLogger";
 
 import {ReporterLogger} from "../loggers/reporterLogger/ReporterLogger";
+import {IMainResponseModel} from "../framework/models/MainResponseModel";
 
 chai.use(chaiHttp);
 
@@ -93,4 +94,15 @@ describe("My testHealth check test 22222222222222", async () => {
 
         console.log(response);
     });
+
+    it.only("Get Contans test", async () => {
+        const resposne = await chai
+            .request(process.env.SAAS_TEMPLATE_LOCAL)
+            .get("/api/v1/contacts/1")
+            .set("Content-Type", "application/json")
+            .send();
+
+        const deserializedResponse = resposne.body as IMainResponseModel;
+        let a =2;
+    })
 });
