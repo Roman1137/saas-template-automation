@@ -31,9 +31,11 @@ describe("My testHealth check test 22222222222222", async () => {
         console.log(response);
     });*/
 
-    it("Send request", async () => {
-        ReporterLogger.feature('Open browser');
-        ReporterLogger.story('search someting in google');
+    it.only("Send request", async () => {
+        console.log("a");
+        console.log("a");
+
+       // ReporterLogger.story('search someting in google');
 
         ReporterLogger.description("Some description");
         ReporterLogger.severity(Severity.MINOR);
@@ -68,11 +70,8 @@ describe("My testHealth check test 22222222222222", async () => {
         const assert = ReporterLogger.createStep("expect true, to equal true", async () => {
             chai.expect(true).to.equal(true);
         });
-
         await assert();
-
         chai.expect(true).to.equal(true);
-
     });
 
     it("Send request3", async () => {

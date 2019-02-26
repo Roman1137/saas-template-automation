@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee7f6fae-34f3-453d-9e21-cde7bc62d377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loggers/consoleLogger/consoleLogger.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loggers/reporterLogger/ReporterLogger.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/.env.local" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allureTypes/IAllure.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/reporterLogger/allureTypes/IAllure.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allureTypes/severity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/reporterLogger/allureTypes/severity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggers/reporterLogger/ReporterLogger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/loggers/reporterLogger/ReporterLogger.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocha.opts" beforeDir="false" afterPath="$PROJECT_DIR$/mocha.opts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/firstFile2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/firstFile2.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/firstFile3.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/firstFile3.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/firstFile3.ts" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,24 +25,30 @@
     <session id="65598396">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="659" value="1" />
+          <entry key="838" value="1" />
           <entry key="LICENCE" value="2" />
+          <entry key="LocalEnv" value="1" />
           <entry key="css" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="5" />
-          <entry key="js" value="27" />
-          <entry key="json" value="22" />
+          <entry key="html" value="6" />
+          <entry key="js" value="33" />
+          <entry key="json" value="28" />
+          <entry key="map" value="1" />
           <entry key="md" value="2" />
-          <entry key="opts" value="4" />
-          <entry key="ts" value="29" />
+          <entry key="opts" value="5" />
+          <entry key="ts" value="31" />
           <entry key="txt" value="2" />
-          <entry key="xml" value="37" />
+          <entry key="xml" value="38" />
           <entry key="xsd" value="1" />
           <entry key="yml" value="1" />
         </counts>
@@ -51,39 +56,42 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="5" />
-          <entry key="JSON" value="20" />
-          <entry key="JavaScript" value="27" />
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="TypeScript" value="29" />
-          <entry key="XML" value="38" />
+          <entry key="HTML" value="6" />
+          <entry key="JSON" value="25" />
+          <entry key="JavaScript" value="35" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="SourceMap" value="1" />
+          <entry key="TypeScript" value="31" />
+          <entry key="XML" value="39" />
           <entry key="YAML" value="1" />
-          <entry key="tsconfig" value="2" />
+          <entry key="tsconfig" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="LocalEnv" value="27" />
           <entry key="gitignore" value="147" />
           <entry key="js" value="14" />
-          <entry key="json" value="243" />
-          <entry key="opts" value="139" />
-          <entry key="ts" value="3153" />
+          <entry key="json" value="285" />
+          <entry key="opts" value="148" />
+          <entry key="ts" value="3616" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="243" />
+          <entry key="JSON" value="284" />
           <entry key="JavaScript" value="14" />
-          <entry key="PLAIN_TEXT" value="286" />
-          <entry key="TypeScript" value="3153" />
+          <entry key="PLAIN_TEXT" value="322" />
+          <entry key="TypeScript" value="3616" />
           <entry key="XML" value="2" />
+          <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TsLintLanguageService" value="2" />
-          <entry key="TypeScriptServerServiceImpl" value="2" />
+          <entry key="TsLintLanguageService" value="4" />
+          <entry key="TypeScriptServerServiceImpl" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -91,22 +99,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/firstFile3.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="72" lean-forward="true" selection-start-column="1" selection-end-line="3" selection-end-column="72" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mocha.opts">
+        <entry file="file://$PROJECT_DIR$/reporterConfig.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -114,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/firstFile2.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+            <state relative-caret-position="238">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -124,21 +120,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/allure-report/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="374">
+              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.ts">
+        <entry file="file://$PROJECT_DIR$/loggers/reporterLogger/ReporterLogger.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="74" selection-start-column="74" selection-end-column="74" />
+            <state relative-caret-position="51">
+              <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+              <folding>
+                <element signature="e#75#143#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mock://vm:659">
+          <provider selected="true" editor-type-id="vmFileEditor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/.env.local">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tsconfig.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -170,27 +214,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/tslint.json" />
         <option value="$PROJECT_DIR$/firstTest.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/reporterConfig.json" />
         <option value="$PROJECT_DIR$/allure-results/707198d3-498c-4baa-b892-13510bd3b57f-testsuite.xml" />
         <option value="$PROJECT_DIR$/test/firstTest.ts" />
         <option value="$PROJECT_DIR$/allure-results/65571293-8b1e-4ff4-b3fd-edb901c0c871-testsuite.xml" />
         <option value="$PROJECT_DIR$/IAllure.ts" />
         <option value="$PROJECT_DIR$/allureTypes/severity.ts" />
         <option value="$PROJECT_DIR$/allureTypes/IAllure.ts" />
-        <option value="$PROJECT_DIR$/test/firstFile3.ts" />
         <option value="$PROJECT_DIR$/loggers/ReporterLogger.ts" />
-        <option value="$PROJECT_DIR$/loggers/reporterLogger/ReporterLogger.ts" />
         <option value="$PROJECT_DIR$/logger.ts" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/test/index.ts" />
+        <option value="$PROJECT_DIR$/test/firstFile3.ts" />
+        <option value="$PROJECT_DIR$/reporterConfig.json" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/nodemon-debug.json" />
         <option value="$PROJECT_DIR$/mocha.opts" />
         <option value="$PROJECT_DIR$/test/firstFile2.ts" />
+        <option value="$PROJECT_DIR$/config/.LocalEnv" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.ts" />
+        <option value="$PROJECT_DIR$/loggers/reporterLogger/ReporterLogger.ts" />
       </list>
     </option>
   </component>
@@ -209,8 +255,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="180" />
-    <option name="y" value="-20" />
+    <option name="x" value="2048" />
+    <option name="y" value="-328" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -220,6 +266,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,27 +277,43 @@
             <path>
               <item name="saas_template_automation_solution" type="b2602c69:ProjectViewProjectNode" />
               <item name="saas_template_automation_solution" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas_template_automation_solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas_template_automation_solution" type="462c0819:PsiDirectoryNode" />
+              <item name="loggers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas_template_automation_solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas_template_automation_solution" type="462c0819:PsiDirectoryNode" />
+              <item name="loggers" type="462c0819:PsiDirectoryNode" />
+              <item name="reporterLogger" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas_template_automation_solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas_template_automation_solution" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/loggers/consoleLogger" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="C:\project\saas_template_automation_solution\node_modules\tslint" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="ts.external.directory.path" value="C:\project\saas_template_automation_solution\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -277,17 +340,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Mocha.Mocha">
+    <configuration name="ts-node debug" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9324">
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="NodeJSConfigurationType" factoryName="Node.js" node-parameters="--inspect --require ts-node/register" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="tESTS" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="test" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="Mocha" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
+      <node-interpreter>node</node-interpreter>
+      <node-options>--inspect --require ts-node/register</node-options>
       <working-directory>$PROJECT_DIR$</working-directory>
       <pass-parent-env>true</pass-parent-env>
       <ui>bdd</ui>
       <extra-mocha-options>--opts mocha.opts</extra-mocha-options>
       <test-kind>DIRECTORY</test-kind>
       <test-directory>$PROJECT_DIR$/test</test-directory>
-      <recursive>true</recursive>
+      <recursive>false</recursive>
       <method v="2" />
     </configuration>
     <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
@@ -302,6 +378,12 @@
       <recursive>true</recursive>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Attach to Node.js/Chrome.ts-node debug" />
+      <item itemvalue="Mocha.Mocha" />
+      <item itemvalue="Node.js.Unnamed" />
+      <item itemvalue="npm.tESTS" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -314,44 +396,46 @@
       <option name="presentableId" value="Default" />
       <updated>1550947101928</updated>
       <workItem from="1550947103969" duration="13475000" />
-      <workItem from="1550995326310" duration="25351000" />
+      <workItem from="1550995326310" duration="25618000" />
+      <workItem from="1551128638348" duration="6934000" />
+      <workItem from="1551205841009" duration="1699000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Mocha - 2019.02.23 at 22h 25m 02s.xml">
+    <history-entry file="Mocha - 2019.02.26 at 00h 25m 28s.xml">
       <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Mocha - 2019.02.23 at 22h 34m 37s.xml">
+    <history-entry file="Mocha - 2019.02.26 at 00h 29m 33s.xml">
       <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Mocha - 2019.02.24 at 11h 16m 42s.xml">
+    <history-entry file="Mocha - 2019.02.26 at 00h 49m 47s.xml">
       <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Mocha - 2019.02.24 at 11h 18m 02s.xml">
+    <history-entry file="Mocha - 2019.02.26 at 00h 51m 04s.xml">
       <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Mocha - 2019.02.24 at 11h 20m 56s.xml">
+    <history-entry file="Mocha - 2019.02.26 at 00h 51m 11s.xml">
       <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Mocha - 2019.02.24 at 13h 07m 34s.xml">
+    <history-entry file="Mocha - 2019.02.26 at 00h 52m 28s.xml">
       <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Mocha - 2019.02.24 at 13h 10m 17s.xml">
+    <history-entry file="Mocha - 2019.02.26 at 00h 55m 13s.xml">
       <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Mocha - 2019.02.24 at 13h 12m 23s.xml">
+    <history-entry file="Mocha - 2019.02.26 at 00h 59m 31s.xml">
       <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Mocha - 2019.02.24 at 22h 57m 49s.xml">
+    <history-entry file="Mocha - 2019.02.26 at 20h 52m 27s.xml">
       <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Mocha - 2019.02.24 at 23h 03m 32s.xml">
+    <history-entry file="Mocha - 2019.02.26 at 20h 53m 26s.xml">
       <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38826000" />
+    <option name="totallyTimeSpent" value="47726000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,23 +447,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-319" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20907739" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17755532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32879046" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29301533" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4531516" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53281426" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4705228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32879046" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32879046" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.39011925" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32814237" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.38932148" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -408,6 +492,22 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/loggers/reporterLogger/allureTypes/severity.js" />
+        <option value="$PROJECT_DIR$/loggers/reporterLogger/allureTypes/IAllure.js.map" />
+        <option value="$PROJECT_DIR$/loggers/reporterLogger/allureTypes/severity.js.map" />
+        <option value="$PROJECT_DIR$/loggers/reporterLogger/allureTypes/IAllure.js" />
+        <option value="$PROJECT_DIR$/loggers/reporterLogger/ReporterLogger.js.map" />
+        <option value="$PROJECT_DIR$/loggers/reporterLogger/ReporterLogger.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/index.js.map" />
+        <option value="$PROJECT_DIR$/loggers/consoleLogger/consoleLogger.js" />
+        <option value="$PROJECT_DIR$/loggers/consoleLogger/consoleLogger.js.map" />
+        <option value="$PROJECT_DIR$/test/firstFile2.js.map" />
+        <option value="$PROJECT_DIR$/test/firstFile2.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -416,16 +516,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/test/firstFile3.ts</url>
-          <line>23</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/loggers/reporterLogger/ReporterLogger.ts</url>
+          <line>28</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/built/test/firstFile2.js</url>
+          <line>31</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/test/firstFile2.ts</url>
-          <line>51</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
+          <line>67</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/firstFile2.ts</url>
+          <line>35</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -440,6 +548,11 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>allure</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>allure.createStep</expression-string>
         <language-id>TypeScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -447,100 +560,19 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/allure-report/data/test-cases/2cea0c1fad4eccab.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-624" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-report/data/test-cases/76a3b9ac983ceb10.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-report/data/test-cases/403cf451cef4f8f3.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-report/data/test-cases/a238c92d71efb680.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/39f85d08-aeca-44c6-8e18-e5cad54d7d36-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-386" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/82071454-a2af-4706-bfd2-029826332bd9-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-report/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/50a04122-3dcc-419d-82db-0e043c00d93f-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/75e5b5d6-8f94-4def-8906-88c114e68b44-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/bd6cf868-4a27-4e1a-95a3-40ea70428184-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/7e7b6ec0-dd56-4f05-8c2b-a5caefadab59-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/3b2a47d3-a27d-4806-8100-4684367783d9-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/b7990384-322a-49a2-be85-66deab2393c4-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/86fd0a69-653e-40f3-b4cf-0038eb0d5fb2-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/firstTest.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/a48f7155-a9fd-461b-bf76-e994b9fdb3d9-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mocha/lib/mocha.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="326" column="35" selection-start-line="326" selection-start-column="35" selection-end-line="326" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/1436db45-c018-40ea-81c3-49a17509259d-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/65571293-8b1e-4ff4-b3fd-edb901c0c871-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/8c6297a4-b091-480c-b967-89135eded275-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/ed55fbe0-4a3d-4578-992d-4ab4beec2b29-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/a9c49e63-2be1-4d28-a8ca-6e541660007c-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/686f0f5b-32cc-4508-b6b1-e927dca1733e-testsuite.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/bd6cf868-4a27-4e1a-95a3-40ea70428184-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/allure-results/7e7b6ec0-dd56-4f05-8c2b-a5caefadab59-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/allure-results/3b2a47d3-a27d-4806-8100-4684367783d9-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/allure-results/b7990384-322a-49a2-be85-66deab2393c4-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/allure-results/86fd0a69-653e-40f3-b4cf-0038eb0d5fb2-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/test/firstTest.ts" />
+    <entry file="file://$PROJECT_DIR$/allure-results/a48f7155-a9fd-461b-bf76-e994b9fdb3d9-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/allure-results/1436db45-c018-40ea-81c3-49a17509259d-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/allure-results/65571293-8b1e-4ff4-b3fd-edb901c0c871-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/allure-results/8c6297a4-b091-480c-b967-89135eded275-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/allure-results/ed55fbe0-4a3d-4578-992d-4ab4beec2b29-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/allure-results/a9c49e63-2be1-4d28-a8ca-6e541660007c-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/allure-results/686f0f5b-32cc-4508-b6b1-e927dca1733e-testsuite.xml" />
     <entry file="file://$PROJECT_DIR$/node_modules/mocha/lib/reporters/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1666">
@@ -548,12 +580,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/5bdaf1d6-7c32-4923-867c-194ac818ec6c-attachment.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allure-results/798379c4-bf50-4bfe-8ea4-b25e37ac1ac2-attachment.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/5bdaf1d6-7c32-4923-867c-194ac818ec6c-attachment.txt" />
+    <entry file="file://$PROJECT_DIR$/allure-results/798379c4-bf50-4bfe-8ea4-b25e37ac1ac2-attachment.txt" />
     <entry file="file://$PROJECT_DIR$/loggers/reporterLogger/allureTypes/severity.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -561,43 +589,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/allure-report/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mocha-allure-reporter/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/allure-js-commons/runtime.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="79" column="21" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tslint.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reporterConfig.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loggers/reporterLogger/allureTypes/IAllure.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loggers/reporterLogger/ReporterLogger.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -637,18 +632,10 @@
     <entry file="file://$PROJECT_DIR$/node_modules/mocha/mocha.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mocha/mocha.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1938" />
-      </provider>
-    </entry>
     <entry file="file://C:/JSProject/sequencer-scout/automation/tests/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="18" column="3" lean-forward="true" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="e#15#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,44 +646,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/built/index.js">
+    <entry file="file://$PROJECT_DIR$/built/index.js" />
+    <entry file="file://$PROJECT_DIR$/index.js" />
+    <entry file="file://$PROJECT_DIR$/test/index.ts" />
+    <entry file="file://$PROJECT_DIR$/tslint.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/test/firstFile2.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mocha/lib/mocha.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="129">
+          <caret line="323" column="13" selection-start-line="323" selection-start-column="13" selection-end-line="323" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/firstFile3.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/mocha/lib/cli/run-helpers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="72" lean-forward="true" selection-start-column="1" selection-end-line="3" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="299" column="12" selection-start-line="299" selection-start-column="12" selection-end-line="299" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/index.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/allure-js-commons/runtime.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="377">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/firstFile3.ts" />
+    <entry file="file://$PROJECT_DIR$/loggers/reporterLogger/allureTypes/IAllure.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/allure-js-commons/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/built/test/firstFile2.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/mocha/mocha.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodemon-debug.json" />
+    <entry file="file://$PROJECT_DIR$/xunit.xml" />
     <entry file="file://$PROJECT_DIR$/mocha.opts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reporterConfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-report/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/firstFile2.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+        <state relative-caret-position="238">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -705,15 +737,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="374">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/.env.local">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="74" selection-start-column="74" selection-end-column="74" />
+        <state relative-caret-position="255">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding>
+            <element signature="e#75#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loggers/reporterLogger/ReporterLogger.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

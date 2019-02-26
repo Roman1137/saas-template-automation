@@ -4,7 +4,7 @@
   "description": "This is a solution for the automation testing for saas-template application.",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --opts mocha.opts index.ts test/*.ts",
+    "test": "node node_modules/mocha/bin/mocha --opts mocha.opts test/*.ts",
     "testsParalel": "mocha-parallel-tests --opts mocha.opts index.ts test/*.ts",
     "report": "node node_modules/allure-commandline/bin/allure generate --clean"
   },
@@ -21,12 +21,14 @@
   "dependencies": {
     "@types/chai": "^4.1.7",
     "@types/chai-http": "^3.0.5",
+    "@types/dotenv": "^6.1.0",
     "@types/mocha": "^5.2.6",
     "allure-commandline": "^2.9.0",
     "chai": "^4.2.0",
     "chai-http": "^4.2.1",
+    "dotenv": "^6.2.0",
     "log4js": "^4.0.2",
-    "mocha": "^6.0.1",
+    "mocha": "^6.0.0-1",
     "mocha-allure-reporter": "^1.4.0",
     "mocha-multi-reporters": "^1.1.7",
     "mocha-parallel-tests": "2.0.1",
