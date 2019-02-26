@@ -4,7 +4,9 @@ import chaiHttp = require("chai-http");
 import {ConsoleLogger} from "../loggers/consoleLogger/consoleLogger";
 
 import {ReporterLogger} from "../loggers/reporterLogger/ReporterLogger";
-import {IMainResponseModel} from "../framework/models/MainResponseModel";
+import {IMainResponseModel} from "../framework/models/response/MainResponseModel";
+
+import * as request from "superagent";
 
 chai.use(chaiHttp);
 
@@ -106,3 +108,11 @@ describe("My testHealth check test 22222222222222", async () => {
         let a =2;
     })
 });
+
+async function sddsd(): Promise<request.Response> {
+    return await chai
+        .request(process.env.SAAS_TEMPLATE_LOCAL)
+        .get("/api/v1/contacts/1")
+        .set("Content-Type", "application/json")
+        .send();
+}

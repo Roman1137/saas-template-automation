@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee7f6fae-34f3-453d-9e21-cde7bc62d377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/framework/models/ActionRefsModel.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/models/ContactInfoModel.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/models/ContactModel.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/models/DataModel.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/models/MainResponseModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/endpoints/application.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/endpoints/baseEndpoint.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/endpoints/contacts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/endpoints/contactsWithuuid.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/endpoints/healthcheck.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/models/request+response/IContentType.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/models/ActionRefsModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/framework/models/response/ActionRefsModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/models/ContactInfoModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/framework/models/request+response/ContactInfoModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/models/ContactModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/framework/models/response/ContactModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/models/DataModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/framework/models/response/DataModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/models/MainResponseModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/framework/models/response/MainResponseModel.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/firstFile2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/firstFile2.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,7 +51,7 @@
           <entry key="map" value="1" />
           <entry key="md" value="2" />
           <entry key="opts" value="5" />
-          <entry key="ts" value="38" />
+          <entry key="ts" value="46" />
           <entry key="txt" value="2" />
           <entry key="xml" value="38" />
           <entry key="xsd" value="1" />
@@ -61,7 +66,7 @@
           <entry key="JavaScript" value="35" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="SourceMap" value="1" />
-          <entry key="TypeScript" value="38" />
+          <entry key="TypeScript" value="46" />
           <entry key="XML" value="39" />
           <entry key="YAML" value="1" />
           <entry key="tsconfig" value="4" />
@@ -71,19 +76,19 @@
         <counts>
           <entry key="LocalEnv" value="27" />
           <entry key="gitignore" value="147" />
-          <entry key="js" value="14" />
+          <entry key="js" value="19" />
           <entry key="json" value="285" />
           <entry key="opts" value="148" />
-          <entry key="ts" value="4179" />
+          <entry key="ts" value="4777" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="284" />
-          <entry key="JavaScript" value="14" />
+          <entry key="JavaScript" value="19" />
           <entry key="PLAIN_TEXT" value="322" />
-          <entry key="TypeScript" value="4179" />
+          <entry key="TypeScript" value="4777" />
           <entry key="XML" value="2" />
           <entry key="tsconfig" value="1" />
         </counts>
@@ -101,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/firstFile2.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+            <state relative-caret-position="262">
+              <caret line="116" column="16" lean-forward="true" selection-start-line="112" selection-start-column="3" selection-end-line="116" selection-end-column="16" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -111,88 +116,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/models/MainResponseModel.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/models/DataModel.ts">
+        <entry file="file://$PROJECT_DIR$/framework/endpoints/baseEndpoint.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/.env.local">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/models/ContactModel.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/models/ActionRefsModel.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/models/ContactInfoModel.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -251,11 +181,19 @@
         <option value="$PROJECT_DIR$/framework/models/MainResponseModel.ts" />
         <option value="$PROJECT_DIR$/framework/models/ActionRefsModel.ts" />
         <option value="$PROJECT_DIR$/framework/models/ContactInfoModel.ts" />
-        <option value="$PROJECT_DIR$/framework/models/ContactModel.ts" />
         <option value="$PROJECT_DIR$/framework/models/DataModel.ts" />
         <option value="$PROJECT_DIR$/index.ts" />
-        <option value="$PROJECT_DIR$/test/firstFile2.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/framework/models/ContactModel.ts" />
+        <option value="$PROJECT_DIR$/framework/models/request+response/ContactModel.ts" />
+        <option value="$PROJECT_DIR$/framework/models/response/ContactModel.ts" />
+        <option value="$PROJECT_DIR$/framework/endpoints/application.ts" />
+        <option value="$PROJECT_DIR$/framework/endpoints/healthcheck.ts" />
+        <option value="$PROJECT_DIR$/framework/endpoints/contacts.ts" />
+        <option value="$PROJECT_DIR$/framework/endpoints/contacts/uuid.ts" />
+        <option value="$PROJECT_DIR$/test/firstFile2.ts" />
+        <option value="$PROJECT_DIR$/framework/models/request+response/IContentType.ts" />
+        <option value="$PROJECT_DIR$/framework/endpoints/baseEndpoint.ts" />
       </list>
     </option>
   </component>
@@ -273,7 +211,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="155" />
     <option name="y" value="-16" />
     <option name="width" value="697" />
@@ -307,7 +245,25 @@
               <item name="saas_template_automation_solution" type="b2602c69:ProjectViewProjectNode" />
               <item name="saas_template_automation_solution" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="endpoints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas_template_automation_solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas_template_automation_solution" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas_template_automation_solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas_template_automation_solution" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="request+response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas_template_automation_solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas_template_automation_solution" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -317,7 +273,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/framework/models/request+response" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="C:\project\saas_template_automation_solution\node_modules\tslint" />
@@ -330,16 +286,16 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\project\saas_template_automation_solution\framework\endpoints" />
+      <recent name="C:\project\saas_template_automation_solution\framework\models\request+response" />
+      <recent name="C:\project\saas_template_automation_solution\framework\models\response" />
+      <recent name="C:\project\saas_template_automation_solution" />
+      <recent name="C:\project\saas_template_automation_solution\test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\project\saas_template_automation_solution\test" />
       <recent name="C:\project\saas_template_automation_solution" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\project\saas_template_automation_solution" />
-      <recent name="C:\project\saas_template_automation_solution\test" />
-      <recent name="C:\project\saas_template_automation_solution\loggers\consoleLogger" />
-      <recent name="C:\project\saas_template_automation_solution\loggers\reporterLogger" />
-      <recent name="C:\project\saas_template_automation_solution\allureTypes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,29 +368,11 @@
       <workItem from="1550947103969" duration="13475000" />
       <workItem from="1550995326310" duration="25618000" />
       <workItem from="1551128638348" duration="6934000" />
-      <workItem from="1551205841009" duration="4555000" />
+      <workItem from="1551205841009" duration="8060000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Mocha - 2019.02.26 at 00h 49m 47s.xml">
-      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Mocha - 2019.02.26 at 00h 51m 04s.xml">
-      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Mocha - 2019.02.26 at 00h 51m 11s.xml">
-      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Mocha - 2019.02.26 at 00h 52m 28s.xml">
-      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Mocha - 2019.02.26 at 00h 55m 13s.xml">
-      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Mocha - 2019.02.26 at 00h 59m 31s.xml">
-      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="Mocha - 2019.02.26 at 20h 52m 27s.xml">
       <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -447,9 +385,27 @@
     <history-entry file="Mocha - 2019.02.26 at 22h 10m 55s.xml">
       <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="Mocha - 2019.02.26 at 22h 15m 25s.xml">
+      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Mocha - 2019.02.26 at 22h 16m 33s.xml">
+      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Mocha - 2019.02.26 at 22h 17m 20s.xml">
+      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Mocha - 2019.02.26 at 22h 19m 56s.xml">
+      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Mocha - 2019.02.26 at 22h 21m 03s.xml">
+      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Mocha - 2019.02.26 at 22h 21m 34s.xml">
+      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50582000" />
+    <option name="totallyTimeSpent" value="54087000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,19 +420,19 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25074404" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25074404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32879046" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.53281426" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.26746166" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39693356" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32879046" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32814237" />
+      <window_info active="true" anchor="bottom" id="TypeScript" order="9" visible="true" weight="0.17206132" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.26746166" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -536,12 +492,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/test/firstFile2.ts</url>
-          <line>68</line>
+          <line>70</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/test/firstFile2.ts</url>
-          <line>105</line>
+          <line>109</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
@@ -557,6 +513,11 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>typeof deserializedResponse</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>deserializedResponse</expression-string>
         <language-id>TypeScript</language-id>
@@ -575,13 +536,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/allure-results/a48f7155-a9fd-461b-bf76-e994b9fdb3d9-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/allure-results/1436db45-c018-40ea-81c3-49a17509259d-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/allure-results/65571293-8b1e-4ff4-b3fd-edb901c0c871-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/allure-results/8c6297a4-b091-480c-b967-89135eded275-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/allure-results/ed55fbe0-4a3d-4578-992d-4ab4beec2b29-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/allure-results/a9c49e63-2be1-4d28-a8ca-6e541660007c-testsuite.xml" />
-    <entry file="file://$PROJECT_DIR$/allure-results/686f0f5b-32cc-4508-b6b1-e927dca1733e-testsuite.xml" />
     <entry file="file://$PROJECT_DIR$/node_modules/mocha/lib/reporters/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1666">
@@ -751,34 +705,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/models/ActionRefsModel.ts">
+    <entry file="file://$PROJECT_DIR$/framework/models/response/ActionRefsModel.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/models/ContactInfoModel.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/models/ContactModel.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/models/DataModel.ts">
+    <entry file="file://$PROJECT_DIR$/framework/models/response/DataModel.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -786,6 +723,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/models/response/MainResponseModel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/models/request+response/ContactInfoModel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/endpoints/contacts.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/endpoints/contactsWithuuid.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/endpoints/application.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/endpoints/healthcheck.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/superagent/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/models/response/ContactModel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/firstFile2.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="116" column="16" lean-forward="true" selection-start-line="112" selection-start-column="3" selection-end-line="116" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -799,27 +796,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/models/MainResponseModel.ts">
+    <entry file="file://$PROJECT_DIR$/framework/models/request+response/IContentType.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="51">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/firstFile2.ts">
+    <entry file="file://$PROJECT_DIR$/framework/endpoints/baseEndpoint.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
