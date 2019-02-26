@@ -4,8 +4,8 @@
   "description": "This is a solution for the automation testing for saas-template application.",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --opts mocha.opts test/**/*.ts",
-    "testsParalel": "mocha-parallel-tests --opts mocha.opts index.ts test/*.ts",
+    "test": "node node_modules/mocha/bin/mocha --opts config/mocha.opts test/**/*.ts",
+    "testsParalel": "mocha-parallel-tests --opts config/mocha.opts index.ts test/*.ts",
     "report": "node node_modules/allure-commandline/bin/allure generate --clean"
   },
   "repository": {

@@ -2,12 +2,12 @@ import {expect} from "chai";
 import * as request from "superagent";
 import {ApplicationEndpoint} from "../index";
 
-describe("Application.wadl endpoint tests", async () => {
+describe("Application.wadl endpoint tests.", async () => {
 
     const appEndpoint = new ApplicationEndpoint();
     let response: request.Response;
 
-    describe("Positive cases", async () => {
+    describe("Positive cases.", async () => {
 
         before("Send Get request with valid params", async () => {
             response = await appEndpoint.sendGet();
@@ -27,7 +27,7 @@ describe("Application.wadl endpoint tests", async () => {
         });
     });
 
-    describe("Negative cases", async () => {
+    describe("Negative cases.", async () => {
 
         describe("Send OPTIONS request", async () => {
 
