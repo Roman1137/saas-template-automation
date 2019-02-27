@@ -13,3 +13,6 @@ built
 # compiled TypeScript files
 *.js.map
 *.js
+
+# idea
+.idea/workspace.xml

@@ -14,7 +14,7 @@ describe('Contacts endpoint tests', async () => {
             let aa =2;
         });
 
-        it.only('should ', async () => {
+        it('should ', async () => {
             let a =2;
         });
     });

@@ -1,6 +1,6 @@
-import {BaseEndpoint} from "./baseEndpoint";
-import {IContactInfoModel} from "../models";
 import * as request from "superagent";
+import {IContactInfoModel} from "../models";
+import {BaseEndpoint} from "./baseEndpoint";
 
 export class ContactsEndpoint extends BaseEndpoint {
     constructor() {
@@ -8,13 +8,13 @@ export class ContactsEndpoint extends BaseEndpoint {
         super(uniformResourceName);
     }
 
-
     public async getContactByItsInfo(contactInfo: IContactInfoModel): Promise<request.Response> {
-        super.parameters = this.getParamsUrl(contactInfo);
+        super.additionalUrn = this.getUrnByContactInfo(contactInfo);
         return await this.sendGet();
     }
 
-    private getParamsUrl(contactInfo: IContactInfoModel): string {
+    private getUrnByContactInfo(contactInfo: IContactInfoModel): string {
+        // building url using parameters name and values
         let paramsUrl = "";
         for (const contactProperty in contactInfo) {
             const dividingSign = this.getDividingSign(paramsUrl);
