@@ -4,13 +4,13 @@ import {ContentType, HealthcheckEndpoint} from "../index";
 
 describe("HealthCheck endpoint tests.", async () => {
 
-    const healthcheckEndpoint = new HealthcheckEndpoint();
+    const healthCheckEndpoint = new HealthcheckEndpoint();
     let response: request.Response;
 
     describe("Positive cases.", async () => {
 
         before("Send Get request with valid params", async () => {
-            response = await healthcheckEndpoint.sendGet();
+            response = await healthCheckEndpoint.performHealthCheck();
         });
 
         it("should respond with 200 Status Code", async () => {
@@ -18,7 +18,7 @@ describe("HealthCheck endpoint tests.", async () => {
         });
 
         it("should return specific text", async () => {
-            expect(response.text).to.eq(healthcheckEndpoint.SUCCESS_TEXT_RESPONSE);
+            expect(response.text).to.eq(healthCheckEndpoint.SUCCESS_TEXT_RESPONSE);
         });
 
         it("should contain specific Content type", async () => {
@@ -36,7 +36,7 @@ describe("HealthCheck endpoint tests.", async () => {
         describe("Send OPTIONS request", async () => {
 
             before(async () => {
-                response = await healthcheckEndpoint.sendOptions();
+                response = await healthCheckEndpoint.sendOptions();
             });
 
             it("should return 405 StatusCode", async () => {
@@ -47,7 +47,7 @@ describe("HealthCheck endpoint tests.", async () => {
         describe("Send HEAD request", async () => {
 
             before(async () => {
-                response = await healthcheckEndpoint.sendHead();
+                response = await healthCheckEndpoint.sendHead();
             });
 
             it("should return 405 StatusCode", async () => {
@@ -58,7 +58,7 @@ describe("HealthCheck endpoint tests.", async () => {
         describe("Send POST request", async () => {
 
             before(async () => {
-                response = await healthcheckEndpoint.sendPost();
+                response = await healthCheckEndpoint.sendPost();
             });
 
             it("should return 405 StatusCode", async () => {
@@ -69,7 +69,7 @@ describe("HealthCheck endpoint tests.", async () => {
         describe("Send PUT request", async () => {
 
             before(async () => {
-                response = await healthcheckEndpoint.sendPut();
+                response = await healthCheckEndpoint.sendPut();
             });
 
             it("should return 405 StatusCode", async () => {
@@ -80,7 +80,7 @@ describe("HealthCheck endpoint tests.", async () => {
         describe("Send PATCH request", async () => {
 
             before(async () => {
-                response = await healthcheckEndpoint.sendPatch();
+                response = await healthCheckEndpoint.sendPatch();
             });
 
             it("should return 405 StatusCode", async () => {
@@ -91,7 +91,7 @@ describe("HealthCheck endpoint tests.", async () => {
         describe("Send DELETE request", async () => {
 
             before(async () => {
-                response = await healthcheckEndpoint.sendDelete();
+                response = await healthCheckEndpoint.sendDelete();
             });
 
             it("should return 405 StatusCode", async () => {
@@ -102,7 +102,7 @@ describe("HealthCheck endpoint tests.", async () => {
         describe("Send TRACE request", async () => {
 
             before(async () => {
-                response = await healthcheckEndpoint.sendTrace();
+                response = await healthCheckEndpoint.sendTrace();
             });
 
             it("should return 405 StatusCode", async () => {

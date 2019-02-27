@@ -10,7 +10,7 @@ describe("Application.wadl endpoint tests.", async () => {
     describe("Positive cases.", async () => {
 
         before("Send Get request with valid params", async () => {
-            response = await appEndpoint.sendGet();
+            response = await appEndpoint.getAppDescription();
         });
 
         it("should respond with 200 Status Code", async () => {

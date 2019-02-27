@@ -1,7 +1,7 @@
 import * as chai from "chai";
 import * as request from "superagent";
-import {IContactInfoModel, IContentType} from "../models";
 import {ContentType} from "../helpers";
+import {IContactInfoModel, IContentType} from "../models";
 
 export class BaseEndpoint {
 
@@ -9,12 +9,14 @@ export class BaseEndpoint {
         return {name: "Content-Type", value: ContentType.APPLICATION_JSON} as IContentType;
     }
 
+    protected parameters: string = "";
+
     constructor(public uniformResourceName: string) {}
 
     public async sendGet(contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .get(this.uniformResourceName)
+            .get(this.uniformResourceName + this.parameters)
             .set(contentType.name, contentType.value)
             .send();
     }
@@ -23,7 +25,7 @@ export class BaseEndpoint {
                           body?: IContactInfoModel | string): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .post(this.uniformResourceName)
+            .post(this.uniformResourceName + this.parameters)
             .set(contentType.name, contentType.value)
             .send(body);
     }
@@ -32,7 +34,7 @@ export class BaseEndpoint {
                          body?: IContactInfoModel | string): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .put(this.uniformResourceName)
+            .put(this.uniformResourceName + this.parameters)
             .set(contentType.name, contentType.value)
             .send(body);
     }
@@ -41,7 +43,7 @@ export class BaseEndpoint {
                            body?: IContactInfoModel | string): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .patch(this.uniformResourceName)
+            .patch(this.uniformResourceName + this.parameters)
             .set(contentType.name, contentType.value)
             .send(body);
     }
@@ -49,7 +51,7 @@ export class BaseEndpoint {
     public async sendDelete(contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .delete(this.uniformResourceName)
+            .delete(this.uniformResourceName + this.parameters)
             .set(contentType.name, contentType.value)
             .send();
     }
@@ -57,7 +59,7 @@ export class BaseEndpoint {
     public async sendOptions(contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .options(this.uniformResourceName)
+            .options(this.uniformResourceName + this.parameters)
             .set(contentType.name, contentType.value)
             .send();
     }
@@ -65,7 +67,7 @@ export class BaseEndpoint {
     public async sendHead(contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .head(this.uniformResourceName)
+            .head(this.uniformResourceName + this.parameters)
             .set(contentType.name, contentType.value)
             .send();
     }
@@ -73,7 +75,7 @@ export class BaseEndpoint {
     public async sendTrace(contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .trace(this.uniformResourceName)
+            .trace(this.uniformResourceName + this.parameters)
             .set(contentType.name, contentType.value)
             .send();
     }

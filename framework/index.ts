@@ -2,6 +2,7 @@ export {
     BaseEndpoint,
     HealthcheckEndpoint,
     ApplicationEndpoint,
+    ContactsEndpoint,
 } from "./endpoints";
 
 export {
