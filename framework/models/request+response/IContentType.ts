@@ -1,4 +1,6 @@
+import {ContentType} from "../../index";
+
 export interface IContentType {
     name: string;
-    value: string;
+    value: ContentType;
 }

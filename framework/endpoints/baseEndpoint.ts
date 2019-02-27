@@ -1,12 +1,12 @@
 import * as chai from "chai";
 import * as request from "superagent";
-import {IContactInfoModel} from "../models/request+response/ContactInfoModel";
-import {IContentType} from "../models/request+response/IContentType";
+import {IContactInfoModel, IContentType} from "../models";
+import {ContentType} from "../helpers";
 
 export class BaseEndpoint {
 
     private static get contentTypeJson(): IContentType {
-        return {name: "Content-Type", value: "application/json"} as IContentType;
+        return {name: "Content-Type", value: ContentType.APPLICATION_JSON} as IContentType;
     }
 
     constructor(public uniformResourceName: string) {}
