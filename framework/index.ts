@@ -3,6 +3,7 @@ export {
     HealthcheckEndpoint,
     ApplicationEndpoint,
     ContactsEndpoint,
+    ContactsWithuuidEndpoint,
 } from "./endpoints";
 
 export {
@@ -14,6 +15,8 @@ export {
     IContactInfoModel,
 } from "./models";
 
-export {ContentType} from "./helpers";
+export {ContentType} from "./requestsParamsTypes";
+
+export {ContactBuilder} from "./dataProvider";
 
 

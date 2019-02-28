@@ -1,7 +1,9 @@
 import * as chai from "chai";
 import * as request from "superagent";
-import {ContentType} from "../helpers";
-import {IContactInfoModel, IContentType} from "../models";
+import {
+    ContentType,
+    IContentType,
+} from "../index";
 
 export class BaseEndpoint {
 
@@ -9,7 +11,8 @@ export class BaseEndpoint {
         return {name: "Content-Type", value: ContentType.APPLICATION_JSON} as IContentType;
     }
 
-    constructor(public baseUrn: string) {}
+    constructor(public baseUrn: string) {
+    }
 
     public async sendGet(additionalUrn: string = "",
                          contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
@@ -21,18 +24,20 @@ export class BaseEndpoint {
     }
 
     public async sendPost(additionalUrn: string = "",
-                          contentType: IContentType = BaseEndpoint.contentTypeJson,
-                          body?: IContactInfoModel | string): Promise<request.Response> {
+                          body?: string,
+                          contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
+
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .post(this.baseUrn + additionalUrn)
+            .post(this.baseUrn)
             .set(contentType.name, contentType.value)
             .send(body);
     }
 
     public async sendPut(additionalUrn: string = "",
-                         contentType: IContentType = BaseEndpoint.contentTypeJson,
-                         body?: IContactInfoModel | string): Promise<request.Response> {
+                         body?: string,
+                         contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
+
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
             .put(this.baseUrn + additionalUrn)
@@ -41,8 +46,8 @@ export class BaseEndpoint {
     }
 
     public async sendPatch(additionalUrn: string = "",
-                           contentType: IContentType = BaseEndpoint.contentTypeJson,
-                           body?: IContactInfoModel | string): Promise<request.Response> {
+                           body?: string,
+                           contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
             .patch(this.baseUrn + additionalUrn)
