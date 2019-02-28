@@ -1,3 +1,4 @@
+import {String} from "../helperTypes";
 import {IContactInfoModel} from "../models";
 import {RandomDataGenerator} from "./randomDataGenerator";
 
@@ -6,8 +7,7 @@ export class ContactBuilder {
     public static Create(): ContactBuilder {
         return new ContactBuilder();
     }
-    private randomDataGenerator: RandomDataGenerator;
-    private contactInfo: IContactInfoModel = {email: "", lastName: "", firstName: ""};
+    private contactInfo: IContactInfoModel = {email: String.Empty, lastName: String.Empty, firstName: String.Empty};
 
     public withFirstName(): ContactBuilder {
         this.contactInfo.firstName = RandomDataGenerator.getRandomName();

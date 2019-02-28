@@ -3,6 +3,7 @@ import * as request from "superagent";
 import {
     ContentType,
     IContentType,
+    String,
 } from "../index";
 
 export class BaseEndpoint {
@@ -14,7 +15,7 @@ export class BaseEndpoint {
     constructor(public baseUrn: string) {
     }
 
-    public async sendGet(additionalUrn: string = "",
+    public async sendGet(additionalUrn: string = String.Empty,
                          contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
@@ -23,7 +24,7 @@ export class BaseEndpoint {
             .send();
     }
 
-    public async sendPost(additionalUrn: string = "",
+    public async sendPost(additionalUrn: string = String.Empty,
                           body?: string,
                           contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
 
@@ -34,7 +35,7 @@ export class BaseEndpoint {
             .send(body);
     }
 
-    public async sendPut(additionalUrn: string = "",
+    public async sendPut(additionalUrn: string = String.Empty,
                          body?: string,
                          contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
 
@@ -45,7 +46,7 @@ export class BaseEndpoint {
             .send(body);
     }
 
-    public async sendPatch(additionalUrn: string = "",
+    public async sendPatch(additionalUrn: string = String.Empty,
                            body?: string,
                            contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
@@ -55,7 +56,7 @@ export class BaseEndpoint {
             .send(body);
     }
 
-    public async sendDelete(additionalUrn: string = "",
+    public async sendDelete(additionalUrn: string = String.Empty,
                             contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
@@ -64,7 +65,7 @@ export class BaseEndpoint {
             .send();
     }
 
-    public async sendOptions(additionalUrn: string = "",
+    public async sendOptions(additionalUrn: string = String.Empty,
                              contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
@@ -73,7 +74,7 @@ export class BaseEndpoint {
             .send();
     }
 
-    public async sendHead(additionalUrn: string = "",
+    public async sendHead(additionalUrn: string = String.Empty,
                           contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
@@ -82,7 +83,7 @@ export class BaseEndpoint {
             .send();
     }
 
-    public async sendTrace(additionalUrn: string = "",
+    public async sendTrace(additionalUrn: string = String.Empty,
                            contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)

@@ -1,4 +1,5 @@
 import * as request from "superagent";
+import {String} from "../helperTypes";
 import {IContactInfoModel} from "../models";
 import {BaseEndpoint} from "./baseEndpoint";
 
@@ -30,7 +31,7 @@ export class ContactsEndpoint extends BaseEndpoint {
     }
 
     private getDividingSign(paramsUrl: string): string {
-        return paramsUrl === ""
+        return paramsUrl === String.Empty
             ? "?"
             : "&";
     }

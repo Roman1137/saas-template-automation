@@ -15,7 +15,7 @@ export {
     IContactInfoModel,
 } from "./models";
 
-export {ContentType} from "./requestsParamsTypes";
+export {ContentType, String} from "./helperTypes";
 
 export {ContactBuilder} from "./dataProvider";
 
