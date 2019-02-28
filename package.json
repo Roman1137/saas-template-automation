@@ -4,9 +4,11 @@
   "description": "This is a solution for the automation testing for saas-template application.",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --opts config/mocha.opts tests/**/*.ts",
+    "runTests": "node node_modules/mocha/bin/mocha --opts config/mocha.opts tests/**/*.ts",
     "testsParalel": "mocha-parallel-tests --opts config/mocha.opts index.ts tests/*.ts",
-    "report": "node node_modules/allure-commandline/bin/allure generate --clean"
+    "generateReport": "node node_modules/allure-commandline/bin/allure generate --clean",
+    "openReport": "allure open allure-report",
+    "test": "npm run runTests || npm run generateReport && npm run openReport"
   },
   "repository": {
     "type": "git",
