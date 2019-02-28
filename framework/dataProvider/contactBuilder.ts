@@ -24,7 +24,12 @@ export class ContactBuilder {
         return this;
     }
 
-    public build(): string {
-        return JSON.stringify(this.contactInfo);
+    public build(): IBuilderResponse {
+        return {string: JSON.stringify(this.contactInfo), model: this.contactInfo};
     }
+}
+
+interface IBuilderResponse {
+    string: string;
+    model: IContactInfoModel;
 }

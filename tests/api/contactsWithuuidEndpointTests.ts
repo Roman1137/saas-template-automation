@@ -17,7 +17,7 @@ describe('"Contacts with uuid endpoint tests"', async () => {
                 .withEmail()
                 .build();
 
-            response = await contactsWithuuidEndpoint.createContact(contactInfo);
+            response = await contactsWithuuidEndpoint.createContact(contactInfo.string);
             let a =2;
         });
 

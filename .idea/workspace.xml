@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee7f6fae-34f3-453d-9e21-cde7bc62d377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/framework/helperTypes/string.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/dataProvider/contactBuilder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/framework/dataProvider/contactBuilder.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/endpoints/baseEndpoint.ts" beforeDir="false" afterPath="$PROJECT_DIR$/framework/endpoints/baseEndpoint.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/endpoints/contactsEndpoint.ts" beforeDir="false" afterPath="$PROJECT_DIR$/framework/endpoints/contactsEndpoint.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/framework/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/requestsParamsTypes/content-types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/framework/helperTypes/content-types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/requestsParamsTypes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/framework/helperTypes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/api/applicationEndpointTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/applicationEndpointTests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/api/contactsEndpointTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/contactsEndpointTests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/api/contactsWithuuidEndpointTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/contactsWithuuidEndpointTests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/api/healthCheckEndpointTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/healthCheckEndpointTests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/firstFile2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/firstFile2.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/api/contactsWithuuidEndpointTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tests/api/contactsWithuuidEndpointTests.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -96,7 +83,7 @@
           <entry key="map" value="2" />
           <entry key="md" value="2" />
           <entry key="opts" value="7" />
-          <entry key="ts" value="130" />
+          <entry key="ts" value="135" />
           <entry key="txt" value="2" />
           <entry key="xml" value="38" />
           <entry key="xsd" value="1" />
@@ -111,7 +98,7 @@
           <entry key="JavaScript" value="40" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="SourceMap" value="2" />
-          <entry key="TypeScript" value="130" />
+          <entry key="TypeScript" value="135" />
           <entry key="XML" value="39" />
           <entry key="YAML" value="1" />
           <entry key="tsconfig" value="4" />
@@ -125,7 +112,7 @@
           <entry key="js" value="22" />
           <entry key="json" value="305" />
           <entry key="opts" value="155" />
-          <entry key="ts" value="9384" />
+          <entry key="ts" value="9457" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
@@ -134,7 +121,7 @@
           <entry key="JSON" value="304" />
           <entry key="JavaScript" value="22" />
           <entry key="PLAIN_TEXT" value="401" />
-          <entry key="TypeScript" value="9384" />
+          <entry key="TypeScript" value="9457" />
           <entry key="XML" value="2" />
           <entry key="tsconfig" value="1" />
         </counts>
@@ -150,52 +137,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/helperTypes/index.ts">
+        <entry file="file://$PROJECT_DIR$/tests/api/contactsEndpointTests.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/helperTypes/content-types.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/endpoints/contactsWithuuidEndpoint.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/endpoints/healthcheckEndpoint.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/framework/helperTypes/string.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="423">
+              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -205,6 +150,48 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/api/healthCheckEndpointTests.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1649">
+              <caret line="97" column="53" selection-start-line="97" selection-start-column="53" selection-end-line="97" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/dataProvider/randomDataGenerator.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/dataProvider/contactBuilder.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/api/contactsWithuuidEndpointTests.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -223,7 +210,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/api/applicationEndpointTests.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -277,7 +264,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/firstFile3.ts" />
         <option value="$PROJECT_DIR$/reporterConfig.json" />
         <option value="$PROJECT_DIR$/nodemon-debug.json" />
         <option value="$PROJECT_DIR$/mocha.opts" />
@@ -325,9 +311,10 @@
         <option value="$PROJECT_DIR$/framework/helperTypes/string.ts" />
         <option value="$PROJECT_DIR$/framework/helperTypes/index.ts" />
         <option value="$PROJECT_DIR$/framework/index.ts" />
-        <option value="$PROJECT_DIR$/framework/dataProvider/contactBuilder.ts" />
         <option value="$PROJECT_DIR$/framework/endpoints/baseEndpoint.ts" />
         <option value="$PROJECT_DIR$/framework/endpoints/contactsEndpoint.ts" />
+        <option value="$PROJECT_DIR$/framework/dataProvider/contactBuilder.ts" />
+        <option value="$PROJECT_DIR$/tests/api/contactsWithuuidEndpointTests.ts" />
       </list>
     </option>
   </component>
@@ -382,6 +369,12 @@
               <item name="saas_template_automation_solution" type="b2602c69:ProjectViewProjectNode" />
               <item name="saas_template_automation_solution" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas_template_automation_solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas_template_automation_solution" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="dataProvider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="saas_template_automation_solution" type="b2602c69:ProjectViewProjectNode" />
@@ -507,7 +500,7 @@
       <workItem from="1551205841009" duration="13196000" />
       <workItem from="1551273592936" duration="7970000" />
       <workItem from="1551382169525" duration="8697000" />
-      <workItem from="1551395068543" duration="432000" />
+      <workItem from="1551395068543" duration="603000" />
     </task>
     <servers />
   </component>
@@ -544,7 +537,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76322000" />
+    <option name="totallyTimeSpent" value="76493000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -559,12 +552,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17559524" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17559524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31175467" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17887564" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17887564" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.19420783" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -877,27 +870,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/requestsParamsTypes/IMethodParams.ts" />
-    <entry file="file://$PROJECT_DIR$/tests/api/contactsEndpointTests.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/chai-http/types/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/api/healthCheckEndpointTests.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="97" column="53" selection-start-line="97" selection-start-column="53" selection-end-line="97" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -908,13 +884,6 @@
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/api/contactsWithuuidEndpointTests.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -929,23 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/dataProvider/contactBuilder.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/dataProvider/randomDataGenerator.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1017,13 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/models/request+response/ContactInfoModel.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/models/request+response/IContentType.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1041,6 +986,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/api/healthCheckEndpointTests.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="97" column="53" selection-start-line="97" selection-start-column="53" selection-end-line="97" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/dataProvider/randomDataGenerator.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/models/request+response/ContactInfoModel.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/dataProvider/contactBuilder.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/api/applicationEndpointTests.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1048,6 +1027,20 @@
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/api/contactsEndpointTests.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/api/contactsWithuuidEndpointTests.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
         </state>
       </provider>
     </entry>
