@@ -9,7 +9,11 @@ export class ContactsEndpoint extends BaseEndpoint {
     }
 
     public async getContactByItsInfo(contactInfo: IContactInfoModel): Promise<request.Response> {
-        super.additionalUrn = this.getUrnByContactInfo(contactInfo);
+        const additionalUrn = this.getUrnByContactInfo(contactInfo);
+        return await this.sendGet(additionalUrn);
+    }
+
+    public async getContactsAll(): Promise<request.Response> {
         return await this.sendGet();
     }
 

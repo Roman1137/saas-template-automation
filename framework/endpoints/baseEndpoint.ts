@@ -9,77 +9,79 @@ export class BaseEndpoint {
         return {name: "Content-Type", value: ContentType.APPLICATION_JSON} as IContentType;
     }
 
-    protected additionalUrn: string = "";
-
     constructor(public baseUrn: string) {}
 
-    private get wholeUrn(): string {
-        return this.baseUrn + this.additionalUrn;
-    }
-
-    public async sendGet(contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
+    public async sendGet(additionalUrn: string = "",
+                         contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .get(this.wholeUrn)
+            .get(this.baseUrn + additionalUrn)
             .set(contentType.name, contentType.value)
             .send();
     }
 
-    public async sendPost(contentType: IContentType = BaseEndpoint.contentTypeJson,
+    public async sendPost(additionalUrn: string = "",
+                          contentType: IContentType = BaseEndpoint.contentTypeJson,
                           body?: IContactInfoModel | string): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .post(this.wholeUrn)
+            .post(this.baseUrn + additionalUrn)
             .set(contentType.name, contentType.value)
             .send(body);
     }
 
-    public async sendPut(contentType: IContentType = BaseEndpoint.contentTypeJson,
+    public async sendPut(additionalUrn: string = "",
+                         contentType: IContentType = BaseEndpoint.contentTypeJson,
                          body?: IContactInfoModel | string): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .put(this.wholeUrn)
+            .put(this.baseUrn + additionalUrn)
             .set(contentType.name, contentType.value)
             .send(body);
     }
 
-    public async sendPatch(contentType: IContentType = BaseEndpoint.contentTypeJson,
+    public async sendPatch(additionalUrn: string = "",
+                           contentType: IContentType = BaseEndpoint.contentTypeJson,
                            body?: IContactInfoModel | string): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .patch(this.wholeUrn)
+            .patch(this.baseUrn + additionalUrn)
             .set(contentType.name, contentType.value)
             .send(body);
     }
 
-    public async sendDelete(contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
+    public async sendDelete(additionalUrn: string = "",
+                            contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .delete(this.wholeUrn)
+            .delete(this.baseUrn + additionalUrn)
             .set(contentType.name, contentType.value)
             .send();
     }
 
-    public async sendOptions(contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
+    public async sendOptions(additionalUrn: string = "",
+                             contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .options(this.wholeUrn)
+            .options(this.baseUrn + additionalUrn)
             .set(contentType.name, contentType.value)
             .send();
     }
 
-    public async sendHead(contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
+    public async sendHead(additionalUrn: string = "",
+                          contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .head(this.wholeUrn)
+            .head(this.baseUrn + additionalUrn)
             .set(contentType.name, contentType.value)
             .send();
     }
 
-    public async sendTrace(contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
+    public async sendTrace(additionalUrn: string = "",
+                           contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
-            .trace(this.wholeUrn)
+            .trace(this.baseUrn + additionalUrn)
             .set(contentType.name, contentType.value)
             .send();
     }
