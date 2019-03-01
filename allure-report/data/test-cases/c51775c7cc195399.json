@@ -1,0 +1,112 @@
+{
+  "uid" : "c51775c7cc195399",
+  "name" : "should return 415 Status Code",
+  "fullName" : "\"Contacts with uuid endpoint tests\" Get contact by id tests Negative cases with invalid content type..should return 415 Status Code",
+  "historyId" : "5ebd3a7762144fe2fa3f35a7ad005cd6",
+  "time" : {
+    "start" : 1551476902074,
+    "stop" : 1551476902083,
+    "duration" : 9
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Getting contact by id 1",
+      "time" : {
+        "start" : 1551476902074,
+        "stop" : 1551476902082,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending GET Request.",
+        "time" : {
+          "start" : 1551476902074,
+          "stop" : 1551476902076,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3a25e2208a88c294",
+          "name" : "RequestInfo:",
+          "source" : "3a25e2208a88c294.txt",
+          "type" : "text/plain",
+          "size" : 207
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476902081,
+          "stop" : 1551476902082,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2e42ba898efbb94e",
+          "name" : "Response:",
+          "source" : "2e42ba898efbb94e.txt",
+          "type" : "text/plain",
+          "size" : 293
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "\"Contacts with uuid endpoint tests\" Get contact by id tests Negative cases with invalid content type."
+  }, {
+    "name" : "testClass",
+    "value" : "\"Contacts with uuid endpoint tests\" Get contact by id tests Negative cases with invalid content type."
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 415 Status Code"
+  }, {
+    "name" : "package",
+    "value" : "\"Contacts with uuid endpoint tests\" Get contact by id tests Negative cases with invalid content type."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c51775c7cc195399.json",
+  "parameterValues" : [ ]
+}

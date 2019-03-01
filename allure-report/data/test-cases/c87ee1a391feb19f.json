@@ -1,0 +1,112 @@
+{
+  "uid" : "c87ee1a391feb19f",
+  "name" : "should contain contact model in response body ",
+  "fullName" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with minimum length..should contain contact model in response body ",
+  "historyId" : "90b2bee57436c9fc9b4be7f0cc49a11b",
+  "time" : {
+    "start" : 1551476902132,
+    "stop" : 1551476902144,
+    "duration" : 12
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Creating contact using contactInfo {\"email\":\"sLeeQKhjQM@gmail.com\",\"lastName\":\"BEB\",\"firstName\":\"UGK\"}",
+      "time" : {
+        "start" : 1551476902133,
+        "stop" : 1551476902143,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending POST Request.",
+        "time" : {
+          "start" : 1551476902133,
+          "stop" : 1551476902134,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6a9c94bf1031be1",
+          "name" : "RequestInfo:",
+          "source" : "6a9c94bf1031be1.txt",
+          "type" : "text/plain",
+          "size" : 252
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476902141,
+          "stop" : 1551476902143,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d7ef48535dd438af",
+          "name" : "Response:",
+          "source" : "d7ef48535dd438af.txt",
+          "type" : "text/plain",
+          "size" : 771
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with minimum length."
+  }, {
+    "name" : "testClass",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with minimum length."
+  }, {
+    "name" : "testMethod",
+    "value" : "should contain contact model in response body "
+  }, {
+    "name" : "package",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with minimum length."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c87ee1a391feb19f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,97 @@
+{
+  "uid" : "589c49f548124fea",
+  "name" : "should return 405 StatusCode",
+  "fullName" : "Contacts endpoint tests Negative HTTP methods tests. Send DELETE request.should return 405 StatusCode",
+  "historyId" : "5f3b72ad7f4738b44017b6960395c717",
+  "time" : {
+    "start" : 1551476902032,
+    "stop" : 1551476902041,
+    "duration" : 9
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sending DELETE Request.",
+      "time" : {
+        "start" : 1551476902032,
+        "stop" : 1551476902034,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ac27dd50320857a",
+        "name" : "RequestInfo:",
+        "source" : "5ac27dd50320857a.txt",
+        "type" : "text/plain",
+        "size" : 196
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Response was received.",
+      "time" : {
+        "start" : 1551476902039,
+        "stop" : 1551476902041,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42b87321c2580de9",
+        "name" : "Response:",
+        "source" : "42b87321c2580de9.txt",
+        "type" : "text/plain",
+        "size" : 313
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contacts endpoint tests Negative HTTP methods tests. Send DELETE request"
+  }, {
+    "name" : "testClass",
+    "value" : "Contacts endpoint tests Negative HTTP methods tests. Send DELETE request"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 405 StatusCode"
+  }, {
+    "name" : "package",
+    "value" : "Contacts endpoint tests Negative HTTP methods tests. Send DELETE request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "589c49f548124fea.json",
+  "parameterValues" : [ ]
+}

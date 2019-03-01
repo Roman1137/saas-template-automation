@@ -1,0 +1,112 @@
+{
+  "uid" : "1c99ed5576bc0c71",
+  "name" : "should respond with 200 Status Code",
+  "fullName" : "Application.wadl endpoint tests. Positive cases..should respond with 200 Status Code",
+  "historyId" : "2f27f6aab8f6d110c0c0c034c45778e2",
+  "time" : {
+    "start" : 1551476901069,
+    "stop" : 1551476901135,
+    "duration" : 66
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Getting application description",
+      "time" : {
+        "start" : 1551476901071,
+        "stop" : 1551476901132,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending GET Request.",
+        "time" : {
+          "start" : 1551476901072,
+          "stop" : 1551476901079,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "12fb2ed8bbf864a4",
+          "name" : "RequestInfo:",
+          "source" : "12fb2ed8bbf864a4.txt",
+          "type" : "text/plain",
+          "size" : 194
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476901129,
+          "stop" : 1551476901131,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "41b97e3d0e4b01ea",
+          "name" : "Response:",
+          "source" : "41b97e3d0e4b01ea.txt",
+          "type" : "text/plain",
+          "size" : 372
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Application.wadl endpoint tests. Positive cases."
+  }, {
+    "name" : "testClass",
+    "value" : "Application.wadl endpoint tests. Positive cases."
+  }, {
+    "name" : "testMethod",
+    "value" : "should respond with 200 Status Code"
+  }, {
+    "name" : "package",
+    "value" : "Application.wadl endpoint tests. Positive cases."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c99ed5576bc0c71.json",
+  "parameterValues" : [ ]
+}

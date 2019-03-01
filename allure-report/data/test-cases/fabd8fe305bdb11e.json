@@ -1,0 +1,97 @@
+{
+  "uid" : "fabd8fe305bdb11e",
+  "name" : "should return 405 StatusCode",
+  "fullName" : "HealthCheck endpoint tests. Negative cases. Send POST request.should return 405 StatusCode",
+  "historyId" : "3ee97d2524cf338e06e1141349a8d0d0",
+  "time" : {
+    "start" : 1551476904140,
+    "stop" : 1551476904154,
+    "duration" : 14
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sending POST Request.",
+      "time" : {
+        "start" : 1551476904140,
+        "stop" : 1551476904142,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce3e1a6cbf404e25",
+        "name" : "RequestInfo:",
+        "source" : "ce3e1a6cbf404e25.txt",
+        "type" : "text/plain",
+        "size" : 190
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Response was received.",
+      "time" : {
+        "start" : 1551476904152,
+        "stop" : 1551476904154,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "36c0dfd00aa31241",
+        "name" : "Response:",
+        "source" : "36c0dfd00aa31241.txt",
+        "type" : "text/plain",
+        "size" : 307
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "HealthCheck endpoint tests. Negative cases. Send POST request"
+  }, {
+    "name" : "testClass",
+    "value" : "HealthCheck endpoint tests. Negative cases. Send POST request"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 405 StatusCode"
+  }, {
+    "name" : "package",
+    "value" : "HealthCheck endpoint tests. Negative cases. Send POST request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fabd8fe305bdb11e.json",
+  "parameterValues" : [ ]
+}

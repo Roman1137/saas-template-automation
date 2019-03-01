@@ -1,0 +1,120 @@
+{
+  "uid" : "ce0c559ef8067223",
+  "name" : "should return 415 Status Code",
+  "fullName" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases email-related. without email..should return 415 Status Code",
+  "historyId" : "7be37c3417f4ece972efb5b7e8eaa597",
+  "time" : {
+    "start" : 1551476902647,
+    "stop" : 1551476902667,
+    "duration" : 20
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected { Object (_events, _eventsCount, ...) } to have status code 415 but got 201",
+  "statusTrace" : "AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 415 but got 201\n                    at Context.it (tests\\api\\contactsWithuuidEndpointTests.ts:363:50)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected { Object (_events, _eventsCount, ...) } to have status code 415 but got 201",
+    "statusTrace" : "AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 415 but got 201\n                    at Context.it (tests\\api\\contactsWithuuidEndpointTests.ts:363:50)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+    "steps" : [ {
+      "name" : "Creating contact using contactInfo {\"lastName\":\"srySvyzvYp\",\"firstName\":\"WRFPaVYuTN\"}",
+      "time" : {
+        "start" : 1551476902647,
+        "stop" : 1551476902660,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending POST Request.",
+        "time" : {
+          "start" : 1551476902648,
+          "stop" : 1551476902649,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "65b5ea3d6c59e662",
+          "name" : "RequestInfo:",
+          "source" : "65b5ea3d6c59e662.txt",
+          "type" : "text/plain",
+          "size" : 235
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476902658,
+          "stop" : 1551476902660,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cc55290a8da80981",
+          "name" : "Response:",
+          "source" : "cc55290a8da80981.txt",
+          "type" : "text/plain",
+          "size" : 744
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases email-related. without email."
+  }, {
+    "name" : "testClass",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases email-related. without email."
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 415 Status Code"
+  }, {
+    "name" : "package",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases email-related. without email."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ce0c559ef8067223.json",
+  "parameterValues" : [ ]
+}

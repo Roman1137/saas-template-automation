@@ -1,0 +1,226 @@
+{
+  "uid" : "ae761e44ca9f05c",
+  "name" : "should return 200 Status Code",
+  "fullName" : "\"Contacts with uuid endpoint tests\" Partially update contact by id tests Positive cases FirstName update of existing contact.should return 200 Status Code",
+  "historyId" : "89dbd8de09718ba631854ed46f72a831",
+  "time" : {
+    "start" : 1551476903449,
+    "stop" : 1551476903641,
+    "duration" : 192
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Getting all contacts",
+      "time" : {
+        "start" : 1551476903449,
+        "stop" : 1551476903605,
+        "duration" : 156
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending GET Request.",
+        "time" : {
+          "start" : 1551476903449,
+          "stop" : 1551476903451,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4937a97f3e0294b",
+          "name" : "RequestInfo:",
+          "source" : "4937a97f3e0294b.txt",
+          "type" : "text/plain",
+          "size" : 193
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476903596,
+          "stop" : 1551476903605,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3b2143b582e09bc3",
+          "name" : "Response:",
+          "source" : "3b2143b582e09bc3.txt",
+          "type" : "text/plain",
+          "size" : 504889
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Updating contact with id 753 using contactInfo {\"firstName\":\"TWgPFZYOlm\"}",
+      "time" : {
+        "start" : 1551476903605,
+        "stop" : 1551476903625,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending PUT Request.",
+        "time" : {
+          "start" : 1551476903605,
+          "stop" : 1551476903607,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "aacd618b925030cc",
+          "name" : "RequestInfo:",
+          "source" : "aacd618b925030cc.txt",
+          "type" : "text/plain",
+          "size" : 214
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476903623,
+          "stop" : 1551476903625,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "755a51679505bed6",
+          "name" : "Response:",
+          "source" : "755a51679505bed6.txt",
+          "type" : "text/plain",
+          "size" : 709
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Getting contact by id 753",
+      "time" : {
+        "start" : 1551476903625,
+        "stop" : 1551476903639,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending GET Request.",
+        "time" : {
+          "start" : 1551476903627,
+          "stop" : 1551476903629,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d3c9cbe3613e68e8",
+          "name" : "RequestInfo:",
+          "source" : "d3c9cbe3613e68e8.txt",
+          "type" : "text/plain",
+          "size" : 197
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476903636,
+          "stop" : 1551476903639,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "70ae571d53c2f790",
+          "name" : "Response:",
+          "source" : "70ae571d53c2f790.txt",
+          "type" : "text/plain",
+          "size" : 665
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "\"Contacts with uuid endpoint tests\" Partially update contact by id tests Positive cases FirstName update of existing contact"
+  }, {
+    "name" : "testClass",
+    "value" : "\"Contacts with uuid endpoint tests\" Partially update contact by id tests Positive cases FirstName update of existing contact"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 200 Status Code"
+  }, {
+    "name" : "package",
+    "value" : "\"Contacts with uuid endpoint tests\" Partially update contact by id tests Positive cases FirstName update of existing contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae761e44ca9f05c.json",
+  "parameterValues" : [ ]
+}

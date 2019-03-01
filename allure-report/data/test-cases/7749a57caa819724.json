@@ -1,0 +1,97 @@
+{
+  "uid" : "7749a57caa819724",
+  "name" : "should return 405 StatusCode",
+  "fullName" : "Contacts endpoint tests Negative HTTP methods tests. Send PUT request.should return 405 StatusCode",
+  "historyId" : "7769ce9e072f8ca10d5af33b7ca0b5a9",
+  "time" : {
+    "start" : 1551476901994,
+    "stop" : 1551476902010,
+    "duration" : 16
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sending PUT Request.",
+      "time" : {
+        "start" : 1551476901994,
+        "stop" : 1551476901996,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7611113c3bb06a39",
+        "name" : "RequestInfo:",
+        "source" : "7611113c3bb06a39.txt",
+        "type" : "text/plain",
+        "size" : 193
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Response was received.",
+      "time" : {
+        "start" : 1551476902003,
+        "stop" : 1551476902004,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a82f143ca806a655",
+        "name" : "Response:",
+        "source" : "a82f143ca806a655.txt",
+        "type" : "text/plain",
+        "size" : 310
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contacts endpoint tests Negative HTTP methods tests. Send PUT request"
+  }, {
+    "name" : "testClass",
+    "value" : "Contacts endpoint tests Negative HTTP methods tests. Send PUT request"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 405 StatusCode"
+  }, {
+    "name" : "package",
+    "value" : "Contacts endpoint tests Negative HTTP methods tests. Send PUT request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7749a57caa819724.json",
+  "parameterValues" : [ ]
+}

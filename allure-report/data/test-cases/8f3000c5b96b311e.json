@@ -1,0 +1,97 @@
+{
+  "uid" : "8f3000c5b96b311e",
+  "name" : "should return 405 StatusCode",
+  "fullName" : "HealthCheck endpoint tests. Negative cases. Send TRACE request.should return 405 StatusCode",
+  "historyId" : "aeff1f3c8a3a61f41dbc50cb972b0037",
+  "time" : {
+    "start" : 1551476904215,
+    "stop" : 1551476904225,
+    "duration" : 10
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sending TRACE Request.",
+      "time" : {
+        "start" : 1551476904216,
+        "stop" : 1551476904217,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b12ffccfa4419329",
+        "name" : "RequestInfo:",
+        "source" : "b12ffccfa4419329.txt",
+        "type" : "text/plain",
+        "size" : 191
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Response was received.",
+      "time" : {
+        "start" : 1551476904222,
+        "stop" : 1551476904224,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9e187f802a3a8f3d",
+        "name" : "Response:",
+        "source" : "9e187f802a3a8f3d.txt",
+        "type" : "text/plain",
+        "size" : 308
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "HealthCheck endpoint tests. Negative cases. Send TRACE request"
+  }, {
+    "name" : "testClass",
+    "value" : "HealthCheck endpoint tests. Negative cases. Send TRACE request"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 405 StatusCode"
+  }, {
+    "name" : "package",
+    "value" : "HealthCheck endpoint tests. Negative cases. Send TRACE request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8f3000c5b96b311e.json",
+  "parameterValues" : [ ]
+}

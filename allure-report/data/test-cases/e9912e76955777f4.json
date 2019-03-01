@@ -1,0 +1,120 @@
+{
+  "uid" : "e9912e76955777f4",
+  "name" : "should return 415 Status Code",
+  "fullName" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases invaid field in model-related..should return 415 Status Code",
+  "historyId" : "123aa289dadebb0b44afabc8199c761",
+  "time" : {
+    "start" : 1551476902875,
+    "stop" : 1551476902904,
+    "duration" : 29
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected { Object (_events, _eventsCount, ...) } to have status code 415 but got 201",
+  "statusTrace" : "AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 415 but got 201\n                    at Context.it (tests\\api\\contactsWithuuidEndpointTests.ts:527:46)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected { Object (_events, _eventsCount, ...) } to have status code 415 but got 201",
+    "statusTrace" : "AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 415 but got 201\n                    at Context.it (tests\\api\\contactsWithuuidEndpointTests.ts:527:46)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+    "steps" : [ {
+      "name" : "Creating contact using contactInfo {\"email\":\"fNDIjslfdW@gmail.com\",\"lastName\":\"FKJCrYLaSc\",\"firstName\":\"MQIPGeEWZY\",\"invalidField\":\"something\"}",
+      "time" : {
+        "start" : 1551476902875,
+        "stop" : 1551476902887,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending POST Request.",
+        "time" : {
+          "start" : 1551476902876,
+          "stop" : 1551476902877,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "18df9829d2667b17",
+          "name" : "RequestInfo:",
+          "source" : "18df9829d2667b17.txt",
+          "type" : "text/plain",
+          "size" : 293
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476902885,
+          "stop" : 1551476902887,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b4caad64e9bc8ba1",
+          "name" : "Response:",
+          "source" : "b4caad64e9bc8ba1.txt",
+          "type" : "text/plain",
+          "size" : 830
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases invaid field in model-related."
+  }, {
+    "name" : "testClass",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases invaid field in model-related."
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 415 Status Code"
+  }, {
+    "name" : "package",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases invaid field in model-related."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e9912e76955777f4.json",
+  "parameterValues" : [ ]
+}

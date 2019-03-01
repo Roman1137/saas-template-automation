@@ -1,0 +1,18 @@
+{
+	"req": {
+		"method": "options",
+		"url": "http://localhost:8182/application.wadl",
+		"headers": {
+			"user-agent": "node-superagent/3.8.3",
+			"content-type": "application/json"
+		}
+	},
+	"header": {
+		"allow": "HEAD,GET,OPTIONS",
+		"content-type": "text/plain",
+		"connection": "close",
+		"content-length": "18"
+	},
+	"status": 200,
+	"text": "HEAD, GET, OPTIONS"
+}

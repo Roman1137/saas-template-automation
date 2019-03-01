@@ -1,0 +1,18 @@
+{
+	"req": {
+		"method": "post",
+		"url": "http://localhost:8182/api/v1/contacts",
+		"data": "{\"email\":\"vTkPDPrgsu@gmail.com\",\"lastName\":\"YRacmroxYw\",\"firstName\":\"MkHwXycBGy\"}",
+		"headers": {
+			"user-agent": "node-superagent/3.8.3",
+			"content-type": "application/json"
+		}
+	},
+	"header": {
+		"content-type": "application/json",
+		"connection": "close",
+		"content-length": "330"
+	},
+	"status": 201,
+	"text": "{\"data\":[{\"id\":722,\"info\":{\"email\":\"vTkPDPrgsu@gmail.com\",\"firstName\":\"MkHwXycBGy\",\"lastName\":\"YRacmroxYw\"},\"refs\":{\"patch\":\"http://host:port/api/v1/contacts/722\",\"get\":\"http://host:port/api/v1/contacts/722\",\"delete\":\"http://host:port/api/v1/contacts/722\",\"put\":\"http://host:port/api/v1/contacts/722\"}}],\"message\":\"\",\"status\":200}"
+}

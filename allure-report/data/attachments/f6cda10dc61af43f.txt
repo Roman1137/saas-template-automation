@@ -1,0 +1,17 @@
+{
+	"req": {
+		"method": "head",
+		"url": "http://localhost:8182/healthcheck",
+		"headers": {
+			"user-agent": "node-superagent/3.8.3",
+			"content-type": "application/json"
+		}
+	},
+	"header": {
+		"content-length": "0",
+		"content-type": "application/json",
+		"connection": "close"
+	},
+	"status": 405,
+	"text": ""
+}

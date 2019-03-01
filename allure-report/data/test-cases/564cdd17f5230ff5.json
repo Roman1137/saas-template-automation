@@ -1,0 +1,112 @@
+{
+  "uid" : "564cdd17f5230ff5",
+  "name" : "should return 415 Status Code",
+  "fullName" : "\"Contacts with uuid endpoint tests\" Partially update contact by id tests Negative cases with invalid content type..should return 415 Status Code",
+  "historyId" : "14de1c6e4deaa983d8286ab93a849576",
+  "time" : {
+    "start" : 1551476903436,
+    "stop" : 1551476903445,
+    "duration" : 9
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Partially updating contact with id 1 using contactInfo {\"email\":\"jwIDWVwwNg@gmail.com\"}",
+      "time" : {
+        "start" : 1551476903436,
+        "stop" : 1551476903444,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending PATCH Request.",
+        "time" : {
+          "start" : 1551476903437,
+          "stop" : 1551476903438,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7e29baa348a7df61",
+          "name" : "RequestInfo:",
+          "source" : "7e29baa348a7df61.txt",
+          "type" : "text/plain",
+          "size" : 232
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476903443,
+          "stop" : 1551476903444,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ea03f305072d28a7",
+          "name" : "Response:",
+          "source" : "ea03f305072d28a7.txt",
+          "type" : "text/plain",
+          "size" : 345
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "\"Contacts with uuid endpoint tests\" Partially update contact by id tests Negative cases with invalid content type."
+  }, {
+    "name" : "testClass",
+    "value" : "\"Contacts with uuid endpoint tests\" Partially update contact by id tests Negative cases with invalid content type."
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 415 Status Code"
+  }, {
+    "name" : "package",
+    "value" : "\"Contacts with uuid endpoint tests\" Partially update contact by id tests Negative cases with invalid content type."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "564cdd17f5230ff5.json",
+  "parameterValues" : [ ]
+}

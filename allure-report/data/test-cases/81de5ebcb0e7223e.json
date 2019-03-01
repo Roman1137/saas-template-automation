@@ -1,0 +1,112 @@
+{
+  "uid" : "81de5ebcb0e7223e",
+  "name" : "should return 415 Status Code",
+  "fullName" : "\"Contacts with uuid endpoint tests\" Delete contact by id tests Negative cases with invalid content type..should return 415 Status Code",
+  "historyId" : "5d9985fc953415b95fcab1e33596de80",
+  "time" : {
+    "start" : 1551476903835,
+    "stop" : 1551476903849,
+    "duration" : 14
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Deleting contact with id 1",
+      "time" : {
+        "start" : 1551476903835,
+        "stop" : 1551476903844,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending DELETE Request.",
+        "time" : {
+          "start" : 1551476903836,
+          "stop" : 1551476903837,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4a5d33464a7cfcda",
+          "name" : "RequestInfo:",
+          "source" : "4a5d33464a7cfcda.txt",
+          "type" : "text/plain",
+          "size" : 210
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476903842,
+          "stop" : 1551476903844,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "84e62c0dcc6f455e",
+          "name" : "Response:",
+          "source" : "84e62c0dcc6f455e.txt",
+          "type" : "text/plain",
+          "size" : 296
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "\"Contacts with uuid endpoint tests\" Delete contact by id tests Negative cases with invalid content type."
+  }, {
+    "name" : "testClass",
+    "value" : "\"Contacts with uuid endpoint tests\" Delete contact by id tests Negative cases with invalid content type."
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 415 Status Code"
+  }, {
+    "name" : "package",
+    "value" : "\"Contacts with uuid endpoint tests\" Delete contact by id tests Negative cases with invalid content type."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81de5ebcb0e7223e.json",
+  "parameterValues" : [ ]
+}

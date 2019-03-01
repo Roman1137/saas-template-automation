@@ -1,0 +1,389 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 200",
+      "children" : [ {
+        "name" : "should return 405 StatusCode",
+        "uid" : "e53f14ee542ecc92",
+        "parentUid" : "236cb3521ecc2de68a58281060a301dc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476901187,
+          "stop" : 1551476901247,
+          "duration" : 60
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 405 StatusCode",
+        "uid" : "bf06dd86c38e7585",
+        "parentUid" : "236cb3521ecc2de68a58281060a301dc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476901252,
+          "stop" : 1551476901273,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 405 StatusCode",
+        "uid" : "f111b434a168ce5",
+        "parentUid" : "236cb3521ecc2de68a58281060a301dc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476901851,
+          "stop" : 1551476901883,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 405 StatusCode",
+        "uid" : "b35cb93682df27f",
+        "parentUid" : "236cb3521ecc2de68a58281060a301dc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476901889,
+          "stop" : 1551476901950,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 405 StatusCode",
+        "uid" : "ec49deb61bf4893f",
+        "parentUid" : "236cb3521ecc2de68a58281060a301dc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476904094,
+          "stop" : 1551476904118,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "236cb3521ecc2de68a58281060a301dc"
+    }, {
+      "name" : "expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 201",
+      "children" : [ {
+        "name" : "should return 405 StatusCode",
+        "uid" : "b2ee8305150f1005",
+        "parentUid" : "fe55d3df5895706032b057e2ea530528",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476901955,
+          "stop" : 1551476901985,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fe55d3df5895706032b057e2ea530528"
+    }, {
+      "name" : "expected 200 to deeply equal 201",
+      "children" : [ {
+        "name" : "should return 201 Created StatusCode",
+        "uid" : "c081230d868a9bd4",
+        "parentUid" : "e093e3e30e2a852cb4b6a2a700f45251",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902087,
+          "stop" : 1551476902132,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 201 Created StatusCode",
+        "uid" : "62b37ceca6130665",
+        "parentUid" : "e093e3e30e2a852cb4b6a2a700f45251",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902176,
+          "stop" : 1551476902192,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e093e3e30e2a852cb4b6a2a700f45251"
+    }, {
+      "name" : "expected { Object (_events, _eventsCount, ...) } to have status code 415 but got 201",
+      "children" : [ {
+        "name" : "should return 415 Status Code",
+        "uid" : "d9df5ea2b22546d8",
+        "parentUid" : "9bcb174d3174da8692644e471713bf62",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902274,
+          "stop" : 1551476902302,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 415 Status Code",
+        "uid" : "adc6b14fa3b266e1",
+        "parentUid" : "9bcb174d3174da8692644e471713bf62",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902488,
+          "stop" : 1551476902513,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 415 Status Code",
+        "uid" : "ce0c559ef8067223",
+        "parentUid" : "9bcb174d3174da8692644e471713bf62",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902647,
+          "stop" : 1551476902667,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 415 Status Code",
+        "uid" : "e9912e76955777f4",
+        "parentUid" : "9bcb174d3174da8692644e471713bf62",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902875,
+          "stop" : 1551476902904,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9bcb174d3174da8692644e471713bf62"
+    }, {
+      "name" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "children" : [ {
+        "name" : "should return 400 Status Code",
+        "uid" : "b5fdaae7ac7fbd42",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902318,
+          "stop" : 1551476902339,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 Status Code",
+        "uid" : "560ca4f19eb67823",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902346,
+          "stop" : 1551476902383,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 Status Code",
+        "uid" : "d0be4811190b9ed",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902389,
+          "stop" : 1551476902414,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 Status Code",
+        "uid" : "84ee8a0288f2097b",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902420,
+          "stop" : 1551476902451,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 Status Code",
+        "uid" : "759bf643cb1e3725",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902457,
+          "stop" : 1551476902481,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 Status Code",
+        "uid" : "fcc5559894e7a329",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902519,
+          "stop" : 1551476902555,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 Status Code",
+        "uid" : "a88a78ae574eff98",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902561,
+          "stop" : 1551476902582,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 Status Code",
+        "uid" : "c99cd03db71ccdd8",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902591,
+          "stop" : 1551476902613,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 Status Code",
+        "uid" : "726a47d358e19e11",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902618,
+          "stop" : 1551476902642,
+          "duration" : 24
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 Status Code",
+        "uid" : "636cece7f0d092d",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902671,
+          "stop" : 1551476902690,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 Status Code",
+        "uid" : "4de5721b7c00b94d",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902695,
+          "stop" : 1551476902713,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 Status Code",
+        "uid" : "b2d28f952431f9ba",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902717,
+          "stop" : 1551476902737,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 Status Code",
+        "uid" : "81d5889b41b6880b",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902741,
+          "stop" : 1551476902760,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 Status Code",
+        "uid" : "a48b770869a5fbc0",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902765,
+          "stop" : 1551476902786,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 Status Code",
+        "uid" : "3d356ea4755a2991",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902798,
+          "stop" : 1551476902814,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 Status Code",
+        "uid" : "817254c499188089",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902819,
+          "stop" : 1551476902844,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 Status Code",
+        "uid" : "f9271eab5c55c8de",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902849,
+          "stop" : 1551476902871,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return 400 error",
+        "uid" : "56c5ac4a100f661c",
+        "parentUid" : "d5f888d66c8bc99d7a8b0579cd93b691",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902909,
+          "stop" : 1551476902948,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d5f888d66c8bc99d7a8b0579cd93b691"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

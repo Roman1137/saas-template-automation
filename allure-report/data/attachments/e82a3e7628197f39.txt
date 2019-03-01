@@ -1,0 +1,17 @@
+{
+	"req": {
+		"method": "post",
+		"url": "http://localhost:8182/api/v1/contacts",
+		"headers": {
+			"user-agent": "node-superagent/3.8.3",
+			"content-type": "application/json"
+		}
+	},
+	"header": {
+		"content-type": "application/json",
+		"connection": "close",
+		"content-length": "253"
+	},
+	"status": 201,
+	"text": "{\"data\":[{\"id\":724,\"info\":null,\"refs\":{\"patch\":\"http://host:port/api/v1/contacts/724\",\"get\":\"http://host:port/api/v1/contacts/724\",\"delete\":\"http://host:port/api/v1/contacts/724\",\"put\":\"http://host:port/api/v1/contacts/724\"}}],\"message\":\"\",\"status\":200}"
+}

@@ -1,0 +1,120 @@
+{
+  "uid" : "c081230d868a9bd4",
+  "name" : "should return 201 Created StatusCode",
+  "fullName" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with minimum length..should return 201 Created StatusCode",
+  "historyId" : "10fb42c6d5c537ed1ba75deee183004f",
+  "time" : {
+    "start" : 1551476902087,
+    "stop" : 1551476902132,
+    "duration" : 45
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 200 to deeply equal 201",
+  "statusTrace" : "AssertionError: expected 200 to deeply equal 201\n                    at Context.it (tests\\api\\contactsWithuuidEndpointTests.ts:62:52)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 200 to deeply equal 201",
+    "statusTrace" : "AssertionError: expected 200 to deeply equal 201\n                    at Context.it (tests\\api\\contactsWithuuidEndpointTests.ts:62:52)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+    "steps" : [ {
+      "name" : "Creating contact using contactInfo {\"email\":\"RhmzOujdsv@gmail.com\",\"lastName\":\"NHl\",\"firstName\":\"kKY\"}",
+      "time" : {
+        "start" : 1551476902088,
+        "stop" : 1551476902102,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending POST Request.",
+        "time" : {
+          "start" : 1551476902088,
+          "stop" : 1551476902091,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4f8ef8400672f166",
+          "name" : "RequestInfo:",
+          "source" : "4f8ef8400672f166.txt",
+          "type" : "text/plain",
+          "size" : 252
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476902101,
+          "stop" : 1551476902102,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5d9892813dde24c0",
+          "name" : "Response:",
+          "source" : "5d9892813dde24c0.txt",
+          "type" : "text/plain",
+          "size" : 771
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with minimum length."
+  }, {
+    "name" : "testClass",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with minimum length."
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 201 Created StatusCode"
+  }, {
+    "name" : "package",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with minimum length."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c081230d868a9bd4.json",
+  "parameterValues" : [ ]
+}

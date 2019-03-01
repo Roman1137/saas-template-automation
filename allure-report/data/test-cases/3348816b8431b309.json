@@ -1,0 +1,112 @@
+{
+  "uid" : "3348816b8431b309",
+  "name" : "should contain contact model in response body ",
+  "fullName" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with maximum length..should contain contact model in response body ",
+  "historyId" : "893457b2ffe73b76b3471620b78f1c04",
+  "time" : {
+    "start" : 1551476902193,
+    "stop" : 1551476902208,
+    "duration" : 15
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Creating contact using contactInfo {\"email\":\"wYSnwtgLyFbcfkraWYaBUDmYoPetLapEzBwTCjZohHOWKsRDVgtGEROogrVKdRCZIlOWzNtPxqTfwmbxLcWNRXALLdldrdGiIMMJYkubgFetHGCzqAvdqPsYIMDBcDrOMPjrGzQYhBodleTLOXdcocxqwKkXbowUXgftbqAzckZsJjljNqlMhdtDKSSjDzhrvSNpexACtFFvEUIOCrgZKiVuXXvXpdmkClBzzeQgBBNRgSmZkfCIgrdaJBUrAIvhymSlrexLcbjNUHIceOnFTbmsRNofrJBKZmBRLEcoyFOCgAjXbrholPcvMqzAciKEQgwwuCpymaYVfFNIalIbOvYLcXcfZNVncbHXGBrkXhKFdLpIYtiVaBuXjKlUqodBIqTylhkzmKZrakEuRzelHsHHGzwurfvoeVImQbLIPeZpdcFOhePEpLlzTikMhZAUUqePvOGIBnmTYBcfkdBrFyztQsRtaveRxHsmUzWGWODsokxlKBJgKojVcpLvQdlzrJqkuRUBEEGIvXRrWbvBYKCtBlgJwZLDRTCeZbYYKtdrVsznTPTXpeGDAfXxXZStSFgpxTReKpgkauEIJFxMdFejuEHShPqgXxWRDPoWKmZTOthCdUANePWytrqTzVEudcPDzctCodpUtSgDdBSTHijKmwJkJZDCTsfRUplKMtCpZauCezCixzjSxyTQFisAqtITYTYwwBTThMHjebVtuDtSbUDXDizHpbhxIEHKiEaziaGyZPjkXAIyvAshlXJLvCxDmffhnpZdnWLUPgKxujAPkwaCZuJLvlCoincIoEKCVBzgKlcziHKAnahFKZwgTXnMkECdNWLfEfzcnnbYFbxzRLUnBmfZuabIdIgJimlFdOrQeSDapNyGqEmbqPzYTqYNDNalWMqtkgIyMpsKNsCDbnpGLgJmcNfziYhEoFXCUFaHlpywhoGWjamePPnQeusMwlaFLObMrqulqVyJAGauvXrukjMzwQbFoKXzZpZuhTSRKRVDlBwKuOjXbvcp@gmail.com\",\"lastName\":\"yewGAqaMLTcNmgptOpbTpZxTohggfqAiGmSbUEuDsgdfZbkPBGvHwhTyEossfObJkaywqweVcLnlbRqBEGKKRiwDYovzunQvFFDKDnJWKTiZirgckkqrERLcAgdOpqkWrbjUJXxJTcTYNHbJOSiyrppNakJNpStFzkKzEqiDPllwBsKBVjOwRTXZBDHWxkslFkCJRJxZljhHFACvHmWaUbdkIkkVKhqYgYcnHuiIotEKZjQXJBpIjzbfxxhwdSnCadqCBfjqYzHEYlwGfCzjqpwbpFXzQSEUQgwXDqSKwbxNahgIjhSzRPvAnAijloYeSZlouQaZIEvtuQIpVskPKOvzuMTOSOMmdPQqHKHJEeYtgzYXStuTrsnpTWelvtNvLRmddjLGwNTHaknblVoOomEBBvwwKgcQFfhWHoXAsygFGCvuJJHpScKvraKRCLlINunGigTdwQCdIdjFYLIejCehQmkpZlEOxipySThaxmNUfIUzQPKwhsSfQWjwgstiPlZhLiHQmFFdqxtOkbbBljVDthGKNgABKedfVQbSwzVahOBmNWTIWRcABFKszChRepxpheNFWKbtCQnuptNGoRPxMxsGanaRYEPVDqlTogbDCsTzswXwhQXfFRwLdRvMcnORBpSXCDDlEkkRyMawAYyUmIdLDSQKIPZMpwnpsNjHGAVnAjwvTxiYMbpMWKnKLUJBlEksgLzmZdumcaceZczrdWGvQOUizFdSbAKZlgTdEiBpQWDflPAKFomTOUuGMmEWDhmNDGhsCSeranSckklGktiNwRKOlpOXqaphKdhHNAdvvcUQdeLPghkWPwQyWFcmJOengHAORoveLXwuWAzzgYDTidulwJVwAJdVfJmRLneTpbZLFqWZtoVPLCVoNHzQETlSucaklPMKfPUrQdQdRBIalyUPmBYfAEZtitJlYzeGuRptSTBzdCjtkhodIRWgLEWcYlfYXxOVkNBxQDoUJkrwGPjuVeMJbrTDqFmtXUroUyAChamyzqhlfStF\",\"firstName\":\"ZtEsspOnmTxAkZKeWWyBNrhwkaYalkAOnNqxqfFpjJnnDLqtfJvETBPBhDtMcsuHqDZbPPIQZSzelwdExhGmgbaROAkFMiResMqaRQDElzKBQHKNwzLpisBbUmjWUAvDSzWNlHjGktQQjrPuwzASEEXCtpdNlYSjavgmzntYLAyCaVawAtVGkyzIUMVTyEEcCTVpavCUxIZyGOZEROlGdrdrBHmBxNBPEVnAiGNDexCwDyGCkoSkVBjgsuKDZOOtWorNcqZjZtExouQLbYqmKWZMQxzmUoePXhERUvifQnNtsmhQbCnmFqxaiGIcgdKzqamwyWcISQPKsWdeZsQbUlVtMndctjjXNCwmAPjPDiYGOvNhpHdyxdIYBznIkXMNBklfIwmlgVzaqQnFhVhFvVwvMTfxJDeOxFdjWtGxsgnGUBInrPBxTPXhHSjtVYvlUDBdpsuOZKMshpYohONqrKkeyUchbzRVpZgGPFDnNWsPOMqVkgPdWTBKKadGsAZFygjsViKMGOpkZRstsoPJtrTuMxAENoeTyZCPMpOfIPILClyoOZnMYnmOwZKNRZYqEYEGvkBilOlSKUcgUmAVGXlmqvGuMrFlzZLDjiBEbhIoKLKkdXHxFjlhqWRKnFGFqOApIjbKFFrNAerVhlVKjdxdyqLIsGzCBDauRBgTJkQhDZNzoMtuDPJXQTehKVKchowQQIvLkWDpxUZKTOLSkgCvVgEQGBqmeDOTtDkyJfmJDQCBzaxflrQPcIyZMNycRKDxailAKHOToMnqHWgeLoYRvYrJtnirbBtACUCfHIYcuuWhnaaqiqNZyLlOLqOYwptuQWkncmRLpDGYySMCrBzIbmOPKXBPdSRLIguAwxpZqmmsOzZwNlGerWjMQwJDbjelprEzGZrGaPkkrIgXgtYaKuUJSyieOwkLbDuVMnFXdwWFGmgJInkOvgjlCvNTsjUaIcgSCZHthCTPisQirEaomxNLmhLkVakoWNkEpjzdyMnIYurTeBZNTODEOURA\"}",
+      "time" : {
+        "start" : 1551476902195,
+        "stop" : 1551476902207,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending POST Request.",
+        "time" : {
+          "start" : 1551476902195,
+          "stop" : 1551476902197,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "33fca7626a22ceb0",
+          "name" : "RequestInfo:",
+          "source" : "33fca7626a22ceb0.txt",
+          "type" : "text/plain",
+          "size" : 3308
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476902206,
+          "stop" : 1551476902207,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b7179b2984ff6cb5",
+          "name" : "Response:",
+          "source" : "b7179b2984ff6cb5.txt",
+          "type" : "text/plain",
+          "size" : 6884
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with maximum length."
+  }, {
+    "name" : "testClass",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with maximum length."
+  }, {
+    "name" : "testMethod",
+    "value" : "should contain contact model in response body "
+  }, {
+    "name" : "package",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with maximum length."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3348816b8431b309.json",
+  "parameterValues" : [ ]
+}

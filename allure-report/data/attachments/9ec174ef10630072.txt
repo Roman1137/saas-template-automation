@@ -1,0 +1,4 @@
+Sending POST request.
+                            Url: http://localhost:8182/api/v1/contacts
+                            Body: {"email":"VIOtcdOZTx@gmail.com","lastName":"ytBUgXfXAt","firstName":"SwIouBsxns"}
+                            ContentType: application/vnd.sun.wadl+xml

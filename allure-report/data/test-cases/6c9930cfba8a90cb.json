@@ -1,0 +1,97 @@
+{
+  "uid" : "6c9930cfba8a90cb",
+  "name" : "should return 405 StatusCode",
+  "fullName" : "HealthCheck endpoint tests. Negative cases. Send PATCH request.should return 405 StatusCode",
+  "historyId" : "860f93d633eb73fc00809d1d657291d8",
+  "time" : {
+    "start" : 1551476904174,
+    "stop" : 1551476904193,
+    "duration" : 19
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sending PATCH Request.",
+      "time" : {
+        "start" : 1551476904176,
+        "stop" : 1551476904178,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6069eeed735896e0",
+        "name" : "RequestInfo:",
+        "source" : "6069eeed735896e0.txt",
+        "type" : "text/plain",
+        "size" : 191
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Response was received.",
+      "time" : {
+        "start" : 1551476904190,
+        "stop" : 1551476904192,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "41cd3819b274f7ec",
+        "name" : "Response:",
+        "source" : "41cd3819b274f7ec.txt",
+        "type" : "text/plain",
+        "size" : 308
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "HealthCheck endpoint tests. Negative cases. Send PATCH request"
+  }, {
+    "name" : "testClass",
+    "value" : "HealthCheck endpoint tests. Negative cases. Send PATCH request"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 405 StatusCode"
+  }, {
+    "name" : "package",
+    "value" : "HealthCheck endpoint tests. Negative cases. Send PATCH request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c9930cfba8a90cb.json",
+  "parameterValues" : [ ]
+}

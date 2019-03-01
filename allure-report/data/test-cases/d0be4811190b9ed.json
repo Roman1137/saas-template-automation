@@ -1,0 +1,120 @@
+{
+  "uid" : "d0be4811190b9ed",
+  "name" : "should return 400 Status Code",
+  "fullName" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. with firstName, with invalid length..should return 400 Status Code",
+  "historyId" : "38bbf1754e5ffcc1e902677d346f0114",
+  "time" : {
+    "start" : 1551476902389,
+    "stop" : 1551476902414,
+    "duration" : 25
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+  "statusTrace" : "AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201\n                    at Context.it (tests\\api\\contactsWithuuidEndpointTests.ts:214:50)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+    "statusTrace" : "AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201\n                    at Context.it (tests\\api\\contactsWithuuidEndpointTests.ts:214:50)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+    "steps" : [ {
+      "name" : "Creating contact using contactInfo {\"email\":\"CGqZNpVxmv@gmail.com\",\"lastName\":\"KcGcLnJPod\",\"firstName\":\"LKYqDVAEAxotiSdZckfhfbgKtbZMdyacNxxIbnyNftqrBFyYUtDvupqEMFirgtGssdebXTTQdduxhyepzFtuTMggFoHtfCWhBrRWsxZIeANUDBYkGJPpgCGcIFzEEDAcYvRUSqDYzXLwZklmDmvkcNwvSrwHDUcyOLdjpAnlYLIoJgZpDDOeXisSmcrsJuVxnSUquDKlyJzIRlwzgXDeCdKOEAebfRfcJjtgbKZnrcPTTZjFzNxCgzQibJRudkSyTNNfvppEeZnymTzOFRAKiTUvsVMmfevpwNOZhfQWfhcnyqzvtVRDBpaDOkuwJWFVXThfODGESnoyzNIoMCyqqJESgfYRxrmAXUYSPYCQvFQyNvhoqNDyZLkbrEpzFqZUlbSqPeFQkOEKhzwthQvNdgfhWFYYwYuzprHZGkfzYhzstjAachXAghtrSrfXqELGETTRpqhchZhQyocxtpttdsVqbJHRnFXmSPKOxxFoZYFipLVOsVOOiajQsBLDEWVzSyLgfxGGcXuNLxobuPOBVZeWHvNvdFxyXzjNFiLLAAOKmUYcdTciTGVyCTNUceVQztcUbqAUFdKQDjWCvOVSQCMylXbLdNAQeNmCdFLOQjzloFslQWJIXiKuyOnvFHFOUzkGexyQqPVnXVHvflLOpbAPxRfDJDzjoxPnzERpeLIvacOOWEathslYzyPXxbNNgiJvhWtLZBfgsfDqpnosmFvzWjDAYsOEdExbuyOVIFMiwFrJSpqPnxehxiGbzkZDiWRDZyJpXLMkqyhtIMmNAlDEugmGXROdoGOkjJqJLdwMxBULuuNYSLOmsNMEmXpDaHSvJoCDOzbjKkjKHniCAKHnqpdXnuBABudYMQBUPgZvunwDjbdnoCpzGYrxcGPlSciIdZKZurHubSTwYhLIZBzHvhpsMCwTngiVeIGqtQbmyvrPwZLJqkLIOAlIudIUjbuXiQTOJXBeNRfHhDVgIJJEOjRebhwjLPOdjpjAexbWIwZdZkSPHmyOAKMpkyrkh\"}",
+      "time" : {
+        "start" : 1551476902389,
+        "stop" : 1551476902404,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending POST Request.",
+        "time" : {
+          "start" : 1551476902390,
+          "stop" : 1551476902392,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "92e12a75d75ee4ee",
+          "name" : "RequestInfo:",
+          "source" : "92e12a75d75ee4ee.txt",
+          "type" : "text/plain",
+          "size" : 1281
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476902402,
+          "stop" : 1551476902404,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8009685548f985fa",
+          "name" : "Response:",
+          "source" : "8009685548f985fa.txt",
+          "type" : "text/plain",
+          "size" : 2830
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. with firstName, with invalid length."
+  }, {
+    "name" : "testClass",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. with firstName, with invalid length."
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 400 Status Code"
+  }, {
+    "name" : "package",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. with firstName, with invalid length."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d0be4811190b9ed.json",
+  "parameterValues" : [ ]
+}

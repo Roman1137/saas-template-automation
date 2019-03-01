@@ -1,0 +1,18 @@
+{
+	"req": {
+		"method": "options",
+		"url": "http://localhost:8182/api/v1/contacts",
+		"headers": {
+			"user-agent": "node-superagent/3.8.3",
+			"content-type": "application/json"
+		}
+	},
+	"header": {
+		"allow": "HEAD,POST,GET,OPTIONS",
+		"last-modified": "Fri, 01 Mar 2019 21:48:11 GMT",
+		"content-type": "application/vnd.sun.wadl+xml",
+		"connection": "close",
+		"content-length": "2608"
+	},
+	"status": 200
+}

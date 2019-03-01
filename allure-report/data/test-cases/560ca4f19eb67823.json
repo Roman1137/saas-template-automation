@@ -1,0 +1,120 @@
+{
+  "uid" : "560ca4f19eb67823",
+  "name" : "should return 400 Status Code",
+  "fullName" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. with firstName, starting from space..should return 400 Status Code",
+  "historyId" : "53c06ad28af301af3c4ea013183575df",
+  "time" : {
+    "start" : 1551476902346,
+    "stop" : 1551476902383,
+    "duration" : 37
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+  "statusTrace" : "AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201\n                    at Context.it (tests\\api\\contactsWithuuidEndpointTests.ts:196:50)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+    "statusTrace" : "AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201\n                    at Context.it (tests\\api\\contactsWithuuidEndpointTests.ts:196:50)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+    "steps" : [ {
+      "name" : "Creating contact using contactInfo {\"email\":\"RoySvlYEab@gmail.com\",\"lastName\":\"hKdEjzkshg\",\"firstName\":\" zCEspFCmAt\"}",
+      "time" : {
+        "start" : 1551476902346,
+        "stop" : 1551476902372,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending POST Request.",
+        "time" : {
+          "start" : 1551476902361,
+          "stop" : 1551476902363,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "63a61349974ea1eb",
+          "name" : "RequestInfo:",
+          "source" : "63a61349974ea1eb.txt",
+          "type" : "text/plain",
+          "size" : 267
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476902370,
+          "stop" : 1551476902372,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1936b26491e8777b",
+          "name" : "Response:",
+          "source" : "1936b26491e8777b.txt",
+          "type" : "text/plain",
+          "size" : 801
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. with firstName, starting from space."
+  }, {
+    "name" : "testClass",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. with firstName, starting from space."
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 400 Status Code"
+  }, {
+    "name" : "package",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. with firstName, starting from space."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "560ca4f19eb67823.json",
+  "parameterValues" : [ ]
+}

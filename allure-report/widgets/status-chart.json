@@ -1,0 +1,731 @@
+[ {
+  "uid" : "64eb1bfb9e6075d0",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476901286,
+    "stop" : 1551476901297,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3348816b8431b309",
+  "name" : "should contain contact model in response body ",
+  "time" : {
+    "start" : 1551476902193,
+    "stop" : 1551476902208,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "726a47d358e19e11",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902618,
+    "stop" : 1551476902642,
+    "duration" : 24
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "adc6b14fa3b266e1",
+  "name" : "should return 415 Status Code",
+  "time" : {
+    "start" : 1551476902488,
+    "stop" : 1551476902513,
+    "duration" : 25
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "560ca4f19eb67823",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902346,
+    "stop" : 1551476902383,
+    "duration" : 37
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "817254c499188089",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902819,
+    "stop" : 1551476902844,
+    "duration" : 25
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "56568c4252e01774",
+  "name" : "should contain specific Content type",
+  "time" : {
+    "start" : 1551476901139,
+    "stop" : 1551476901153,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "759bf643cb1e3725",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902457,
+    "stop" : 1551476902481,
+    "duration" : 24
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c99cd03db71ccdd8",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902591,
+    "stop" : 1551476902613,
+    "duration" : 22
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5fdaae7ac7fbd42",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902318,
+    "stop" : 1551476902339,
+    "duration" : 21
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2615af7824365256",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476904199,
+    "stop" : 1551476904212,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4af88fb61345d24",
+  "name" : "should return 415 Status Code",
+  "time" : {
+    "start" : 1551476902956,
+    "stop" : 1551476902966,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce0c559ef8067223",
+  "name" : "should return 415 Status Code",
+  "time" : {
+    "start" : 1551476902647,
+    "stop" : 1551476902667,
+    "duration" : 20
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2200eac22a104e66",
+  "name" : "should respond with 200 Status Code",
+  "time" : {
+    "start" : 1551476904089,
+    "stop" : 1551476904089,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e4a846fbb6443da",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476904158,
+    "stop" : 1551476904170,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56c5ac4a100f661c",
+  "name" : "should return 400 error",
+  "time" : {
+    "start" : 1551476902909,
+    "stop" : 1551476902948,
+    "duration" : 39
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d356ea4755a2991",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902798,
+    "stop" : 1551476902814,
+    "duration" : 16
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "81d5889b41b6880b",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902741,
+    "stop" : 1551476902760,
+    "duration" : 19
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f111b434a168ce5",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476901851,
+    "stop" : 1551476901883,
+    "duration" : 32
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "84ee8a0288f2097b",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902420,
+    "stop" : 1551476902451,
+    "duration" : 31
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "704ab43de51d706f",
+  "name" : "should return updated info",
+  "time" : {
+    "start" : 1551476903159,
+    "stop" : 1551476903424,
+    "duration" : 265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2581fd46f0fda012",
+  "name" : "should return 200 StatusCode",
+  "time" : {
+    "start" : 1551476901386,
+    "stop" : 1551476901467,
+    "duration" : 81
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a3448ce906cce94",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476904036,
+    "stop" : 1551476904048,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7749a57caa819724",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476901994,
+    "stop" : 1551476902010,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "564cdd17f5230ff5",
+  "name" : "should return 415 Status Code",
+  "time" : {
+    "start" : 1551476903436,
+    "stop" : 1551476903445,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81de5ebcb0e7223e",
+  "name" : "should return 415 Status Code",
+  "time" : {
+    "start" : 1551476903835,
+    "stop" : 1551476903849,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2ee8305150f1005",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476901955,
+    "stop" : 1551476901985,
+    "duration" : 30
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "53e7cff0a46245ca",
+  "name" : "should contain Content-Length > 0",
+  "time" : {
+    "start" : 1551476901154,
+    "stop" : 1551476901164,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c9930cfba8a90cb",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476904174,
+    "stop" : 1551476904193,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fcc4532dba06417",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476901302,
+    "stop" : 1551476901314,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1070736b9837bd29",
+  "name" : "should contain contact model in response body ",
+  "time" : {
+    "start" : 1551476901467,
+    "stop" : 1551476901538,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4de5721b7c00b94d",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902695,
+    "stop" : 1551476902713,
+    "duration" : 18
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c11762cdff20b7e",
+  "name" : "should contain refs list in response body ",
+  "time" : {
+    "start" : 1551476902209,
+    "stop" : 1551476902227,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcc5559894e7a329",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902519,
+    "stop" : 1551476902555,
+    "duration" : 36
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf215e281c5bcb06",
+  "name" : "should return specific text",
+  "time" : {
+    "start" : 1551476904089,
+    "stop" : 1551476904090,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2d28f952431f9ba",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902717,
+    "stop" : 1551476902737,
+    "duration" : 20
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ba2f917ab02ea59",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476902017,
+    "stop" : 1551476902028,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec49deb61bf4893f",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476904094,
+    "stop" : 1551476904118,
+    "duration" : 24
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9912e76955777f4",
+  "name" : "should return 415 Status Code",
+  "time" : {
+    "start" : 1551476902875,
+    "stop" : 1551476902904,
+    "duration" : 29
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fabd8fe305bdb11e",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476904140,
+    "stop" : 1551476904154,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f3000c5b96b311e",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476904215,
+    "stop" : 1551476904225,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3297ac2859ae00ea",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476901369,
+    "stop" : 1551476901380,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e53f14ee542ecc92",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476901187,
+    "stop" : 1551476901247,
+    "duration" : 60
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0be4811190b9ed",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902389,
+    "stop" : 1551476902414,
+    "duration" : 25
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf06dd86c38e7585",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476901252,
+    "stop" : 1551476901273,
+    "duration" : 21
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "86c6454134bbba7d",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476904122,
+    "stop" : 1551476904133,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce8b43f874e01f50",
+  "name" : "should contain Content-Length > 0",
+  "time" : {
+    "start" : 1551476904090,
+    "stop" : 1551476904091,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a48b770869a5fbc0",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902765,
+    "stop" : 1551476902786,
+    "duration" : 21
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "636cece7f0d092d",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902671,
+    "stop" : 1551476902690,
+    "duration" : 19
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c87ee1a391feb19f",
+  "name" : "should contain contact model in response body ",
+  "time" : {
+    "start" : 1551476902132,
+    "stop" : 1551476902144,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c51775c7cc195399",
+  "name" : "should return 415 Status Code",
+  "time" : {
+    "start" : 1551476902074,
+    "stop" : 1551476902083,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a88a78ae574eff98",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902561,
+    "stop" : 1551476902582,
+    "duration" : 21
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9271eab5c55c8de",
+  "name" : "should return 400 Status Code",
+  "time" : {
+    "start" : 1551476902849,
+    "stop" : 1551476902871,
+    "duration" : 22
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c99ed5576bc0c71",
+  "name" : "should respond with 200 Status Code",
+  "time" : {
+    "start" : 1551476901069,
+    "stop" : 1551476901135,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "662d39e2c742eeeb",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476902045,
+    "stop" : 1551476902068,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55bb3a19b10ef70e",
+  "name" : "should contain refs list in response body ",
+  "time" : {
+    "start" : 1551476902144,
+    "stop" : 1551476902159,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b35cb93682df27f",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476901889,
+    "stop" : 1551476901950,
+    "duration" : 61
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d79b24e33a108d08",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476901344,
+    "stop" : 1551476901363,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a81c89fb0d871bc",
+  "name" : "should return updated info",
+  "time" : {
+    "start" : 1551476903641,
+    "stop" : 1551476903827,
+    "duration" : 186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbad78e9a4510cf6",
+  "name" : "should return 404 Status Code",
+  "time" : {
+    "start" : 1551476903856,
+    "stop" : 1551476904015,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71466c7fa31b1036",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476904053,
+    "stop" : 1551476904065,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c081230d868a9bd4",
+  "name" : "should return 201 Created StatusCode",
+  "time" : {
+    "start" : 1551476902087,
+    "stop" : 1551476902132,
+    "duration" : 45
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d205da4ebfe18b79",
+  "name" : "should return 200 StatusCode",
+  "time" : {
+    "start" : 1551476901554,
+    "stop" : 1551476901669,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "686208327db1ba9c",
+  "name" : "should return 415 Status Code",
+  "time" : {
+    "start" : 1551476902240,
+    "stop" : 1551476902253,
+    "duration" : 13
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4987c1db87283771",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476904020,
+    "stop" : 1551476904031,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3498dae9f60386a1",
+  "name" : "should return 200 Status Code",
+  "time" : {
+    "start" : 1551476902971,
+    "stop" : 1551476903159,
+    "duration" : 188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c061ca4211743691",
+  "name" : "should contain contact model in response body ",
+  "time" : {
+    "start" : 1551476901669,
+    "stop" : 1551476901842,
+    "duration" : 173
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "62b37ceca6130665",
+  "name" : "should return 201 Created StatusCode",
+  "time" : {
+    "start" : 1551476902176,
+    "stop" : 1551476902192,
+    "duration" : 16
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "27cbf8a523d2354f",
+  "name" : "should contain specific Content type",
+  "time" : {
+    "start" : 1551476904090,
+    "stop" : 1551476904090,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "589c49f548124fea",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476902032,
+    "stop" : 1551476902041,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae761e44ca9f05c",
+  "name" : "should return 200 Status Code",
+  "time" : {
+    "start" : 1551476903449,
+    "stop" : 1551476903641,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9df5ea2b22546d8",
+  "name" : "should return 415 Status Code",
+  "time" : {
+    "start" : 1551476902274,
+    "stop" : 1551476902302,
+    "duration" : 28
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1a4793f78858f91",
+  "name" : "should return 405 StatusCode",
+  "time" : {
+    "start" : 1551476901328,
+    "stop" : 1551476901338,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

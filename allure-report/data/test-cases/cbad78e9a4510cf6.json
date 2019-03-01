@@ -1,0 +1,226 @@
+{
+  "uid" : "cbad78e9a4510cf6",
+  "name" : "should return 404 Status Code",
+  "fullName" : "\"Contacts with uuid endpoint tests\" Delete contact by id tests Positive Cases Deletion of existing contact.should return 404 Status Code",
+  "historyId" : "4a0993be3167698168c36c0a32984475",
+  "time" : {
+    "start" : 1551476903856,
+    "stop" : 1551476904015,
+    "duration" : 159
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Getting all contacts",
+      "time" : {
+        "start" : 1551476903856,
+        "stop" : 1551476903990,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending GET Request.",
+        "time" : {
+          "start" : 1551476903857,
+          "stop" : 1551476903858,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "38cf0e2acd280de4",
+          "name" : "RequestInfo:",
+          "source" : "38cf0e2acd280de4.txt",
+          "type" : "text/plain",
+          "size" : 193
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476903986,
+          "stop" : 1551476903990,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "24727d836b989465",
+          "name" : "Response:",
+          "source" : "24727d836b989465.txt",
+          "type" : "text/plain",
+          "size" : 504233
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Deleting contact with id 751",
+      "time" : {
+        "start" : 1551476903990,
+        "stop" : 1551476904003,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending DELETE Request.",
+        "time" : {
+          "start" : 1551476903991,
+          "stop" : 1551476903992,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ba46b7bab3e05af1",
+          "name" : "RequestInfo:",
+          "source" : "ba46b7bab3e05af1.txt",
+          "type" : "text/plain",
+          "size" : 200
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476903999,
+          "stop" : 1551476904003,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "966a778e9ee70e43",
+          "name" : "Response:",
+          "source" : "966a778e9ee70e43.txt",
+          "type" : "text/plain",
+          "size" : 698
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Getting contact by id 751",
+      "time" : {
+        "start" : 1551476904003,
+        "stop" : 1551476904014,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending GET Request.",
+        "time" : {
+          "start" : 1551476904003,
+          "stop" : 1551476904005,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7e63a0fb8d6510df",
+          "name" : "RequestInfo:",
+          "source" : "7e63a0fb8d6510df.txt",
+          "type" : "text/plain",
+          "size" : 197
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476904012,
+          "stop" : 1551476904014,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d744729453cc459f",
+          "name" : "Response:",
+          "source" : "d744729453cc459f.txt",
+          "type" : "text/plain",
+          "size" : 283
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "\"Contacts with uuid endpoint tests\" Delete contact by id tests Positive Cases Deletion of existing contact"
+  }, {
+    "name" : "testClass",
+    "value" : "\"Contacts with uuid endpoint tests\" Delete contact by id tests Positive Cases Deletion of existing contact"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 404 Status Code"
+  }, {
+    "name" : "package",
+    "value" : "\"Contacts with uuid endpoint tests\" Delete contact by id tests Positive Cases Deletion of existing contact"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cbad78e9a4510cf6.json",
+  "parameterValues" : [ ]
+}

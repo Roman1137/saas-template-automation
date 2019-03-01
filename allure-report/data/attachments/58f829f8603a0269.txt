@@ -1,0 +1,18 @@
+{
+	"req": {
+		"method": "post",
+		"url": "http://localhost:8182/api/v1/contacts",
+		"data": "{\"email\":\"jnFRlgFTUp@gmailcom\",\"lastName\":\"CZIfRbgixK\",\"firstName\":\"TvwdpKMKmq\"}",
+		"headers": {
+			"user-agent": "node-superagent/3.8.3",
+			"content-type": "application/json"
+		}
+	},
+	"header": {
+		"content-type": "application/json",
+		"connection": "close",
+		"content-length": "329"
+	},
+	"status": 201,
+	"text": "{\"data\":[{\"id\":749,\"info\":{\"email\":\"jnFRlgFTUp@gmailcom\",\"firstName\":\"TvwdpKMKmq\",\"lastName\":\"CZIfRbgixK\"},\"refs\":{\"patch\":\"http://host:port/api/v1/contacts/749\",\"get\":\"http://host:port/api/v1/contacts/749\",\"delete\":\"http://host:port/api/v1/contacts/749\",\"put\":\"http://host:port/api/v1/contacts/749\"}}],\"message\":\"\",\"status\":200}"
+}

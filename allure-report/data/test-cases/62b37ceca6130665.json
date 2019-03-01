@@ -1,0 +1,120 @@
+{
+  "uid" : "62b37ceca6130665",
+  "name" : "should return 201 Created StatusCode",
+  "fullName" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with maximum length..should return 201 Created StatusCode",
+  "historyId" : "bf88e23a44f87ddba969e37f602905b3",
+  "time" : {
+    "start" : 1551476902176,
+    "stop" : 1551476902192,
+    "duration" : 16
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 200 to deeply equal 201",
+  "statusTrace" : "AssertionError: expected 200 to deeply equal 201\n                    at Context.it (tests\\api\\contactsWithuuidEndpointTests.ts:103:52)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 200 to deeply equal 201",
+    "statusTrace" : "AssertionError: expected 200 to deeply equal 201\n                    at Context.it (tests\\api\\contactsWithuuidEndpointTests.ts:103:52)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+    "steps" : [ {
+      "name" : "Creating contact using contactInfo {\"email\":\"LeyujCQzIuQOkaDLvPmsIKKaRYYMnnAOZSFUhxUiUHJKQNvCMXQOEbhGNKHsrNiFEvdhjEPVrPzHmUKavcnRLWEzguEbqOKdfidDyJSaaQFLNCImDKPqSqFjTVHeiXBpTnXkWfQaiYctZvTYTRLjvvZqDllQnDdJgRyKsMmUidehvfhQPNpozcpMzEIatMRENtOOsUcVJnniQiuYMdnqcgrSVWoTPIfrIwBMtsGlpSNdqRQeFJZWaSwEemSuCByVlsucwnglqnwNTTxSJbHeFoCnWoQBOqwzysiChTFmckxxJhgMnYKRIUEHcEpRVQFqRjXWaHDeZOxdWAsQUOzXNdSrgBISbthWMJvnGldgtOtlGkUUKJVKIeWEtYDAriagkqGwlUMbwwgFgjmzaYIEwfbRyiUFVXHQwyblhjAyGVtpHHMGpnDtvXceeehDbSPROOutVTKVBAZmKwjhSqRPIOQuPQdYenjTytfbDJcywobTsgKEBeXwENLFtsVVtohWoiBAGLfiZWcrIEpQyADccWlncUtRqZcDvoyvDIKMfJafrdRGvUhXGDWCnsUVHIRpFAnYidAjkKGBtoqmjzlPAHOBGqhezAesrUuUpcpwnGBeXaaMSHQCZIoVQvOGEhbBCMYGRVLFvSgiaxeXjffBaViujpHXbRHLDQXdbiytlIOOaOAOXhvnOeVeRutBUJFmsWsDqpUftxLqUGYMKXUWEMDtebdSXqtWECAsPLPVvTsbXlfhSGjBDSZoxXCvegWJucydrIjWQhbrPEZQWJqygCzjrJQItLuShGiqFVYDkqbGzCDVHiFUPGydvAyWFXvvuoRcAXWIVxOyTeGpNMYkmIvlwcLsIMjWrbODDdJKhwTCDaVlrVxXuoHwktorCTKUTZiGVBtOYKzTkJAWVccKyhKScLwKDPJYkPzVRKfvWYjkKqTsuhZZhdpIpyaavBFcODisSzkjdBnjNpObLJvvygovZozeXSiVdWVsEyxRBqjiHBHLUGgBJyGXMLVNQJTq@gmail.com\",\"lastName\":\"EGeVBWsFmYpuRCQzgoExCtzwvlkdatwQdJWBCAysJZwMQnhObkbgiaXirWayEQaOcQGBMUkYOjyiacIJKesyzxGTlzqcWNpyWSgQvkabIKuiOXnMwdJBGVJvlEeKQfujLceqJABhqZpDtaYaSEcsXPLjGGFlECtEimMoKrgXFvpoTNdEOAagZxqFsbAYZqEtruJaFzaORqLspCEEXIrHKweuRPQvgCIHgRrLUpyBJSoqjbDlPIhVDPLqNpPlZSgglmBWvbsPqUZZefJhCvDPLvGYzPgxIDLenwpTwJuRdZclFNlulOBuhrTrmYzXCRMADsuTsnZHNbBtKIYRImXyggyZHyCJawBTkWburuKQGJRfxMIVpllpRuSuHxwljDTNJSRUxbSctoUxVIOehWTcCUlceXIqYbIqhuoUnpcigIaNsVGyzXwvCvDIvUMaZHKFGIWETJbsWJkNgpPsMSmwTeFBVcszkppwmPgpcHAcXQURgZTHJOfoxYZFDgUVVMVnCtUUSChzUfcvOQeVCPBWtjKhhuiXfwCwQWUuVxMFqRGOHKFAMDBWVnaeGlwOMwxUQInGifhYRmTMarkDuaJCuLzNyYfdjPpmsEniVZSbHnjuWTgDXQLZMrJjGyQspqydSeOQhpmtBcQnfzOXGNsNmUkQKqSOOKFzKRGoAHuOJsofpzXhNWigpmgYGlvioHPEJmCWAAUYEorzrTknGAIujHHDFHfEvKXmvcQSpZNtVfUVKQimjRtOCpcXSBHwWSXkrwhjRyVumyPJaVYwCEHYxlMvhSDSjUfBLfGftWFqmHnJnHuFhuVrzEGRwRdbcmTESihdTSZSDVFCVqbKZlULCLDKrAzRPAClSnBFabnmwTDTUugBGAdlXkgxmivRdrbcAurdnQGNQcBYbjmnSQOWCaWpAxzReXaFiorugCFDxvySCSggnmRXyrbirXFZVJzArByovtVAAWaRjplApXmFWyKUbEXViELzkcGsRXWfAWnTCisyffbIfSLCvcEJBfYY\",\"firstName\":\"eekRqakTpIzUiuHUzPZKKMewcncjqAAUDKaeqddkCMgxKJJUeHWDKHkbmtCYOmUjuYTMmsJXfGmPkSDwYSfVGedZGKNoTgFIWXBKwKcYskNBlilVeEWZwKXkMfFEuqZsTrOUNzRIvnNIBygcBgOApwWyKevzWNJPFCRkgJFosrCtyIdyPonKNQlryRuoAwrNJQymcVHesOAbsNsXXOiOQAmgUAdbwJWMMfsCThNFEEMIGQUsLCUhmqKcOIWVMPpMssinvIPoZvMImVJnsjhMiCpqXtfgOwpCFYLtSUmCNvCOdhOwORignaCLjnRjXSPjyNoNCmqemfGOkLMaEugUVgyYHMeEAnWImzoZrROxxlZaUagmYmQuVkVSYABtiGObRCvvEGoWfILcVJhyzLqLLUHONPGNlyynMsCjVjkmlnQZCbnIdebMPULKDlFbCiHSLFfvZyKgQYasvbdgBsotoqpSaJfIPpVDiadHajYwjmaFsjOrLAabmOUMDuXVhTOqIEedaverDqIbLlajMiwNIpbQnEXVcGkDNsGQlpAuYycrZyhAbhBDGAzjugwyFiHMkrrqyNZbGuuFueDAtryZELtzRMWFhHEHWMDwUfDRUqvydgpIpbkZlGiOjyIVBoDTJTyrLvujelWdmifxqUovqXpLsNWcbDwxOimEEieyleBVxYTFGSvDGEkPVrChTgoBuEfvRVGsfRlcHmdUCZbOGRReESwimphBsAfOGmCnNNboFXQvtZoZAuOICXJASsUJFeaUJllGDuonHGCoEcBVdDjtWqnTtaKobZeTdhsIsQAQVIxiOtovByGlJepzvsCzMWkVtHfMKRRIDaPrCpUjTqlFQTNhOImtaISnWPUHcdoMILHBKHZBDBcUJfkXiEZSAHrZNgcFZHTZxJvqwhYNxrUsFJILGxaPzhgVjnQpkogSkgdBsQsALUnIHFJfeDmmkOzEbiNIYdYklXyQTKwzoxOHJaDgVHCDnXFVBUTQzCavelRjcaolhOFiXLfFIdtb\"}",
+      "time" : {
+        "start" : 1551476902178,
+        "stop" : 1551476902190,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending POST Request.",
+        "time" : {
+          "start" : 1551476902179,
+          "stop" : 1551476902180,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ba1da4174b082f08",
+          "name" : "RequestInfo:",
+          "source" : "ba1da4174b082f08.txt",
+          "type" : "text/plain",
+          "size" : 3308
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476902188,
+          "stop" : 1551476902190,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a21028e74f27ceb4",
+          "name" : "Response:",
+          "source" : "a21028e74f27ceb4.txt",
+          "type" : "text/plain",
+          "size" : 6884
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with maximum length."
+  }, {
+    "name" : "testClass",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with maximum length."
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 201 Created StatusCode"
+  }, {
+    "name" : "package",
+    "value" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with maximum length."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "62b37ceca6130665.json",
+  "parameterValues" : [ ]
+}

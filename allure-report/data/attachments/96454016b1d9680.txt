@@ -1,0 +1,17 @@
+{
+	"req": {
+		"method": "delete",
+		"url": "http://localhost:8182/application.wadl",
+		"headers": {
+			"user-agent": "node-superagent/3.8.3",
+			"content-type": "application/json"
+		}
+	},
+	"header": {
+		"allow": "GET,OPTIONS",
+		"connection": "close",
+		"content-length": "0"
+	},
+	"status": 405,
+	"text": ""
+}

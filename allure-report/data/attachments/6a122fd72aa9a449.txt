@@ -1,0 +1,17 @@
+{
+	"req": {
+		"method": "head",
+		"url": "http://localhost:8182/api/v1/contacts",
+		"headers": {
+			"user-agent": "node-superagent/3.8.3",
+			"content-type": "application/json"
+		}
+	},
+	"header": {
+		"transfer-encoding": "chunked",
+		"content-type": "application/json",
+		"connection": "close"
+	},
+	"status": 200,
+	"text": ""
+}

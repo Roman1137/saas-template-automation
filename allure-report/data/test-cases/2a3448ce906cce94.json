@@ -1,0 +1,97 @@
+{
+  "uid" : "2a3448ce906cce94",
+  "name" : "should return 405 StatusCode",
+  "fullName" : "\"Contacts with uuid endpoint tests\" Negative HTTP methods tests Send HEAD request.should return 405 StatusCode",
+  "historyId" : "18f212511777624996fd4a4f108650ba",
+  "time" : {
+    "start" : 1551476904036,
+    "stop" : 1551476904048,
+    "duration" : 12
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sending OPTIONS Request.",
+      "time" : {
+        "start" : 1551476904036,
+        "stop" : 1551476904038,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7e32b5d640d152bc",
+        "name" : "RequestInfo:",
+        "source" : "7e32b5d640d152bc.txt",
+        "type" : "text/plain",
+        "size" : 199
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Response was received.",
+      "time" : {
+        "start" : 1551476904045,
+        "stop" : 1551476904047,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d91c6fe6dbc8c891",
+        "name" : "Response:",
+        "source" : "d91c6fe6dbc8c891.txt",
+        "type" : "text/plain",
+        "size" : 285
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "\"Contacts with uuid endpoint tests\" Negative HTTP methods tests Send HEAD request"
+  }, {
+    "name" : "testClass",
+    "value" : "\"Contacts with uuid endpoint tests\" Negative HTTP methods tests Send HEAD request"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 405 StatusCode"
+  }, {
+    "name" : "package",
+    "value" : "\"Contacts with uuid endpoint tests\" Negative HTTP methods tests Send HEAD request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2a3448ce906cce94.json",
+  "parameterValues" : [ ]
+}

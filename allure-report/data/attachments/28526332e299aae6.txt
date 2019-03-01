@@ -1,0 +1,17 @@
+{
+	"req": {
+		"method": "post",
+		"url": "http://localhost:8182/api/v1/contacts",
+		"data": "{\"email\":\"VIOtcdOZTx@gmail.com\",\"lastName\":\"ytBUgXfXAt\",\"firstName\":\"SwIouBsxns\"}",
+		"headers": {
+			"user-agent": "node-superagent/3.8.3",
+			"content-type": "application/vnd.sun.wadl+xml"
+		}
+	},
+	"header": {
+		"connection": "close",
+		"content-length": "0"
+	},
+	"status": 415,
+	"text": ""
+}

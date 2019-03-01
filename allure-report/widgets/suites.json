@@ -1,0 +1,114 @@
+{
+  "total" : 60,
+  "items" : [ {
+    "uid" : "5a5239abfbb36bb88227d3d6c5c32c7c",
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with minimum length.",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "09e6785e25a471d0f22fc876a8b6005f",
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with maximum length.",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "fb85da7dc08c535b0c5aee5a25cfcde7",
+    "name" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send OPTIONS request",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "ec53483a817f4386d761afd6b6fb7075",
+    "name" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send HEAD request",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "36c49f4d3e313fb98fe819a9583e61f2",
+    "name" : "Contacts endpoint tests Negative HTTP methods tests. Send OPTIONS request",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "598522f43a00529039e9194cf637bab8",
+    "name" : "Contacts endpoint tests Negative HTTP methods tests. Send HEAD request",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "b35e4a15fa4279b49994368b2ee07a94",
+    "name" : "Contacts endpoint tests Negative HTTP methods tests. Send POST request",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "be3c3bb6c7d68649ce88d4dca8e29d65",
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. without firstName.",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "ae0e126fed692ab9e3646a96d65bdac3",
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. with empty firstName.",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "ad60ea209eb06eae89d23ddd42189dae",
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. with firstName, starting from space.",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

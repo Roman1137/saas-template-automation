@@ -1,0 +1,105 @@
+{
+  "uid" : "e53f14ee542ecc92",
+  "name" : "should return 405 StatusCode",
+  "fullName" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send OPTIONS request.should return 405 StatusCode",
+  "historyId" : "3b58ec6ba70290f2318909c452fdebd7",
+  "time" : {
+    "start" : 1551476901187,
+    "stop" : 1551476901247,
+    "duration" : 60
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 200",
+  "statusTrace" : "AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 200\n                    at Context.it (tests\\api\\applicationEndpointTests.ts:39:42)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 200",
+    "statusTrace" : "AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 200\n                    at Context.it (tests\\api\\applicationEndpointTests.ts:39:42)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+    "steps" : [ {
+      "name" : "Sending OPTIONS Request.",
+      "time" : {
+        "start" : 1551476901188,
+        "stop" : 1551476901194,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b231da08d44f6bbd",
+        "name" : "RequestInfo:",
+        "source" : "b231da08d44f6bbd.txt",
+        "type" : "text/plain",
+        "size" : 198
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Response was received.",
+      "time" : {
+        "start" : 1551476901203,
+        "stop" : 1551476901205,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6f09be89e42cd475",
+        "name" : "Response:",
+        "source" : "6f09be89e42cd475.txt",
+        "type" : "text/plain",
+        "size" : 366
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send OPTIONS request"
+  }, {
+    "name" : "testClass",
+    "value" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send OPTIONS request"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 405 StatusCode"
+  }, {
+    "name" : "package",
+    "value" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send OPTIONS request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e53f14ee542ecc92.json",
+  "parameterValues" : [ ]
+}

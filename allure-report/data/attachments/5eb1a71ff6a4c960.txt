@@ -1,0 +1,4 @@
+Sending POST request.
+                            Url: http://localhost:8182/application.wadl
+                            Body: undefined
+                            ContentType: application/json

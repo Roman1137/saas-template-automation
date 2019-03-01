@@ -1,0 +1,97 @@
+{
+  "uid" : "3fcc4532dba06417",
+  "name" : "should return 405 StatusCode",
+  "fullName" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send PUT request.should return 405 StatusCode",
+  "historyId" : "b84a200fd24e3186ace591e0dc88284a",
+  "time" : {
+    "start" : 1551476901302,
+    "stop" : 1551476901314,
+    "duration" : 12
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sending PUT Request.",
+      "time" : {
+        "start" : 1551476901303,
+        "stop" : 1551476901304,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5841426d6c3e4ff9",
+        "name" : "RequestInfo:",
+        "source" : "5841426d6c3e4ff9.txt",
+        "type" : "text/plain",
+        "size" : 194
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Response was received.",
+      "time" : {
+        "start" : 1551476901310,
+        "stop" : 1551476901311,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "66b7c6a631f159ec",
+        "name" : "Response:",
+        "source" : "66b7c6a631f159ec.txt",
+        "type" : "text/plain",
+        "size" : 306
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send PUT request"
+  }, {
+    "name" : "testClass",
+    "value" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send PUT request"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 405 StatusCode"
+  }, {
+    "name" : "package",
+    "value" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send PUT request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3fcc4532dba06417.json",
+  "parameterValues" : [ ]
+}

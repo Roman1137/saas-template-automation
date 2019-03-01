@@ -1,0 +1,97 @@
+{
+  "uid" : "6ba2f917ab02ea59",
+  "name" : "should return 405 StatusCode",
+  "fullName" : "Contacts endpoint tests Negative HTTP methods tests. Send PATCH request.should return 405 StatusCode",
+  "historyId" : "19bf00d11dc606035f8e303265e947ad",
+  "time" : {
+    "start" : 1551476902017,
+    "stop" : 1551476902028,
+    "duration" : 11
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sending PATCH Request.",
+      "time" : {
+        "start" : 1551476902018,
+        "stop" : 1551476902019,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f6350597df90e4e6",
+        "name" : "RequestInfo:",
+        "source" : "f6350597df90e4e6.txt",
+        "type" : "text/plain",
+        "size" : 195
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Response was received.",
+      "time" : {
+        "start" : 1551476902026,
+        "stop" : 1551476902027,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "334f856865a7b428",
+        "name" : "Response:",
+        "source" : "334f856865a7b428.txt",
+        "type" : "text/plain",
+        "size" : 312
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contacts endpoint tests Negative HTTP methods tests. Send PATCH request"
+  }, {
+    "name" : "testClass",
+    "value" : "Contacts endpoint tests Negative HTTP methods tests. Send PATCH request"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 405 StatusCode"
+  }, {
+    "name" : "package",
+    "value" : "Contacts endpoint tests Negative HTTP methods tests. Send PATCH request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ba2f917ab02ea59.json",
+  "parameterValues" : [ ]
+}

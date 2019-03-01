@@ -1,0 +1,169 @@
+{
+  "uid" : "1070736b9837bd29",
+  "name" : "should contain contact model in response body ",
+  "fullName" : "Contacts endpoint tests Get contact by its info.should contain contact model in response body ",
+  "historyId" : "543532ad780fd192c0343d49aa72f6cf",
+  "time" : {
+    "start" : 1551476901467,
+    "stop" : 1551476901538,
+    "duration" : 71
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Creating contact using contactInfo {\"email\":\"cTLqZGszwp@gmail.com\",\"lastName\":\"KspKomYGcw\",\"firstName\":\"jYCdeEjhgM\"}",
+      "time" : {
+        "start" : 1551476901468,
+        "stop" : 1551476901479,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending POST Request.",
+        "time" : {
+          "start" : 1551476901468,
+          "stop" : 1551476901470,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c420c52302b14812",
+          "name" : "RequestInfo:",
+          "source" : "c420c52302b14812.txt",
+          "type" : "text/plain",
+          "size" : 266
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476901478,
+          "stop" : 1551476901479,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8f288ab19751ed5",
+          "name" : "Response:",
+          "source" : "8f288ab19751ed5.txt",
+          "type" : "text/plain",
+          "size" : 799
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Getting contact by contact info [object Object]",
+      "time" : {
+        "start" : 1551476901479,
+        "stop" : 1551476901537,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Sending GET Request.",
+        "time" : {
+          "start" : 1551476901480,
+          "stop" : 1551476901481,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a888ca6caedbfefd",
+          "name" : "RequestInfo:",
+          "source" : "a888ca6caedbfefd.txt",
+          "type" : "text/plain",
+          "size" : 261
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Response was received.",
+        "time" : {
+          "start" : 1551476901528,
+          "stop" : 1551476901537,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e22cd8a90038177",
+          "name" : "Response:",
+          "source" : "e22cd8a90038177.txt",
+          "type" : "text/plain",
+          "size" : 759
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Contacts endpoint tests Get contact by its info"
+  }, {
+    "name" : "testClass",
+    "value" : "Contacts endpoint tests Get contact by its info"
+  }, {
+    "name" : "testMethod",
+    "value" : "should contain contact model in response body "
+  }, {
+    "name" : "package",
+    "value" : "Contacts endpoint tests Get contact by its info"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1070736b9837bd29.json",
+  "parameterValues" : [ ]
+}

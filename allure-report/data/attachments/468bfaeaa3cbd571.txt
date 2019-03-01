@@ -1,0 +1,4 @@
+Sending GET request.
+                            Url: http://localhost:8182/api/v1/contacts?email=OjEwQJmnxI@gmail.com&lastname=CiieVCOKOM&firstname=YohNoKHYtn
+                            Body: undefined
+                            ContentType: application/json

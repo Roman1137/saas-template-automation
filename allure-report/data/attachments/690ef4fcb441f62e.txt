@@ -1,0 +1,18 @@
+{
+	"req": {
+		"method": "put",
+		"url": "http://localhost:8182/api/v1/contacts/752",
+		"data": "{\"firstName\":\"VfGgaiFOmJ\"}",
+		"headers": {
+			"user-agent": "node-superagent/3.8.3",
+			"content-type": "application/json"
+		}
+	},
+	"header": {
+		"content-type": "application/json",
+		"connection": "close",
+		"content-length": "304"
+	},
+	"status": 200,
+	"text": "{\"data\":[{\"id\":752,\"info\":{\"email\":null,\"firstName\":\"VfGgaiFOmJ\",\"lastName\":null},\"refs\":{\"patch\":\"http://host:port/api/v1/contacts/752\",\"get\":\"http://host:port/api/v1/contacts/752\",\"delete\":\"http://host:port/api/v1/contacts/752\",\"put\":\"http://host:port/api/v1/contacts/752\"}}],\"message\":\"\",\"status\":200}"
+}

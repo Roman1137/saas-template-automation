@@ -1,0 +1,18 @@
+{
+	"req": {
+		"method": "post",
+		"url": "http://localhost:8182/api/v1/contacts",
+		"data": "{\"email\":\"iQfogIkHSWzhAwAOGAvZnPdPJGXEWcMiIfzKjREddlzOltdrIseaqwXUIvvivspkpQhgyvRlVaomWdIWtqZUpOBXOTgWAtrSdFURIwfiJMNejdjVZPEDLEkvFYhHEAPcUeepvzatLwQghQqNEPaLpYMvNgvolQoSSoIMiCTqWKPmCOCzLwwztNGKSGCbFPrcghXbAEZuaizvkpIhNPZZdabKBuayTUdmIImCKRbAjsnmZbsMrQASHWuvMLhwqDLrvxcdCdGyLcEeEhzDwwxJfccyVGoVkvSNzAoLEGKdGHMtolXRExLsWmPvnVMlpVpeZZAadOgAasPvOSqhPSZhYHkFnHZVOgUnzOtXBtINQiYfVlbHJwLptbJHzitfGYcerMlpmrgktLXSuuolYPTotJBiBzVJbTcuoMNmSYTrRhEsQDUYyAjUgVmJeAzIRGQuXcRFbERNQapecPEqyROqfHYPwvWvAVATWzZaHaRzYwpIGmqdSXqdMEqdRUXhfqOAEdxxgoVMiqHpKpqNIEuhezWsXgkwRGDGexncTKxYurgbaYXRVsxumSIziBPGdfjyXBEwCMYWDBTCvgoXfjMfEFLblXrMlzqmsoZthzuPndTViLhobshDsHmebaJDHJBAlRtWxShXfGJMGUekDPqTgZsEzHNtmwjoGXtKXpNnlVxObTKxWpvFrSLKxMUCQiGBzBkeytfHZHiUzJYjpgXnsdXzqvDACiZsBwGrJDtMsRoEfemqEFcTNGkVFNHkcQkAnROYVNJjTLygHLBbwsvTQFYXxZdfrTkgFRcvFUqeNdsODPZmuFUsXCZuuEkjgrXvpUBeXzBWRInTbtWHHQoeNPTNKfHePLUUliEDXjRMKQusjFoTOFOUbpRAKNUYJqEejcraTwjqArpmsavVhXpqNBpFcCcvcxKQKemrAinXaVaVyvWhuSybAYoIJHoEUjxlkSbdLRsEXpbFOqYQnyCaXQzLhCWhUyuwurpIbmHgzRJArEfmLfzeGCmxSXEAKqXxn@gmail.com\",\"lastName\":\"GXIApuwNAn\",\"firstName\":\"AvLalJhmzQ\"}",
+		"headers": {
+			"user-agent": "node-superagent/3.8.3",
+			"content-type": "application/json"
+		}
+	},
+	"header": {
+		"content-type": "application/json",
+		"connection": "close",
+		"content-length": "1345"
+	},
+	"status": 201,
+	"text": "{\"data\":[{\"id\":744,\"info\":{\"email\":\"iQfogIkHSWzhAwAOGAvZnPdPJGXEWcMiIfzKjREddlzOltdrIseaqwXUIvvivspkpQhgyvRlVaomWdIWtqZUpOBXOTgWAtrSdFURIwfiJMNejdjVZPEDLEkvFYhHEAPcUeepvzatLwQghQqNEPaLpYMvNgvolQoSSoIMiCTqWKPmCOCzLwwztNGKSGCbFPrcghXbAEZuaizvkpIhNPZZdabKBuayTUdmIImCKRbAjsnmZbsMrQASHWuvMLhwqDLrvxcdCdGyLcEeEhzDwwxJfccyVGoVkvSNzAoLEGKdGHMtolXRExLsWmPvnVMlpVpeZZAadOgAasPvOSqhPSZhYHkFnHZVOgUnzOtXBtINQiYfVlbHJwLptbJHzitfGYcerMlpmrgktLXSuuolYPTotJBiBzVJbTcuoMNmSYTrRhEsQDUYyAjUgVmJeAzIRGQuXcRFbERNQapecPEqyROqfHYPwvWvAVATWzZaHaRzYwpIGmqdSXqdMEqdRUXhfqOAEdxxgoVMiqHpKpqNIEuhezWsXgkwRGDGexncTKxYurgbaYXRVsxumSIziBPGdfjyXBEwCMYWDBTCvgoXfjMfEFLblXrMlzqmsoZthzuPndTViLhobshDsHmebaJDHJBAlRtWxShXfGJMGUekDPqTgZsEzHNtmwjoGXtKXpNnlVxObTKxWpvFrSLKxMUCQiGBzBkeytfHZHiUzJYjpgXnsdXzqvDACiZsBwGrJDtMsRoEfemqEFcTNGkVFNHkcQkAnROYVNJjTLygHLBbwsvTQFYXxZdfrTkgFRcvFUqeNdsODPZmuFUsXCZuuEkjgrXvpUBeXzBWRInTbtWHHQoeNPTNKfHePLUUliEDXjRMKQusjFoTOFOUbpRAKNUYJqEejcraTwjqArpmsavVhXpqNBpFcCcvcxKQKemrAinXaVaVyvWhuSybAYoIJHoEUjxlkSbdLRsEXpbFOqYQnyCaXQzLhCWhUyuwurpIbmHgzRJArEfmLfzeGCmxSXEAKqXxn@gmail.com\",\"firstName\":\"AvLalJhmzQ\",\"lastName\":\"GXIApuwNAn\"},\"refs\":{\"patch\":\"http://host:port/api/v1/contacts/744\",\"get\":\"http://host:port/api/v1/contacts/744\",\"delete\":\"http://host:port/api/v1/contacts/744\",\"put\":\"http://host:port/api/v1/contacts/744\"}}],\"message\":\"\",\"status\":200}"
+}

@@ -1,0 +1,1121 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Application.wadl endpoint tests. Positive cases.",
+    "children" : [ {
+      "name" : "should respond with 200 Status Code",
+      "uid" : "1c99ed5576bc0c71",
+      "parentUid" : "bd61d587b361afa898746d857c400a22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901069,
+        "stop" : 1551476901135,
+        "duration" : 66
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should contain specific Content type",
+      "uid" : "56568c4252e01774",
+      "parentUid" : "bd61d587b361afa898746d857c400a22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901139,
+        "stop" : 1551476901153,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should contain Content-Length > 0",
+      "uid" : "53e7cff0a46245ca",
+      "parentUid" : "bd61d587b361afa898746d857c400a22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901154,
+        "stop" : 1551476901164,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bd61d587b361afa898746d857c400a22"
+  }, {
+    "name" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send OPTIONS request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "e53f14ee542ecc92",
+      "parentUid" : "fb85da7dc08c535b0c5aee5a25cfcde7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476901187,
+        "stop" : 1551476901247,
+        "duration" : 60
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fb85da7dc08c535b0c5aee5a25cfcde7"
+  }, {
+    "name" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send HEAD request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "bf06dd86c38e7585",
+      "parentUid" : "ec53483a817f4386d761afd6b6fb7075",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476901252,
+        "stop" : 1551476901273,
+        "duration" : 21
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ec53483a817f4386d761afd6b6fb7075"
+  }, {
+    "name" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send POST request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "64eb1bfb9e6075d0",
+      "parentUid" : "6cd8430b603b3f8a8584856c952fdc73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901286,
+        "stop" : 1551476901297,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6cd8430b603b3f8a8584856c952fdc73"
+  }, {
+    "name" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send PUT request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "3fcc4532dba06417",
+      "parentUid" : "53879a986a21e3846bbe8fefbbddb9e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901302,
+        "stop" : 1551476901314,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "53879a986a21e3846bbe8fefbbddb9e8"
+  }, {
+    "name" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send PATCH request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "b1a4793f78858f91",
+      "parentUid" : "f7b58f13c3b264b1dcaaea087eca39f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901328,
+        "stop" : 1551476901338,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f7b58f13c3b264b1dcaaea087eca39f2"
+  }, {
+    "name" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send DELETE request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "d79b24e33a108d08",
+      "parentUid" : "4e9c0ba8173564244781ad574822958e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901344,
+        "stop" : 1551476901363,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4e9c0ba8173564244781ad574822958e"
+  }, {
+    "name" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send TRACE request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "3297ac2859ae00ea",
+      "parentUid" : "2d50a740001aa4eef702c643603fda2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901369,
+        "stop" : 1551476901380,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2d50a740001aa4eef702c643603fda2f"
+  }, {
+    "name" : "Contacts endpoint tests Get contact by its info",
+    "children" : [ {
+      "name" : "should return 200 StatusCode",
+      "uid" : "2581fd46f0fda012",
+      "parentUid" : "0f7e022c74cf8b00c528b95af0d793ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901386,
+        "stop" : 1551476901467,
+        "duration" : 81
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should contain contact model in response body ",
+      "uid" : "1070736b9837bd29",
+      "parentUid" : "0f7e022c74cf8b00c528b95af0d793ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901467,
+        "stop" : 1551476901538,
+        "duration" : 71
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0f7e022c74cf8b00c528b95af0d793ac"
+  }, {
+    "name" : "Contacts endpoint tests Get all contacts",
+    "children" : [ {
+      "name" : "should return 200 StatusCode",
+      "uid" : "d205da4ebfe18b79",
+      "parentUid" : "68b2d2f2831e086a0c596680edcfa081",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901554,
+        "stop" : 1551476901669,
+        "duration" : 115
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should contain contact model in response body ",
+      "uid" : "c061ca4211743691",
+      "parentUid" : "68b2d2f2831e086a0c596680edcfa081",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901669,
+        "stop" : 1551476901842,
+        "duration" : 173
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "68b2d2f2831e086a0c596680edcfa081"
+  }, {
+    "name" : "Contacts endpoint tests Negative HTTP methods tests. Send OPTIONS request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "f111b434a168ce5",
+      "parentUid" : "36c49f4d3e313fb98fe819a9583e61f2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476901851,
+        "stop" : 1551476901883,
+        "duration" : 32
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "36c49f4d3e313fb98fe819a9583e61f2"
+  }, {
+    "name" : "Contacts endpoint tests Negative HTTP methods tests. Send HEAD request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "b35cb93682df27f",
+      "parentUid" : "598522f43a00529039e9194cf637bab8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476901889,
+        "stop" : 1551476901950,
+        "duration" : 61
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "598522f43a00529039e9194cf637bab8"
+  }, {
+    "name" : "Contacts endpoint tests Negative HTTP methods tests. Send POST request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "b2ee8305150f1005",
+      "parentUid" : "b35e4a15fa4279b49994368b2ee07a94",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476901955,
+        "stop" : 1551476901985,
+        "duration" : 30
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b35e4a15fa4279b49994368b2ee07a94"
+  }, {
+    "name" : "Contacts endpoint tests Negative HTTP methods tests. Send PUT request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "7749a57caa819724",
+      "parentUid" : "24b1d193e10bfbaeb3c09aa309763dec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901994,
+        "stop" : 1551476902010,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "24b1d193e10bfbaeb3c09aa309763dec"
+  }, {
+    "name" : "Contacts endpoint tests Negative HTTP methods tests. Send PATCH request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "6ba2f917ab02ea59",
+      "parentUid" : "3ab7f78d30ecce557be017cf41138e97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902017,
+        "stop" : 1551476902028,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3ab7f78d30ecce557be017cf41138e97"
+  }, {
+    "name" : "Contacts endpoint tests Negative HTTP methods tests. Send DELETE request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "589c49f548124fea",
+      "parentUid" : "b6366aa9d5dde85dc5725b43c603f76f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902032,
+        "stop" : 1551476902041,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b6366aa9d5dde85dc5725b43c603f76f"
+  }, {
+    "name" : "Contacts endpoint tests Negative HTTP methods tests. Send TRACE request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "662d39e2c742eeeb",
+      "parentUid" : "ce44b02560adaa94869e409907f6cddb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902045,
+        "stop" : 1551476902068,
+        "duration" : 23
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ce44b02560adaa94869e409907f6cddb"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Get contact by id tests Negative cases with invalid content type.",
+    "children" : [ {
+      "name" : "should return 415 Status Code",
+      "uid" : "c51775c7cc195399",
+      "parentUid" : "db0fceed6d8b485cdf32fc750dc2dead",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902074,
+        "stop" : 1551476902083,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "db0fceed6d8b485cdf32fc750dc2dead"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with minimum length.",
+    "children" : [ {
+      "name" : "should return 201 Created StatusCode",
+      "uid" : "c081230d868a9bd4",
+      "parentUid" : "5a5239abfbb36bb88227d3d6c5c32c7c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902087,
+        "stop" : 1551476902132,
+        "duration" : 45
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should contain contact model in response body ",
+      "uid" : "c87ee1a391feb19f",
+      "parentUid" : "5a5239abfbb36bb88227d3d6c5c32c7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902132,
+        "stop" : 1551476902144,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should contain refs list in response body ",
+      "uid" : "55bb3a19b10ef70e",
+      "parentUid" : "5a5239abfbb36bb88227d3d6c5c32c7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902144,
+        "stop" : 1551476902159,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5a5239abfbb36bb88227d3d6c5c32c7c"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Positive cases. with maximum length.",
+    "children" : [ {
+      "name" : "should return 201 Created StatusCode",
+      "uid" : "62b37ceca6130665",
+      "parentUid" : "09e6785e25a471d0f22fc876a8b6005f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902176,
+        "stop" : 1551476902192,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should contain contact model in response body ",
+      "uid" : "3348816b8431b309",
+      "parentUid" : "09e6785e25a471d0f22fc876a8b6005f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902193,
+        "stop" : 1551476902208,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should contain refs list in response body ",
+      "uid" : "7c11762cdff20b7e",
+      "parentUid" : "09e6785e25a471d0f22fc876a8b6005f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902209,
+        "stop" : 1551476902227,
+        "duration" : 18
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "09e6785e25a471d0f22fc876a8b6005f"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases with invalid content type.",
+    "children" : [ {
+      "name" : "should return 415 Status Code",
+      "uid" : "686208327db1ba9c",
+      "parentUid" : "4608a3f59154e80b661bc5daea2a17b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902240,
+        "stop" : 1551476902253,
+        "duration" : 13
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4608a3f59154e80b661bc5daea2a17b1"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. without firstName.",
+    "children" : [ {
+      "name" : "should return 415 Status Code",
+      "uid" : "d9df5ea2b22546d8",
+      "parentUid" : "be3c3bb6c7d68649ce88d4dca8e29d65",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902274,
+        "stop" : 1551476902302,
+        "duration" : 28
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "be3c3bb6c7d68649ce88d4dca8e29d65"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. with empty firstName.",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "b5fdaae7ac7fbd42",
+      "parentUid" : "ae0e126fed692ab9e3646a96d65bdac3",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902318,
+        "stop" : 1551476902339,
+        "duration" : 21
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ae0e126fed692ab9e3646a96d65bdac3"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. with firstName, starting from space.",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "560ca4f19eb67823",
+      "parentUid" : "ad60ea209eb06eae89d23ddd42189dae",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902346,
+        "stop" : 1551476902383,
+        "duration" : 37
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ad60ea209eb06eae89d23ddd42189dae"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. with firstName, with invalid length.",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "d0be4811190b9ed",
+      "parentUid" : "afb029bf7f12b6896b0b86766773de87",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902389,
+        "stop" : 1551476902414,
+        "duration" : 25
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "afb029bf7f12b6896b0b86766773de87"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. with firstName, containing numbers.",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "84ee8a0288f2097b",
+      "parentUid" : "bd3738f2c75989fa2d51c81f4f8f7908",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902420,
+        "stop" : 1551476902451,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bd3738f2c75989fa2d51c81f4f8f7908"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases firstName-related. with equal firstName and lastName.",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "759bf643cb1e3725",
+      "parentUid" : "461103481f195cb61d2cdea8f7048ad8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902457,
+        "stop" : 1551476902481,
+        "duration" : 24
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "461103481f195cb61d2cdea8f7048ad8"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases lastName-related. without lastName.",
+    "children" : [ {
+      "name" : "should return 415 Status Code",
+      "uid" : "adc6b14fa3b266e1",
+      "parentUid" : "3efe8ead021efd3481265bf78dd4c83b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902488,
+        "stop" : 1551476902513,
+        "duration" : 25
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3efe8ead021efd3481265bf78dd4c83b"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases lastName-related. with empty lastName.",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "fcc5559894e7a329",
+      "parentUid" : "2fa0a03ad0abbfdbf7d806d2c9a638d6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902519,
+        "stop" : 1551476902555,
+        "duration" : 36
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2fa0a03ad0abbfdbf7d806d2c9a638d6"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases lastName-related. with lastName, starting from space.",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "a88a78ae574eff98",
+      "parentUid" : "bed1afe1fc253e4b98e7cce63749e563",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902561,
+        "stop" : 1551476902582,
+        "duration" : 21
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bed1afe1fc253e4b98e7cce63749e563"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases lastName-related. with lastName, with invalid length.",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "c99cd03db71ccdd8",
+      "parentUid" : "237874be0c59ebc9ccaa122104e4bf09",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902591,
+        "stop" : 1551476902613,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "237874be0c59ebc9ccaa122104e4bf09"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases lastName-related. with lastName, containing numbers.",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "726a47d358e19e11",
+      "parentUid" : "ccd94f900e0cbf149d50975e20ee8f41",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902618,
+        "stop" : 1551476902642,
+        "duration" : 24
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ccd94f900e0cbf149d50975e20ee8f41"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases email-related. without email.",
+    "children" : [ {
+      "name" : "should return 415 Status Code",
+      "uid" : "ce0c559ef8067223",
+      "parentUid" : "370f340eb8d2c2d225bd66a2a1fd3bd9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902647,
+        "stop" : 1551476902667,
+        "duration" : 20
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "370f340eb8d2c2d225bd66a2a1fd3bd9"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases email-related. with email, starting from space.",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "636cece7f0d092d",
+      "parentUid" : "32894068e0ef6c4209ef164ec3e15da4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902671,
+        "stop" : 1551476902690,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "32894068e0ef6c4209ef164ec3e15da4"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases email-related. with email, with invalid length.",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "4de5721b7c00b94d",
+      "parentUid" : "ccceeaa940d0c63ed1a955173b731984",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902695,
+        "stop" : 1551476902713,
+        "duration" : 18
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ccceeaa940d0c63ed1a955173b731984"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases email-related. with email, which contains space.",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "b2d28f952431f9ba",
+      "parentUid" : "b34ba75477621a0441366a7fcd209c3d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902717,
+        "stop" : 1551476902737,
+        "duration" : 20
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b34ba75477621a0441366a7fcd209c3d"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases email-related. with email, which does not contain name.",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "81d5889b41b6880b",
+      "parentUid" : "c3156d594e9a25c3336c10129034ed21",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902741,
+        "stop" : 1551476902760,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c3156d594e9a25c3336c10129034ed21"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases email-related. with email, which does not contain dot sign - @.",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "a48b770869a5fbc0",
+      "parentUid" : "f99596bbda1fb1e0cdcc54b621f76501",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902765,
+        "stop" : 1551476902786,
+        "duration" : 21
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f99596bbda1fb1e0cdcc54b621f76501"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases email-related. with email, which does not contain domain",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "3d356ea4755a2991",
+      "parentUid" : "3a43d43e7c77b6f90493579415bd66de",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902798,
+        "stop" : 1551476902814,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3a43d43e7c77b6f90493579415bd66de"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases email-related. with email, which does not contain point sign - .",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "817254c499188089",
+      "parentUid" : "07320e60a3b970b1d70cc46b4c01547b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902819,
+        "stop" : 1551476902844,
+        "duration" : 25
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "07320e60a3b970b1d70cc46b4c01547b"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases email-related. with email, which does not contain country code",
+    "children" : [ {
+      "name" : "should return 400 Status Code",
+      "uid" : "f9271eab5c55c8de",
+      "parentUid" : "b81eb9831e476f9b82eef5a3bf096183",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902849,
+        "stop" : 1551476902871,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b81eb9831e476f9b82eef5a3bf096183"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases invaid field in model-related.",
+    "children" : [ {
+      "name" : "should return 415 Status Code",
+      "uid" : "e9912e76955777f4",
+      "parentUid" : "23edfb8beb3fd5e9206feb879a1b5d16",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902875,
+        "stop" : 1551476902904,
+        "duration" : 29
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "23edfb8beb3fd5e9206feb879a1b5d16"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests. Negative cases duplicate-contact related.",
+    "children" : [ {
+      "name" : "should return 400 error",
+      "uid" : "56c5ac4a100f661c",
+      "parentUid" : "6fc3df59dd99336206c2c3e6f03bddaa",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476902909,
+        "stop" : 1551476902948,
+        "duration" : 39
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6fc3df59dd99336206c2c3e6f03bddaa"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Update contact by id tests Negative cases with invalid content type.",
+    "children" : [ {
+      "name" : "should return 415 Status Code",
+      "uid" : "4af88fb61345d24",
+      "parentUid" : "65fc9d7ac782097623b5b93a01541898",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902956,
+        "stop" : 1551476902966,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "65fc9d7ac782097623b5b93a01541898"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Update contact by id tests Positive cases All fields update of existing contact",
+    "children" : [ {
+      "name" : "should return 200 Status Code",
+      "uid" : "3498dae9f60386a1",
+      "parentUid" : "bbc30a7f5d074f02bb1bb9a87ea0ddd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902971,
+        "stop" : 1551476903159,
+        "duration" : 188
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should return updated info",
+      "uid" : "704ab43de51d706f",
+      "parentUid" : "bbc30a7f5d074f02bb1bb9a87ea0ddd9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903159,
+        "stop" : 1551476903424,
+        "duration" : 265
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bbc30a7f5d074f02bb1bb9a87ea0ddd9"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Partially update contact by id tests Negative cases with invalid content type.",
+    "children" : [ {
+      "name" : "should return 415 Status Code",
+      "uid" : "564cdd17f5230ff5",
+      "parentUid" : "f85a1845b9a9422fe5bc5bcadf5659af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903436,
+        "stop" : 1551476903445,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f85a1845b9a9422fe5bc5bcadf5659af"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Partially update contact by id tests Positive cases FirstName update of existing contact",
+    "children" : [ {
+      "name" : "should return 200 Status Code",
+      "uid" : "ae761e44ca9f05c",
+      "parentUid" : "ec99c7ed27ca030383ad8376519de9aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903449,
+        "stop" : 1551476903641,
+        "duration" : 192
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should return updated info",
+      "uid" : "8a81c89fb0d871bc",
+      "parentUid" : "ec99c7ed27ca030383ad8376519de9aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903641,
+        "stop" : 1551476903827,
+        "duration" : 186
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ec99c7ed27ca030383ad8376519de9aa"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Delete contact by id tests Negative cases with invalid content type.",
+    "children" : [ {
+      "name" : "should return 415 Status Code",
+      "uid" : "81de5ebcb0e7223e",
+      "parentUid" : "426af5290eb8772c7aafea141bca469e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903835,
+        "stop" : 1551476903849,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "426af5290eb8772c7aafea141bca469e"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Delete contact by id tests Positive Cases Deletion of existing contact",
+    "children" : [ {
+      "name" : "should return 404 Status Code",
+      "uid" : "cbad78e9a4510cf6",
+      "parentUid" : "689d1ab08c17e5b687d0b54d8c1b886e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903856,
+        "stop" : 1551476904015,
+        "duration" : 159
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "689d1ab08c17e5b687d0b54d8c1b886e"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Negative HTTP methods tests Send OPTIONS request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "4987c1db87283771",
+      "parentUid" : "5fe452c25fadc3193b3346457737537f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904020,
+        "stop" : 1551476904031,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5fe452c25fadc3193b3346457737537f"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Negative HTTP methods tests Send HEAD request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "2a3448ce906cce94",
+      "parentUid" : "4b232804c8a47d428d343328b94ed94d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904036,
+        "stop" : 1551476904048,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4b232804c8a47d428d343328b94ed94d"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Negative HTTP methods tests Send TRACE request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "71466c7fa31b1036",
+      "parentUid" : "3c3b2c2dd3ff76afe874d4305c9ccbaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904053,
+        "stop" : 1551476904065,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3c3b2c2dd3ff76afe874d4305c9ccbaf"
+  }, {
+    "name" : "HealthCheck endpoint tests. Positive cases.",
+    "children" : [ {
+      "name" : "should respond with 200 Status Code",
+      "uid" : "2200eac22a104e66",
+      "parentUid" : "e71ccc010cbb9f5cd840b1a0b0cb7204",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904089,
+        "stop" : 1551476904089,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should return specific text",
+      "uid" : "cf215e281c5bcb06",
+      "parentUid" : "e71ccc010cbb9f5cd840b1a0b0cb7204",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904089,
+        "stop" : 1551476904090,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should contain Content-Length > 0",
+      "uid" : "ce8b43f874e01f50",
+      "parentUid" : "e71ccc010cbb9f5cd840b1a0b0cb7204",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904090,
+        "stop" : 1551476904091,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should contain specific Content type",
+      "uid" : "27cbf8a523d2354f",
+      "parentUid" : "e71ccc010cbb9f5cd840b1a0b0cb7204",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904090,
+        "stop" : 1551476904090,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e71ccc010cbb9f5cd840b1a0b0cb7204"
+  }, {
+    "name" : "HealthCheck endpoint tests. Negative cases. Send OPTIONS request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "ec49deb61bf4893f",
+      "parentUid" : "ba7ba11d088d5d4ef30718dce55c92f9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1551476904094,
+        "stop" : 1551476904118,
+        "duration" : 24
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ba7ba11d088d5d4ef30718dce55c92f9"
+  }, {
+    "name" : "HealthCheck endpoint tests. Negative cases. Send HEAD request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "86c6454134bbba7d",
+      "parentUid" : "1d1a269a10e565f2790239579e35951e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904122,
+        "stop" : 1551476904133,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1d1a269a10e565f2790239579e35951e"
+  }, {
+    "name" : "HealthCheck endpoint tests. Negative cases. Send POST request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "fabd8fe305bdb11e",
+      "parentUid" : "29e7e967a195e110a782d865e90b0b28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904140,
+        "stop" : 1551476904154,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "29e7e967a195e110a782d865e90b0b28"
+  }, {
+    "name" : "HealthCheck endpoint tests. Negative cases. Send PUT request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "4e4a846fbb6443da",
+      "parentUid" : "6e665fb7e060c12bd0fef1cf555f8623",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904158,
+        "stop" : 1551476904170,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6e665fb7e060c12bd0fef1cf555f8623"
+  }, {
+    "name" : "HealthCheck endpoint tests. Negative cases. Send PATCH request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "6c9930cfba8a90cb",
+      "parentUid" : "284a67bd2194bc131e0482907ef124f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904174,
+        "stop" : 1551476904193,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "284a67bd2194bc131e0482907ef124f5"
+  }, {
+    "name" : "HealthCheck endpoint tests. Negative cases. Send DELETE request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "2615af7824365256",
+      "parentUid" : "cb08c88aeb06e52edaacfd818de223aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904199,
+        "stop" : 1551476904212,
+        "duration" : 13
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cb08c88aeb06e52edaacfd818de223aa"
+  }, {
+    "name" : "HealthCheck endpoint tests. Negative cases. Send TRACE request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "8f3000c5b96b311e",
+      "parentUid" : "3230b78d4cc9a25a9c28b7f0c3b6bf24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904215,
+        "stop" : 1551476904225,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3230b78d4cc9a25a9c28b7f0c3b6bf24"
+  } ]
+}

@@ -1,0 +1,97 @@
+{
+  "uid" : "2615af7824365256",
+  "name" : "should return 405 StatusCode",
+  "fullName" : "HealthCheck endpoint tests. Negative cases. Send DELETE request.should return 405 StatusCode",
+  "historyId" : "5f4bc054ae7bc500991efb553b935379",
+  "time" : {
+    "start" : 1551476904199,
+    "stop" : 1551476904212,
+    "duration" : 13
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sending DELETE Request.",
+      "time" : {
+        "start" : 1551476904200,
+        "stop" : 1551476904202,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "132eb3699dcca42b",
+        "name" : "RequestInfo:",
+        "source" : "132eb3699dcca42b.txt",
+        "type" : "text/plain",
+        "size" : 192
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Response was received.",
+      "time" : {
+        "start" : 1551476904208,
+        "stop" : 1551476904211,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e8af77f12672c3f6",
+        "name" : "Response:",
+        "source" : "e8af77f12672c3f6.txt",
+        "type" : "text/plain",
+        "size" : 309
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "HealthCheck endpoint tests. Negative cases. Send DELETE request"
+  }, {
+    "name" : "testClass",
+    "value" : "HealthCheck endpoint tests. Negative cases. Send DELETE request"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 405 StatusCode"
+  }, {
+    "name" : "package",
+    "value" : "HealthCheck endpoint tests. Negative cases. Send DELETE request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2615af7824365256.json",
+  "parameterValues" : [ ]
+}

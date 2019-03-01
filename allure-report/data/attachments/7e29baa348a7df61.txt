@@ -1,0 +1,4 @@
+Sending PATCH request.
+                            Url: http://localhost:8182/api/v1/contacts/1
+                            Body: {"email":"jwIDWVwwNg@gmail.com"}
+                            ContentType: application/vnd.sun.wadl+xml

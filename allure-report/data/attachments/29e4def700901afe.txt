@@ -1,0 +1,4 @@
+Sending POST request.
+                            Url: http://localhost:8182/api/v1/contacts
+                            Body: {"email":"vTkPDPrgsu@gmail.com","lastName":"YRacmroxYw","firstName":"MkHwXycBGy"}
+                            ContentType: application/json

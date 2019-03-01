@@ -1,0 +1,17 @@
+{
+	"req": {
+		"method": "delete",
+		"url": "http://localhost:8182/api/v1/contacts/751",
+		"headers": {
+			"user-agent": "node-superagent/3.8.3",
+			"content-type": "application/json"
+		}
+	},
+	"header": {
+		"content-type": "application/json",
+		"connection": "close",
+		"content-length": "330"
+	},
+	"status": 200,
+	"text": "{\"data\":[{\"id\":751,\"info\":{\"email\":\"fNDIjslfdW@gmail.com\",\"firstName\":\"MQIPGeEWZY\",\"lastName\":\"FKJCrYLaSc\"},\"refs\":{\"patch\":\"http://host:port/api/v1/contacts/751\",\"get\":\"http://host:port/api/v1/contacts/751\",\"delete\":\"http://host:port/api/v1/contacts/751\",\"put\":\"http://host:port/api/v1/contacts/751\"}}],\"message\":\"\",\"status\":200}"
+}

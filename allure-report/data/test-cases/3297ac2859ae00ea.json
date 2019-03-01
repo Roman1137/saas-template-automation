@@ -1,0 +1,97 @@
+{
+  "uid" : "3297ac2859ae00ea",
+  "name" : "should return 405 StatusCode",
+  "fullName" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send TRACE request.should return 405 StatusCode",
+  "historyId" : "cc425c91e2fa7a65b0038496fba0c141",
+  "time" : {
+    "start" : 1551476901369,
+    "stop" : 1551476901380,
+    "duration" : 11
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sending TRACE Request.",
+      "time" : {
+        "start" : 1551476901370,
+        "stop" : 1551476901372,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5f7de2ee5968002d",
+        "name" : "RequestInfo:",
+        "source" : "5f7de2ee5968002d.txt",
+        "type" : "text/plain",
+        "size" : 196
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Response was received.",
+      "time" : {
+        "start" : 1551476901378,
+        "stop" : 1551476901380,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1c7fba4c0c4f46e0",
+        "name" : "Response:",
+        "source" : "1c7fba4c0c4f46e0.txt",
+        "type" : "text/plain",
+        "size" : 308
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send TRACE request"
+  }, {
+    "name" : "testClass",
+    "value" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send TRACE request"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 405 StatusCode"
+  }, {
+    "name" : "package",
+    "value" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send TRACE request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3297ac2859ae00ea.json",
+  "parameterValues" : [ ]
+}

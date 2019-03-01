@@ -1,0 +1,1419 @@
+{
+  "90b2bee57436c9fc9b4be7f0cc49a11b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c87ee1a391feb19f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902132,
+        "stop" : 1551476902144,
+        "duration" : 12
+      }
+    } ]
+  },
+  "7be37c3417f4ece972efb5b7e8eaa597" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce0c559ef8067223",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 415 but got 201",
+      "time" : {
+        "start" : 1551476902647,
+        "stop" : 1551476902667,
+        "duration" : 20
+      }
+    } ]
+  },
+  "bc76da5646fcb2d48e59f43cbd38385f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2200eac22a104e66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904089,
+        "stop" : 1551476904089,
+        "duration" : 0
+      }
+    } ]
+  },
+  "ab80e0c06c2a9eb56866694036095adb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2d28f952431f9ba",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902717,
+        "stop" : 1551476902737,
+        "duration" : 20
+      }
+    } ]
+  },
+  "27e0c09710a66c1364e94ffb1f4a8f14" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "636cece7f0d092d",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902671,
+        "stop" : 1551476902690,
+        "duration" : 19
+      }
+    } ]
+  },
+  "aeff1f3c8a3a61f41dbc50cb972b0037" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f3000c5b96b311e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904215,
+        "stop" : 1551476904225,
+        "duration" : 10
+      }
+    } ]
+  },
+  "824dcb8b59b49518eb9a7034151857e0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "759bf643cb1e3725",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902457,
+        "stop" : 1551476902481,
+        "duration" : 24
+      }
+    } ]
+  },
+  "ec057ec4c3e859f651c58c04b4afdec7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c061ca4211743691",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901669,
+        "stop" : 1551476901842,
+        "duration" : 173
+      }
+    } ]
+  },
+  "cc425c91e2fa7a65b0038496fba0c141" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3297ac2859ae00ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901369,
+        "stop" : 1551476901380,
+        "duration" : 11
+      }
+    } ]
+  },
+  "f0de57067a8f075ccdb27a9c45edcbff" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81d5889b41b6880b",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902741,
+        "stop" : 1551476902760,
+        "duration" : 19
+      }
+    } ]
+  },
+  "893457b2ffe73b76b3471620b78f1c04" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3348816b8431b309",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902193,
+        "stop" : 1551476902208,
+        "duration" : 15
+      }
+    } ]
+  },
+  "722b5a787ba2815a88f6be494dc87dfb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4987c1db87283771",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904020,
+        "stop" : 1551476904031,
+        "duration" : 11
+      }
+    } ]
+  },
+  "f1dd3c6fa5d1fdb84e759f207b6053b8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b35cb93682df27f",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 200",
+      "time" : {
+        "start" : 1551476901889,
+        "stop" : 1551476901950,
+        "duration" : 61
+      }
+    } ]
+  },
+  "61266387bb9d3dc66fb8e8f62db1183b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71466c7fa31b1036",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904053,
+        "stop" : 1551476904065,
+        "duration" : 12
+      }
+    } ]
+  },
+  "19bf00d11dc606035f8e303265e947ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ba2f917ab02ea59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902017,
+        "stop" : 1551476902028,
+        "duration" : 11
+      }
+    } ]
+  },
+  "b84a200fd24e3186ace591e0dc88284a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fcc4532dba06417",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901302,
+        "stop" : 1551476901314,
+        "duration" : 12
+      }
+    } ]
+  },
+  "860f93d633eb73fc00809d1d657291d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c9930cfba8a90cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904174,
+        "stop" : 1551476904193,
+        "duration" : 19
+      }
+    } ]
+  },
+  "fd8c271cd9bc6b585f80b4b7f11d7f5e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "817254c499188089",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902819,
+        "stop" : 1551476902844,
+        "duration" : 25
+      }
+    } ]
+  },
+  "3809b47130f290e10f954d9e5f7cd5a2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c99cd03db71ccdd8",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902591,
+        "stop" : 1551476902613,
+        "duration" : 22
+      }
+    } ]
+  },
+  "89dbd8de09718ba631854ed46f72a831" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae761e44ca9f05c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903449,
+        "stop" : 1551476903641,
+        "duration" : 192
+      }
+    } ]
+  },
+  "3ee97d2524cf338e06e1141349a8d0d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fabd8fe305bdb11e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904140,
+        "stop" : 1551476904154,
+        "duration" : 14
+      }
+    } ]
+  },
+  "52023f9af7710a70ec6c0eaa55b7e641" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "adc6b14fa3b266e1",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 415 but got 201",
+      "time" : {
+        "start" : 1551476902488,
+        "stop" : 1551476902513,
+        "duration" : 25
+      }
+    } ]
+  },
+  "dcc592f76108091d535074d562f1300c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4de5721b7c00b94d",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902695,
+        "stop" : 1551476902713,
+        "duration" : 18
+      }
+    } ]
+  },
+  "755a5a2f62e166eb9ccf822fbb944bfe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e4a846fbb6443da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904158,
+        "stop" : 1551476904170,
+        "duration" : 12
+      }
+    } ]
+  },
+  "83ddf7b4d1266858b967025ff0b8d285" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d79b24e33a108d08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901344,
+        "stop" : 1551476901363,
+        "duration" : 19
+      }
+    } ]
+  },
+  "b1ee33b279b9c0b7c5ac97ad95ad1ece" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53e7cff0a46245ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901154,
+        "stop" : 1551476901164,
+        "duration" : 10
+      }
+    } ]
+  },
+  "eba592e674eced7d729a1da5d8b61c9b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64eb1bfb9e6075d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901286,
+        "stop" : 1551476901297,
+        "duration" : 11
+      }
+    } ]
+  },
+  "b30bec3ceb6dbc7738e61edfe38f4581" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ec49deb61bf4893f",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 200",
+      "time" : {
+        "start" : 1551476904094,
+        "stop" : 1551476904118,
+        "duration" : 24
+      }
+    } ]
+  },
+  "c6a33f70ef5b07b9765b0eda02f31788" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "686208327db1ba9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902240,
+        "stop" : 1551476902253,
+        "duration" : 13
+      }
+    } ]
+  },
+  "c55a79ece1019b586201606e290b08a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7c11762cdff20b7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902209,
+        "stop" : 1551476902227,
+        "duration" : 18
+      }
+    } ]
+  },
+  "bf88e23a44f87ddba969e37f602905b3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "62b37ceca6130665",
+      "status" : "failed",
+      "statusDetails" : "expected 200 to deeply equal 201",
+      "time" : {
+        "start" : 1551476902176,
+        "stop" : 1551476902192,
+        "duration" : 16
+      }
+    } ]
+  },
+  "31334e76572f0df5548794e78c17aec9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4af88fb61345d24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902956,
+        "stop" : 1551476902966,
+        "duration" : 10
+      }
+    } ]
+  },
+  "543532ad780fd192c0343d49aa72f6cf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1070736b9837bd29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901467,
+        "stop" : 1551476901538,
+        "duration" : 71
+      }
+    } ]
+  },
+  "10fb42c6d5c537ed1ba75deee183004f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c081230d868a9bd4",
+      "status" : "failed",
+      "statusDetails" : "expected 200 to deeply equal 201",
+      "time" : {
+        "start" : 1551476902087,
+        "stop" : 1551476902132,
+        "duration" : 45
+      }
+    } ]
+  },
+  "dafab1cab54c1ae01debcc36beddde18" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3d356ea4755a2991",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902798,
+        "stop" : 1551476902814,
+        "duration" : 16
+      }
+    } ]
+  },
+  "1791e3fe3d6725bd2fae2e725e9126cb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84ee8a0288f2097b",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902420,
+        "stop" : 1551476902451,
+        "duration" : 31
+      }
+    } ]
+  },
+  "b6427a38926d000425bb316d9b3eefc5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "662d39e2c742eeeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902045,
+        "stop" : 1551476902068,
+        "duration" : 23
+      }
+    } ]
+  },
+  "53c06ad28af301af3c4ea013183575df" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "560ca4f19eb67823",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902346,
+        "stop" : 1551476902383,
+        "duration" : 37
+      }
+    } ]
+  },
+  "6c125b048c4889e5983e5b20ac6294e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce8b43f874e01f50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904090,
+        "stop" : 1551476904091,
+        "duration" : 1
+      }
+    } ]
+  },
+  "38bbf1754e5ffcc1e902677d346f0114" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d0be4811190b9ed",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902389,
+        "stop" : 1551476902414,
+        "duration" : 25
+      }
+    } ]
+  },
+  "d25e278d389672914952919aa5b06a7d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9df5ea2b22546d8",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 415 but got 201",
+      "time" : {
+        "start" : 1551476902274,
+        "stop" : 1551476902302,
+        "duration" : 28
+      }
+    } ]
+  },
+  "8046ef1423342b5591255570e0496b79" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a48b770869a5fbc0",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902765,
+        "stop" : 1551476902786,
+        "duration" : 21
+      }
+    } ]
+  },
+  "7d94116a66ef1f6a2ca8483e6c7adeb3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "726a47d358e19e11",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902618,
+        "stop" : 1551476902642,
+        "duration" : 24
+      }
+    } ]
+  },
+  "5d9985fc953415b95fcab1e33596de80" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81de5ebcb0e7223e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903835,
+        "stop" : 1551476903849,
+        "duration" : 14
+      }
+    } ]
+  },
+  "c116bbd9f126206ca78b8d9193ad0573" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "704ab43de51d706f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903159,
+        "stop" : 1551476903424,
+        "duration" : 265
+      }
+    } ]
+  },
+  "a83181cb39a0782ba78692f49bf1f17f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86c6454134bbba7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904122,
+        "stop" : 1551476904133,
+        "duration" : 11
+      }
+    } ]
+  },
+  "a8575bfb8c6b70fb0bc60294d8f95a4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56c5ac4a100f661c",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902909,
+        "stop" : 1551476902948,
+        "duration" : 39
+      }
+    } ]
+  },
+  "90f18783b855a22d7f6fea76e627985" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b5fdaae7ac7fbd42",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902318,
+        "stop" : 1551476902339,
+        "duration" : 21
+      }
+    } ]
+  },
+  "d6539fae1144d33c53bb24ed6b8d3b0c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1a4793f78858f91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901328,
+        "stop" : 1551476901338,
+        "duration" : 10
+      }
+    } ]
+  },
+  "3b58ec6ba70290f2318909c452fdebd7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e53f14ee542ecc92",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 200",
+      "time" : {
+        "start" : 1551476901187,
+        "stop" : 1551476901247,
+        "duration" : 60
+      }
+    } ]
+  },
+  "a804aff3e08d482fc8564a8db71a4034" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27cbf8a523d2354f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904090,
+        "stop" : 1551476904090,
+        "duration" : 0
+      }
+    } ]
+  },
+  "be0750230f11677eb0e1f5403fe9b699" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2ee8305150f1005",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 201",
+      "time" : {
+        "start" : 1551476901955,
+        "stop" : 1551476901985,
+        "duration" : 30
+      }
+    } ]
+  },
+  "18f212511777624996fd4a4f108650ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a3448ce906cce94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904036,
+        "stop" : 1551476904048,
+        "duration" : 12
+      }
+    } ]
+  },
+  "f29bd0a8355e1a2926340d33c61985bd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2581fd46f0fda012",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901386,
+        "stop" : 1551476901467,
+        "duration" : 81
+      }
+    } ]
+  },
+  "4a0993be3167698168c36c0a32984475" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cbad78e9a4510cf6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903856,
+        "stop" : 1551476904015,
+        "duration" : 159
+      }
+    } ]
+  },
+  "21f09d9cd88939a0f720a3ed996c0162" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "55bb3a19b10ef70e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902144,
+        "stop" : 1551476902159,
+        "duration" : 15
+      }
+    } ]
+  },
+  "2f27f6aab8f6d110c0c0c034c45778e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c99ed5576bc0c71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901069,
+        "stop" : 1551476901135,
+        "duration" : 66
+      }
+    } ]
+  },
+  "ad4b2ce59ab80c2e8494f7159e1703f0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf06dd86c38e7585",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 200",
+      "time" : {
+        "start" : 1551476901252,
+        "stop" : 1551476901273,
+        "duration" : 21
+      }
+    } ]
+  },
+  "df8df21a5b609fa51707ad452085f1c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a81c89fb0d871bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903641,
+        "stop" : 1551476903827,
+        "duration" : 186
+      }
+    } ]
+  },
+  "6020ab2d3ed73e8dea33ae07c6a4e6e1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf215e281c5bcb06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904089,
+        "stop" : 1551476904090,
+        "duration" : 1
+      }
+    } ]
+  },
+  "9772d49d46ebba0a142aa13abc6bcfb0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a88a78ae574eff98",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902561,
+        "stop" : 1551476902582,
+        "duration" : 21
+      }
+    } ]
+  },
+  "123aa289dadebb0b44afabc8199c761" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e9912e76955777f4",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 415 but got 201",
+      "time" : {
+        "start" : 1551476902875,
+        "stop" : 1551476902904,
+        "duration" : 29
+      }
+    } ]
+  },
+  "5ebd3a7762144fe2fa3f35a7ad005cd6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c51775c7cc195399",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902074,
+        "stop" : 1551476902083,
+        "duration" : 9
+      }
+    } ]
+  },
+  "426b6ce2251f09c2cb6a759e61656022" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3498dae9f60386a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902971,
+        "stop" : 1551476903159,
+        "duration" : 188
+      }
+    } ]
+  },
+  "fed425bdb57b10770566d253e412a4fc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fcc5559894e7a329",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902519,
+        "stop" : 1551476902555,
+        "duration" : 36
+      }
+    } ]
+  },
+  "5f4bc054ae7bc500991efb553b935379" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2615af7824365256",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904199,
+        "stop" : 1551476904212,
+        "duration" : 13
+      }
+    } ]
+  },
+  "5f3b72ad7f4738b44017b6960395c717" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "589c49f548124fea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902032,
+        "stop" : 1551476902041,
+        "duration" : 9
+      }
+    } ]
+  },
+  "4e6703030f01acef5ce6c622f5b98d3f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d205da4ebfe18b79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901554,
+        "stop" : 1551476901669,
+        "duration" : 115
+      }
+    } ]
+  },
+  "7769ce9e072f8ca10d5af33b7ca0b5a9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7749a57caa819724",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901994,
+        "stop" : 1551476902010,
+        "duration" : 16
+      }
+    } ]
+  },
+  "5a50c997dfef6fbe356d6a4a94e97317" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56568c4252e01774",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901139,
+        "stop" : 1551476901153,
+        "duration" : 14
+      }
+    } ]
+  },
+  "464df54bd5957a976e3269c17d78dcca" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f111b434a168ce5",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 200",
+      "time" : {
+        "start" : 1551476901851,
+        "stop" : 1551476901883,
+        "duration" : 32
+      }
+    } ]
+  },
+  "7a479dbcf5960663424cc9180ce50193" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9271eab5c55c8de",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (_events, _eventsCount, ...) } to have status code 400 but got 201",
+      "time" : {
+        "start" : 1551476902849,
+        "stop" : 1551476902871,
+        "duration" : 22
+      }
+    } ]
+  },
+  "14de1c6e4deaa983d8286ab93a849576" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "564cdd17f5230ff5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903436,
+        "stop" : 1551476903445,
+        "duration" : 9
+      }
+    } ]
+  }
+}

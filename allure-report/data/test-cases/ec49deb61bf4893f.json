@@ -1,0 +1,105 @@
+{
+  "uid" : "ec49deb61bf4893f",
+  "name" : "should return 405 StatusCode",
+  "fullName" : "HealthCheck endpoint tests. Negative cases. Send OPTIONS request.should return 405 StatusCode",
+  "historyId" : "b30bec3ceb6dbc7738e61edfe38f4581",
+  "time" : {
+    "start" : 1551476904094,
+    "stop" : 1551476904118,
+    "duration" : 24
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 200",
+  "statusTrace" : "AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 200\n                    at Context.it (tests\\api\\healthCheckEndpointTests.ts:43:42)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 200",
+    "statusTrace" : "AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 405 but got 200\n                    at Context.it (tests\\api\\healthCheckEndpointTests.ts:43:42)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+    "steps" : [ {
+      "name" : "Sending OPTIONS Request.",
+      "time" : {
+        "start" : 1551476904094,
+        "stop" : 1551476904097,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "401c0cc8cc9cc1ae",
+        "name" : "RequestInfo:",
+        "source" : "401c0cc8cc9cc1ae.txt",
+        "type" : "text/plain",
+        "size" : 193
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Response was received.",
+      "time" : {
+        "start" : 1551476904107,
+        "stop" : 1551476904108,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8ffd3d1bff546d9",
+        "name" : "Response:",
+        "source" : "8ffd3d1bff546d9.txt",
+        "type" : "text/plain",
+        "size" : 401
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "HealthCheck endpoint tests. Negative cases. Send OPTIONS request"
+  }, {
+    "name" : "testClass",
+    "value" : "HealthCheck endpoint tests. Negative cases. Send OPTIONS request"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 405 StatusCode"
+  }, {
+    "name" : "package",
+    "value" : "HealthCheck endpoint tests. Negative cases. Send OPTIONS request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ec49deb61bf4893f.json",
+  "parameterValues" : [ ]
+}

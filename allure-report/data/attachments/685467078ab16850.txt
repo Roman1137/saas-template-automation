@@ -1,0 +1,18 @@
+{
+	"req": {
+		"method": "post",
+		"url": "http://localhost:8182/api/v1/contacts",
+		"data": "{\"email\":\"UgTcTKofXE@gmail.com\",\"lastName\":\"QTOpjKXPyvwZTUrPUhAcsWFBsVFdcuRycNfxkmUvlORNXWwJLgyqEjraOzDxgtJPZfAOTPrKDljnSuLAgIwSHmfKDYXfRTrUsBstaFXClgXqAZqcjPgKNkxjwPXhfXfxBTqzEXCWdWohUWefkwmuwMLrhdAGlotLMymeKiTDKGzzKcBhcTcSzQtozBfSzFOdUNIEpHkAIFCswlWgPxFicepFfxgdIGNgmjrazhgWCMQVtXBjYWMmJZuvpQKMCtVsmCHyrzKJoxFnZcKdTTUHbnCXoLIpCtwUOMDgPUwDNMZrUJRxGJRgIaNULMMBgUwbCqOxPRgtpWdglKoJnOCxpkwdIPGXckrpavSdCyFARZPPPoQiUYbGXOvKxrlnMloOtMscsQIbuWoztpPsNWYmppVxioXnHIZtiQpbaMjEiKgKpWSyotKdHeaQzzEOHEgUWSGGQywCWAxGAFUOxfbQeHPOhhFBgPEDMvSJuJMqkrrtybdhYYvLdMKCkVmONROYrbHsrpKlzjfGyZmEPBMXBEzwYfwAMWcGxVKMVfRNczsYvCXmkayeknCgiZpFWckZPmDGuLWTYOGCOLVOrUJvghdpBwqyaeOmurTsTSOxKJmCttNhooJEFCxwMPorzpHRdFFllqCijMsnIVLiXJHCWRQywrRORkAGnEUgkGwQdTYZfoWFFHbxjtGILUXVpsBitHDXFeVRPBrecKLWZkEHQRDCALzeDUTNkRetvkMTtLtkKQPYDBmoVJQFygruIpCXSJyNeyslzTrmkuqtfXmzLJFAxNxPVlZVEXEmsRfCUUjaoQvCvekWbrpoVDEJgnkDeqaGQSzbNisiMbacYWqogYvwQLGGFrVCjWjAVbojakVspHhTvKqoISwdcLBvhdCBnoauNRqxkIsFyDcRjwELTkHmICTFBZPLiSsuIYzDkdisiUVZBbIPUXkxkTxojtUrsDTIySlGDeqsCSIERzTMrXKweQckAKPNzNQisiFjwbLQSAoHPcNDtHiFoKtRgaMPU\",\"firstName\":\"XsozSTpkKF\"}",
+		"headers": {
+			"user-agent": "node-superagent/3.8.3",
+			"content-type": "application/json"
+		}
+	},
+	"header": {
+		"content-type": "application/json",
+		"connection": "close",
+		"content-length": "1345"
+	},
+	"status": 201,
+	"text": "{\"data\":[{\"id\":740,\"info\":{\"email\":\"UgTcTKofXE@gmail.com\",\"firstName\":\"XsozSTpkKF\",\"lastName\":\"QTOpjKXPyvwZTUrPUhAcsWFBsVFdcuRycNfxkmUvlORNXWwJLgyqEjraOzDxgtJPZfAOTPrKDljnSuLAgIwSHmfKDYXfRTrUsBstaFXClgXqAZqcjPgKNkxjwPXhfXfxBTqzEXCWdWohUWefkwmuwMLrhdAGlotLMymeKiTDKGzzKcBhcTcSzQtozBfSzFOdUNIEpHkAIFCswlWgPxFicepFfxgdIGNgmjrazhgWCMQVtXBjYWMmJZuvpQKMCtVsmCHyrzKJoxFnZcKdTTUHbnCXoLIpCtwUOMDgPUwDNMZrUJRxGJRgIaNULMMBgUwbCqOxPRgtpWdglKoJnOCxpkwdIPGXckrpavSdCyFARZPPPoQiUYbGXOvKxrlnMloOtMscsQIbuWoztpPsNWYmppVxioXnHIZtiQpbaMjEiKgKpWSyotKdHeaQzzEOHEgUWSGGQywCWAxGAFUOxfbQeHPOhhFBgPEDMvSJuJMqkrrtybdhYYvLdMKCkVmONROYrbHsrpKlzjfGyZmEPBMXBEzwYfwAMWcGxVKMVfRNczsYvCXmkayeknCgiZpFWckZPmDGuLWTYOGCOLVOrUJvghdpBwqyaeOmurTsTSOxKJmCttNhooJEFCxwMPorzpHRdFFllqCijMsnIVLiXJHCWRQywrRORkAGnEUgkGwQdTYZfoWFFHbxjtGILUXVpsBitHDXFeVRPBrecKLWZkEHQRDCALzeDUTNkRetvkMTtLtkKQPYDBmoVJQFygruIpCXSJyNeyslzTrmkuqtfXmzLJFAxNxPVlZVEXEmsRfCUUjaoQvCvekWbrpoVDEJgnkDeqaGQSzbNisiMbacYWqogYvwQLGGFrVCjWjAVbojakVspHhTvKqoISwdcLBvhdCBnoauNRqxkIsFyDcRjwELTkHmICTFBZPLiSsuIYzDkdisiUVZBbIPUXkxkTxojtUrsDTIySlGDeqsCSIERzTMrXKweQckAKPNzNQisiFjwbLQSAoHPcNDtHiFoKtRgaMPU\"},\"refs\":{\"patch\":\"http://host:port/api/v1/contacts/740\",\"get\":\"http://host:port/api/v1/contacts/740\",\"delete\":\"http://host:port/api/v1/contacts/740\",\"put\":\"http://host:port/api/v1/contacts/740\"}}],\"message\":\"\",\"status\":200}"
+}

@@ -1,0 +1,97 @@
+{
+  "uid" : "d79b24e33a108d08",
+  "name" : "should return 405 StatusCode",
+  "fullName" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send DELETE request.should return 405 StatusCode",
+  "historyId" : "83ddf7b4d1266858b967025ff0b8d285",
+  "time" : {
+    "start" : 1551476901344,
+    "stop" : 1551476901363,
+    "duration" : 19
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sending DELETE Request.",
+      "time" : {
+        "start" : 1551476901345,
+        "stop" : 1551476901346,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "62ce7c9c427775fd",
+        "name" : "RequestInfo:",
+        "source" : "62ce7c9c427775fd.txt",
+        "type" : "text/plain",
+        "size" : 197
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Response was received.",
+      "time" : {
+        "start" : 1551476901362,
+        "stop" : 1551476901363,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96454016b1d9680",
+        "name" : "Response:",
+        "source" : "96454016b1d9680.txt",
+        "type" : "text/plain",
+        "size" : 309
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send DELETE request"
+  }, {
+    "name" : "testClass",
+    "value" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send DELETE request"
+  }, {
+    "name" : "testMethod",
+    "value" : "should return 405 StatusCode"
+  }, {
+    "name" : "package",
+    "value" : "Application.wadl endpoint tests. Negative HTTP methods tests. Send DELETE request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d79b24e33a108d08.json",
+  "parameterValues" : [ ]
+}

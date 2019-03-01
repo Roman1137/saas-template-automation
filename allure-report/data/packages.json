@@ -1,0 +1,1161 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Application.wadl endpoint tests",
+    "children" : [ {
+      "name" : " Positive cases",
+      "children" : [ {
+        "name" : "should respond with 200 Status Code",
+        "uid" : "1c99ed5576bc0c71",
+        "parentUid" : "ad2458c4078da312e0a49a845bba4bfa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551476901069,
+          "stop" : 1551476901135,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should contain specific Content type",
+        "uid" : "56568c4252e01774",
+        "parentUid" : "ad2458c4078da312e0a49a845bba4bfa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551476901139,
+          "stop" : 1551476901153,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should contain Content-Length > 0",
+        "uid" : "53e7cff0a46245ca",
+        "parentUid" : "ad2458c4078da312e0a49a845bba4bfa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551476901154,
+          "stop" : 1551476901164,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad2458c4078da312e0a49a845bba4bfa"
+    }, {
+      "name" : " Negative HTTP methods tests",
+      "children" : [ {
+        "name" : " Send OPTIONS request",
+        "children" : [ {
+          "name" : "should return 405 StatusCode",
+          "uid" : "e53f14ee542ecc92",
+          "parentUid" : "e3a301caaf0597665fcb7949c4258c9d",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476901187,
+            "stop" : 1551476901247,
+            "duration" : 60
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e3a301caaf0597665fcb7949c4258c9d"
+      }, {
+        "name" : " Send HEAD request",
+        "children" : [ {
+          "name" : "should return 405 StatusCode",
+          "uid" : "bf06dd86c38e7585",
+          "parentUid" : "a9be4336f1b9f8df0aee0738e9bfb357",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476901252,
+            "stop" : 1551476901273,
+            "duration" : 21
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a9be4336f1b9f8df0aee0738e9bfb357"
+      }, {
+        "name" : " Send POST request",
+        "children" : [ {
+          "name" : "should return 405 StatusCode",
+          "uid" : "64eb1bfb9e6075d0",
+          "parentUid" : "4b9670dfcd6b7f74de6f73237d2df4fb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551476901286,
+            "stop" : 1551476901297,
+            "duration" : 11
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4b9670dfcd6b7f74de6f73237d2df4fb"
+      }, {
+        "name" : " Send PUT request",
+        "children" : [ {
+          "name" : "should return 405 StatusCode",
+          "uid" : "3fcc4532dba06417",
+          "parentUid" : "88c1e8779cc9891fe450d607170567e4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551476901302,
+            "stop" : 1551476901314,
+            "duration" : 12
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "88c1e8779cc9891fe450d607170567e4"
+      }, {
+        "name" : " Send PATCH request",
+        "children" : [ {
+          "name" : "should return 405 StatusCode",
+          "uid" : "b1a4793f78858f91",
+          "parentUid" : "76999eca7f36c1dfdc170f3ff2647267",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551476901328,
+            "stop" : 1551476901338,
+            "duration" : 10
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "76999eca7f36c1dfdc170f3ff2647267"
+      }, {
+        "name" : " Send DELETE request",
+        "children" : [ {
+          "name" : "should return 405 StatusCode",
+          "uid" : "d79b24e33a108d08",
+          "parentUid" : "1646ebb4eb22cdca33e185912b84a319",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551476901344,
+            "stop" : 1551476901363,
+            "duration" : 19
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1646ebb4eb22cdca33e185912b84a319"
+      }, {
+        "name" : " Send TRACE request",
+        "children" : [ {
+          "name" : "should return 405 StatusCode",
+          "uid" : "3297ac2859ae00ea",
+          "parentUid" : "57ba62410acab7a50f7a139a03c63339",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551476901369,
+            "stop" : 1551476901380,
+            "duration" : 11
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "57ba62410acab7a50f7a139a03c63339"
+      } ],
+      "uid" : "656f16c92da92d0bea5640c2c81ca99c"
+    } ],
+    "uid" : "Application.wadl endpoint tests"
+  }, {
+    "name" : "Contacts endpoint tests Get contact by its info",
+    "children" : [ {
+      "name" : "should return 200 StatusCode",
+      "uid" : "2581fd46f0fda012",
+      "parentUid" : "ca6e7a6c33040e14a6e0a83ac1387ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901386,
+        "stop" : 1551476901467,
+        "duration" : 81
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should contain contact model in response body ",
+      "uid" : "1070736b9837bd29",
+      "parentUid" : "ca6e7a6c33040e14a6e0a83ac1387ad6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901467,
+        "stop" : 1551476901538,
+        "duration" : 71
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ca6e7a6c33040e14a6e0a83ac1387ad6"
+  }, {
+    "name" : "Contacts endpoint tests Get all contacts",
+    "children" : [ {
+      "name" : "should return 200 StatusCode",
+      "uid" : "d205da4ebfe18b79",
+      "parentUid" : "c0b0c435f34032b5a8181d4f5946f00d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901554,
+        "stop" : 1551476901669,
+        "duration" : 115
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should contain contact model in response body ",
+      "uid" : "c061ca4211743691",
+      "parentUid" : "c0b0c435f34032b5a8181d4f5946f00d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476901669,
+        "stop" : 1551476901842,
+        "duration" : 173
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c0b0c435f34032b5a8181d4f5946f00d"
+  }, {
+    "name" : "Contacts endpoint tests Negative HTTP methods tests",
+    "children" : [ {
+      "name" : " Send OPTIONS request",
+      "children" : [ {
+        "name" : "should return 405 StatusCode",
+        "uid" : "f111b434a168ce5",
+        "parentUid" : "d4f4a89f3203ecb614d7e152100ca735",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476901851,
+          "stop" : 1551476901883,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d4f4a89f3203ecb614d7e152100ca735"
+    }, {
+      "name" : " Send HEAD request",
+      "children" : [ {
+        "name" : "should return 405 StatusCode",
+        "uid" : "b35cb93682df27f",
+        "parentUid" : "c024ccf431fdf118318ea18724134771",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476901889,
+          "stop" : 1551476901950,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c024ccf431fdf118318ea18724134771"
+    }, {
+      "name" : " Send POST request",
+      "children" : [ {
+        "name" : "should return 405 StatusCode",
+        "uid" : "b2ee8305150f1005",
+        "parentUid" : "70bc4021999c73d5e484d73265fa2048",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476901955,
+          "stop" : 1551476901985,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "70bc4021999c73d5e484d73265fa2048"
+    }, {
+      "name" : " Send PUT request",
+      "children" : [ {
+        "name" : "should return 405 StatusCode",
+        "uid" : "7749a57caa819724",
+        "parentUid" : "0f6bfa655321da631e9a836f5ec7a3b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551476901994,
+          "stop" : 1551476902010,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f6bfa655321da631e9a836f5ec7a3b9"
+    }, {
+      "name" : " Send PATCH request",
+      "children" : [ {
+        "name" : "should return 405 StatusCode",
+        "uid" : "6ba2f917ab02ea59",
+        "parentUid" : "771109237478c82cdcfeec43c05338a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551476902017,
+          "stop" : 1551476902028,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "771109237478c82cdcfeec43c05338a8"
+    }, {
+      "name" : " Send DELETE request",
+      "children" : [ {
+        "name" : "should return 405 StatusCode",
+        "uid" : "589c49f548124fea",
+        "parentUid" : "3244c86f934e908a9e9d1788d93e47fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551476902032,
+          "stop" : 1551476902041,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3244c86f934e908a9e9d1788d93e47fa"
+    }, {
+      "name" : " Send TRACE request",
+      "children" : [ {
+        "name" : "should return 405 StatusCode",
+        "uid" : "662d39e2c742eeeb",
+        "parentUid" : "adf4449b810b6c6dffe7bec15e26ed7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551476902045,
+          "stop" : 1551476902068,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "adf4449b810b6c6dffe7bec15e26ed7c"
+    } ],
+    "uid" : "be9927d1723519f6b624ce67f370dfb5"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Get contact by id tests Negative cases with invalid content type",
+    "children" : [ {
+      "name" : "should return 415 Status Code",
+      "uid" : "c51775c7cc195399",
+      "parentUid" : "49e10dd60b35e76804e006a04c030eb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902074,
+        "stop" : 1551476902083,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "49e10dd60b35e76804e006a04c030eb8"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Create contact tests",
+    "children" : [ {
+      "name" : " Positive cases",
+      "children" : [ {
+        "name" : " with minimum length",
+        "children" : [ {
+          "name" : "should return 201 Created StatusCode",
+          "uid" : "c081230d868a9bd4",
+          "parentUid" : "eb47d56b90facbdfa9982369451df613",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902087,
+            "stop" : 1551476902132,
+            "duration" : 45
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should contain contact model in response body ",
+          "uid" : "c87ee1a391feb19f",
+          "parentUid" : "eb47d56b90facbdfa9982369451df613",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551476902132,
+            "stop" : 1551476902144,
+            "duration" : 12
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should contain refs list in response body ",
+          "uid" : "55bb3a19b10ef70e",
+          "parentUid" : "eb47d56b90facbdfa9982369451df613",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551476902144,
+            "stop" : 1551476902159,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "eb47d56b90facbdfa9982369451df613"
+      }, {
+        "name" : " with maximum length",
+        "children" : [ {
+          "name" : "should return 201 Created StatusCode",
+          "uid" : "62b37ceca6130665",
+          "parentUid" : "befef1d17374479bc900bf09c141d9a2",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902176,
+            "stop" : 1551476902192,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should contain contact model in response body ",
+          "uid" : "3348816b8431b309",
+          "parentUid" : "befef1d17374479bc900bf09c141d9a2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551476902193,
+            "stop" : 1551476902208,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should contain refs list in response body ",
+          "uid" : "7c11762cdff20b7e",
+          "parentUid" : "befef1d17374479bc900bf09c141d9a2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551476902209,
+            "stop" : 1551476902227,
+            "duration" : 18
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "befef1d17374479bc900bf09c141d9a2"
+      } ],
+      "uid" : "cd2a68ae358fb43c773e61d56cb66369"
+    }, {
+      "name" : " Negative cases with invalid content type",
+      "children" : [ {
+        "name" : "should return 415 Status Code",
+        "uid" : "686208327db1ba9c",
+        "parentUid" : "ac2a6b64bbca396b5cf5fbaabeab184a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551476902240,
+          "stop" : 1551476902253,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac2a6b64bbca396b5cf5fbaabeab184a"
+    }, {
+      "name" : " Negative cases firstName-related",
+      "children" : [ {
+        "name" : " without firstName",
+        "children" : [ {
+          "name" : "should return 415 Status Code",
+          "uid" : "d9df5ea2b22546d8",
+          "parentUid" : "15c92a012c3d5ff0f573fe130ee1c92d",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902274,
+            "stop" : 1551476902302,
+            "duration" : 28
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "15c92a012c3d5ff0f573fe130ee1c92d"
+      }, {
+        "name" : " with empty firstName",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "b5fdaae7ac7fbd42",
+          "parentUid" : "394e4c40c7e7d2acc4e82029d0d7f3d6",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902318,
+            "stop" : 1551476902339,
+            "duration" : 21
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "394e4c40c7e7d2acc4e82029d0d7f3d6"
+      }, {
+        "name" : " with firstName, starting from space",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "560ca4f19eb67823",
+          "parentUid" : "9a9be46c92a84bb19f390cdc3c1a1706",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902346,
+            "stop" : 1551476902383,
+            "duration" : 37
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9a9be46c92a84bb19f390cdc3c1a1706"
+      }, {
+        "name" : " with firstName, with invalid length",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "d0be4811190b9ed",
+          "parentUid" : "906215f4ce40e3a71c1ed3fb376b9420",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902389,
+            "stop" : 1551476902414,
+            "duration" : 25
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "906215f4ce40e3a71c1ed3fb376b9420"
+      }, {
+        "name" : " with firstName, containing numbers",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "84ee8a0288f2097b",
+          "parentUid" : "fbcd833cadc0eec11f6e7757259482aa",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902420,
+            "stop" : 1551476902451,
+            "duration" : 31
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fbcd833cadc0eec11f6e7757259482aa"
+      }, {
+        "name" : " with equal firstName and lastName",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "759bf643cb1e3725",
+          "parentUid" : "5cdaeb25c39fc9aa1033ae10e2f1b982",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902457,
+            "stop" : 1551476902481,
+            "duration" : 24
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5cdaeb25c39fc9aa1033ae10e2f1b982"
+      } ],
+      "uid" : "7ae8fcda3231d848398c7ae708126d00"
+    }, {
+      "name" : " Negative cases lastName-related",
+      "children" : [ {
+        "name" : " without lastName",
+        "children" : [ {
+          "name" : "should return 415 Status Code",
+          "uid" : "adc6b14fa3b266e1",
+          "parentUid" : "1dea7d06e229d386750b0267b6410ea8",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902488,
+            "stop" : 1551476902513,
+            "duration" : 25
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1dea7d06e229d386750b0267b6410ea8"
+      }, {
+        "name" : " with empty lastName",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "fcc5559894e7a329",
+          "parentUid" : "5760e6e236742f01b56201c05896709c",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902519,
+            "stop" : 1551476902555,
+            "duration" : 36
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5760e6e236742f01b56201c05896709c"
+      }, {
+        "name" : " with lastName, starting from space",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "a88a78ae574eff98",
+          "parentUid" : "49ef1758b0bce59761bead6ea6c08c3e",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902561,
+            "stop" : 1551476902582,
+            "duration" : 21
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "49ef1758b0bce59761bead6ea6c08c3e"
+      }, {
+        "name" : " with lastName, with invalid length",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "c99cd03db71ccdd8",
+          "parentUid" : "370c37619091bdcf8f359117dd43d543",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902591,
+            "stop" : 1551476902613,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "370c37619091bdcf8f359117dd43d543"
+      }, {
+        "name" : " with lastName, containing numbers",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "726a47d358e19e11",
+          "parentUid" : "17896ecf48af7faa4d83ee44afddda12",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902618,
+            "stop" : 1551476902642,
+            "duration" : 24
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "17896ecf48af7faa4d83ee44afddda12"
+      } ],
+      "uid" : "fe6a11c3a6ecd918a8841c78d048f899"
+    }, {
+      "name" : " Negative cases email-related",
+      "children" : [ {
+        "name" : " without email",
+        "children" : [ {
+          "name" : "should return 415 Status Code",
+          "uid" : "ce0c559ef8067223",
+          "parentUid" : "d66e49a8df2477424f627985e0725397",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902647,
+            "stop" : 1551476902667,
+            "duration" : 20
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d66e49a8df2477424f627985e0725397"
+      }, {
+        "name" : " with email, starting from space",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "636cece7f0d092d",
+          "parentUid" : "5b16d290d2cf3c91a908624b56627fbd",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902671,
+            "stop" : 1551476902690,
+            "duration" : 19
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5b16d290d2cf3c91a908624b56627fbd"
+      }, {
+        "name" : " with email, with invalid length",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "4de5721b7c00b94d",
+          "parentUid" : "708d3f594e8109f5b1b1a44b4a169148",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902695,
+            "stop" : 1551476902713,
+            "duration" : 18
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "708d3f594e8109f5b1b1a44b4a169148"
+      }, {
+        "name" : " with email, which contains space",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "b2d28f952431f9ba",
+          "parentUid" : "48cd6d9479a2f928515212556365b59f",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902717,
+            "stop" : 1551476902737,
+            "duration" : 20
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "48cd6d9479a2f928515212556365b59f"
+      }, {
+        "name" : " with email, which does not contain name",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "81d5889b41b6880b",
+          "parentUid" : "2ace010af64612772fc1c4ec3490f153",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902741,
+            "stop" : 1551476902760,
+            "duration" : 19
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2ace010af64612772fc1c4ec3490f153"
+      }, {
+        "name" : " with email, which does not contain dot sign - @",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "a48b770869a5fbc0",
+          "parentUid" : "c9965a34acd1e47185c7d512071d6ac9",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902765,
+            "stop" : 1551476902786,
+            "duration" : 21
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c9965a34acd1e47185c7d512071d6ac9"
+      }, {
+        "name" : " with email, which does not contain domain",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "3d356ea4755a2991",
+          "parentUid" : "9d6325455ca918efeeb441f96f6cf9f2",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902798,
+            "stop" : 1551476902814,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9d6325455ca918efeeb441f96f6cf9f2"
+      }, {
+        "name" : " with email, which does not contain point sign - ",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "817254c499188089",
+          "parentUid" : "22013812590abe9a2f66a4cba889f668",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902819,
+            "stop" : 1551476902844,
+            "duration" : 25
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "22013812590abe9a2f66a4cba889f668"
+      }, {
+        "name" : " with email, which does not contain country code",
+        "children" : [ {
+          "name" : "should return 400 Status Code",
+          "uid" : "f9271eab5c55c8de",
+          "parentUid" : "13eeeb254267f215073a4ce6d683304d",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476902849,
+            "stop" : 1551476902871,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "13eeeb254267f215073a4ce6d683304d"
+      } ],
+      "uid" : "f2870891408c299351dce4a7a8aa50d7"
+    }, {
+      "name" : " Negative cases invaid field in model-related",
+      "children" : [ {
+        "name" : "should return 415 Status Code",
+        "uid" : "e9912e76955777f4",
+        "parentUid" : "9f214879a483228e32fdcfc02ac50e0d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902875,
+          "stop" : 1551476902904,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f214879a483228e32fdcfc02ac50e0d"
+    }, {
+      "name" : " Negative cases duplicate-contact related",
+      "children" : [ {
+        "name" : "should return 400 error",
+        "uid" : "56c5ac4a100f661c",
+        "parentUid" : "fc8dd82493d4021c59073bff0394ed8c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1551476902909,
+          "stop" : 1551476902948,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc8dd82493d4021c59073bff0394ed8c"
+    } ],
+    "uid" : "e8c1a51f6cfe4374819b54adbcfd9335"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Update contact by id tests Negative cases with invalid content type",
+    "children" : [ {
+      "name" : "should return 415 Status Code",
+      "uid" : "4af88fb61345d24",
+      "parentUid" : "a5561eb8c224463aaa2c63b7ad313a9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902956,
+        "stop" : 1551476902966,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a5561eb8c224463aaa2c63b7ad313a9b"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Update contact by id tests Positive cases All fields update of existing contact",
+    "children" : [ {
+      "name" : "should return 200 Status Code",
+      "uid" : "3498dae9f60386a1",
+      "parentUid" : "975fd6bb9ee78aa341c8ad1739da0a22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476902971,
+        "stop" : 1551476903159,
+        "duration" : 188
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should return updated info",
+      "uid" : "704ab43de51d706f",
+      "parentUid" : "975fd6bb9ee78aa341c8ad1739da0a22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903159,
+        "stop" : 1551476903424,
+        "duration" : 265
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "975fd6bb9ee78aa341c8ad1739da0a22"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Partially update contact by id tests Negative cases with invalid content type",
+    "children" : [ {
+      "name" : "should return 415 Status Code",
+      "uid" : "564cdd17f5230ff5",
+      "parentUid" : "58ec6f1b7c00ca630c0768481f16572d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903436,
+        "stop" : 1551476903445,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "58ec6f1b7c00ca630c0768481f16572d"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Partially update contact by id tests Positive cases FirstName update of existing contact",
+    "children" : [ {
+      "name" : "should return 200 Status Code",
+      "uid" : "ae761e44ca9f05c",
+      "parentUid" : "9594993cb5717722b81450a8e8619e32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903449,
+        "stop" : 1551476903641,
+        "duration" : 192
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should return updated info",
+      "uid" : "8a81c89fb0d871bc",
+      "parentUid" : "9594993cb5717722b81450a8e8619e32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903641,
+        "stop" : 1551476903827,
+        "duration" : 186
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9594993cb5717722b81450a8e8619e32"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Delete contact by id tests Negative cases with invalid content type",
+    "children" : [ {
+      "name" : "should return 415 Status Code",
+      "uid" : "81de5ebcb0e7223e",
+      "parentUid" : "d348dfb418472637022fb930c9f11761",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903835,
+        "stop" : 1551476903849,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d348dfb418472637022fb930c9f11761"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Delete contact by id tests Positive Cases Deletion of existing contact",
+    "children" : [ {
+      "name" : "should return 404 Status Code",
+      "uid" : "cbad78e9a4510cf6",
+      "parentUid" : "d0b5cc7e320721b166f2048666e34a8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476903856,
+        "stop" : 1551476904015,
+        "duration" : 159
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d0b5cc7e320721b166f2048666e34a8a"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Negative HTTP methods tests Send OPTIONS request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "4987c1db87283771",
+      "parentUid" : "368e83dc67ad512484742a0cbf7a255d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904020,
+        "stop" : 1551476904031,
+        "duration" : 11
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "368e83dc67ad512484742a0cbf7a255d"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Negative HTTP methods tests Send HEAD request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "2a3448ce906cce94",
+      "parentUid" : "e9f45da9a058827242715f01d31472e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904036,
+        "stop" : 1551476904048,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e9f45da9a058827242715f01d31472e1"
+  }, {
+    "name" : "\"Contacts with uuid endpoint tests\" Negative HTTP methods tests Send TRACE request",
+    "children" : [ {
+      "name" : "should return 405 StatusCode",
+      "uid" : "71466c7fa31b1036",
+      "parentUid" : "27a9623ae74b62a5f0287fa66a317d04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551476904053,
+        "stop" : 1551476904065,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "27a9623ae74b62a5f0287fa66a317d04"
+  }, {
+    "name" : "HealthCheck endpoint tests",
+    "children" : [ {
+      "name" : " Positive cases",
+      "children" : [ {
+        "name" : "should respond with 200 Status Code",
+        "uid" : "2200eac22a104e66",
+        "parentUid" : "ab0038d342dfeed0d4494a1eaaec02ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551476904089,
+          "stop" : 1551476904089,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should return specific text",
+        "uid" : "cf215e281c5bcb06",
+        "parentUid" : "ab0038d342dfeed0d4494a1eaaec02ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551476904089,
+          "stop" : 1551476904090,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should contain Content-Length > 0",
+        "uid" : "ce8b43f874e01f50",
+        "parentUid" : "ab0038d342dfeed0d4494a1eaaec02ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551476904090,
+          "stop" : 1551476904091,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should contain specific Content type",
+        "uid" : "27cbf8a523d2354f",
+        "parentUid" : "ab0038d342dfeed0d4494a1eaaec02ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551476904090,
+          "stop" : 1551476904090,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab0038d342dfeed0d4494a1eaaec02ce"
+    }, {
+      "name" : " Negative cases",
+      "children" : [ {
+        "name" : " Send OPTIONS request",
+        "children" : [ {
+          "name" : "should return 405 StatusCode",
+          "uid" : "ec49deb61bf4893f",
+          "parentUid" : "96069c9e130339ffc47ab74d1ed09aed",
+          "status" : "failed",
+          "time" : {
+            "start" : 1551476904094,
+            "stop" : 1551476904118,
+            "duration" : 24
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "96069c9e130339ffc47ab74d1ed09aed"
+      }, {
+        "name" : " Send HEAD request",
+        "children" : [ {
+          "name" : "should return 405 StatusCode",
+          "uid" : "86c6454134bbba7d",
+          "parentUid" : "45631fe4ced793047a3cb82eb132a1cb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551476904122,
+            "stop" : 1551476904133,
+            "duration" : 11
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "45631fe4ced793047a3cb82eb132a1cb"
+      }, {
+        "name" : " Send POST request",
+        "children" : [ {
+          "name" : "should return 405 StatusCode",
+          "uid" : "fabd8fe305bdb11e",
+          "parentUid" : "b1ae9f06defd3f7c60a543891d17dda3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551476904140,
+            "stop" : 1551476904154,
+            "duration" : 14
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b1ae9f06defd3f7c60a543891d17dda3"
+      }, {
+        "name" : " Send PUT request",
+        "children" : [ {
+          "name" : "should return 405 StatusCode",
+          "uid" : "4e4a846fbb6443da",
+          "parentUid" : "3286df55bfca6e243ba82e8a6f41db74",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551476904158,
+            "stop" : 1551476904170,
+            "duration" : 12
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3286df55bfca6e243ba82e8a6f41db74"
+      }, {
+        "name" : " Send PATCH request",
+        "children" : [ {
+          "name" : "should return 405 StatusCode",
+          "uid" : "6c9930cfba8a90cb",
+          "parentUid" : "00d9313cb30672e4c5a5b4fca76ec028",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551476904174,
+            "stop" : 1551476904193,
+            "duration" : 19
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "00d9313cb30672e4c5a5b4fca76ec028"
+      }, {
+        "name" : " Send DELETE request",
+        "children" : [ {
+          "name" : "should return 405 StatusCode",
+          "uid" : "2615af7824365256",
+          "parentUid" : "90cd64e933125c40878efcb77fa17602",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551476904199,
+            "stop" : 1551476904212,
+            "duration" : 13
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "90cd64e933125c40878efcb77fa17602"
+      }, {
+        "name" : " Send TRACE request",
+        "children" : [ {
+          "name" : "should return 405 StatusCode",
+          "uid" : "8f3000c5b96b311e",
+          "parentUid" : "5304991468a61a6f655726992de34a40",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551476904215,
+            "stop" : 1551476904225,
+            "duration" : 10
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5304991468a61a6f655726992de34a40"
+      } ],
+      "uid" : "40005b3af3f4466e5dc3a6220db930f7"
+    } ],
+    "uid" : "8cd71d4825e03bb1d8b0df305ff230a7"
+  } ]
+}

@@ -1,0 +1,45 @@
+{
+  "uid" : "2200eac22a104e66",
+  "name" : "should respond with 200 Status Code",
+  "fullName" : "HealthCheck endpoint tests. Positive cases..should respond with 200 Status Code",
+  "historyId" : "bc76da5646fcb2d48e59f43cbd38385f",
+  "time" : {
+    "start" : 1551476904089,
+    "stop" : 1551476904089,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "HealthCheck endpoint tests. Positive cases."
+  }, {
+    "name" : "testClass",
+    "value" : "HealthCheck endpoint tests. Positive cases."
+  }, {
+    "name" : "testMethod",
+    "value" : "should respond with 200 Status Code"
+  }, {
+    "name" : "package",
+    "value" : "HealthCheck endpoint tests. Positive cases."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2200eac22a104e66.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,45 @@
+{
+  "uid" : "27cbf8a523d2354f",
+  "name" : "should contain specific Content type",
+  "fullName" : "HealthCheck endpoint tests. Positive cases..should contain specific Content type",
+  "historyId" : "a804aff3e08d482fc8564a8db71a4034",
+  "time" : {
+    "start" : 1551476904090,
+    "stop" : 1551476904090,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "HealthCheck endpoint tests. Positive cases."
+  }, {
+    "name" : "testClass",
+    "value" : "HealthCheck endpoint tests. Positive cases."
+  }, {
+    "name" : "testMethod",
+    "value" : "should contain specific Content type"
+  }, {
+    "name" : "package",
+    "value" : "HealthCheck endpoint tests. Positive cases."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27cbf8a523d2354f.json",
+  "parameterValues" : [ ]
+}
