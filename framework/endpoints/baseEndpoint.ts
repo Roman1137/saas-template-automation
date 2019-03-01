@@ -5,6 +5,7 @@ import {
     IContentType,
     String,
 } from "../index";
+import {HttpResuestsLogger} from "../../loggers/httpRequestsLogger/httpResuestsLogger";
 
 export class BaseEndpoint {
 
@@ -21,11 +22,19 @@ export class BaseEndpoint {
 
     public async sendGet(additionalUrn: string = String.Empty,
                          contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
+
+        const url = process.env.SAAS_TEMPLATE_LOCAL + this.baseUrn + additionalUrn;
+        HttpResuestsLogger.LogRequest("GET", url, undefined, contentType);
+
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
             .get(this.baseUrn + additionalUrn)
             .set(contentType.name, contentType.value)
-            .send();
+            .send()
+            .then((response) => {
+                HttpResuestsLogger.LogResponse(response);
+                return response;
+            });
     }
 
     public async sendPost(additionalUrn: string = String.Empty,
