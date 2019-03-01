@@ -17,7 +17,7 @@ describe("Contacts endpoint tests", async () => {
     let response: request.Response;
     let responseBody: IMainResponseModel;
 
-    describe.only("Get contact by its info", async () => {
+    describe("Get contact by its info", async () => {
 
         before(async () => {
             // arrange
@@ -66,7 +66,7 @@ describe("Contacts endpoint tests", async () => {
             expect(response).to.have.status(200);
         });
 
-        it.only("should contain contact model in response body ", async () => {
+        it("should contain contact model in response body ", async () => {
             const contains = responseBody.data.some((contact) => contact.info.email === contactInfo.model.email);
             expect(contains, `Just created contact ${contactInfo.string}
                         should be displayed in all contacts list ${JSON.stringify(responseBody.data)}`)

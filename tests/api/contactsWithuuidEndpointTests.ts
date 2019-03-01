@@ -1,7 +1,7 @@
 import {expect} from "chai";
 import {
     BaseEndpoint,
-    ContactBuilder,
+    ContactBuilder, ContactsEndpoint,
     ContactsWithuuidEndpoint,
     Email,
     IBuilderResponse,
@@ -11,6 +11,7 @@ import {
 
 describe('"Contacts with uuid endpoint tests"', async () => {
     const contactsWithuuidEndpoint = new ContactsWithuuidEndpoint();
+    const contactsEndpoint = new ContactsEndpoint();
     let response;
     let responseBody: IMainResponseModel;
     let contactInfo: IBuilderResponse;
@@ -572,6 +573,37 @@ describe('"Contacts with uuid endpoint tests"', async () => {
                 });
             });
         });
+
+        describe("Positive cases", async () => {
+
+            describe("All fields update of existing contact", async () => {
+                beforeEach(async () => {
+                    response = await contactsEndpoint.getContactsAll();
+                    const contactId = `${response.body.data.pop().id}`;
+
+                    contactInfo = ContactBuilder.Create()
+                        .withFirstName(Name.Valid())
+                        .withLastName(Name.Valid())
+                        .withEmail(Email.Valid())
+                        .build();
+                    await contactsWithuuidEndpoint.updateContactById(contactId, contactInfo.string);
+
+                    response = await contactsWithuuidEndpoint.getContactById(contactId);
+                });
+
+                it("should return 200 Status Code", async () => {
+                    expect(response).to.have.status(200);
+                });
+
+                it("should return updated info", async () => {
+                    const contact = response.body.data.pop();
+
+                    expect(contact.info.email).to.eql(contactInfo.model.email);
+                    expect(contact.info.firstName).to.eql(contactInfo.model.firstName);
+                    expect(contact.info.lastName).to.eql(contactInfo.model.lastName);
+                });
+            });
+        });
     });
 
     describe("Partially update contact by id tests", async () => {
@@ -590,6 +622,34 @@ describe('"Contacts with uuid endpoint tests"', async () => {
 
                 it("should return 415 Status Code", async () => {
                     expect(response).to.have.status(415);
+                });
+            });
+        });
+
+        describe("Positive cases", async () => {
+
+            describe("FirstName update of existing contact", async () => {
+
+                beforeEach(async () => {
+                    response = await contactsEndpoint.getContactsAll();
+                    const contactId = `${response.body.data.pop().id}`;
+
+                    contactInfo = ContactBuilder.Create()
+                        .withFirstName(Name.Valid())
+                        .build();
+                    await contactsWithuuidEndpoint.updateContactById(contactId, contactInfo.string);
+
+                    response = await contactsWithuuidEndpoint.getContactById(contactId);
+                });
+
+                it("should return 200 Status Code", async () => {
+                    expect(response).to.have.status(200);
+                });
+
+                it("should return updated info", async () => {
+                    const contact = response.body.data.pop();
+
+                    expect(contact.info.firstName).to.eql(contactInfo.model.firstName);
                 });
             });
         });
@@ -613,6 +673,25 @@ describe('"Contacts with uuid endpoint tests"', async () => {
 
                 it("should return 415 Status Code", async () => {
                     expect(response).to.have.status(415);
+                });
+            });
+        });
+
+        describe("Positive Cases", async () => {
+
+            describe("Deletion of existing contact", async () => {
+
+                beforeEach(async () => {
+                    response = await contactsEndpoint.getContactsAll();
+                    const contactId = `${response.body.data.pop().id}`;
+
+                    await contactsWithuuidEndpoint.deleteContactById(contactId);
+
+                    response = await contactsWithuuidEndpoint.getContactById(contactId);
+                });
+
+                it("should return 404 Status Code", async () => {
+                    expect(response).to.have.status(404);
                 });
             });
         });
