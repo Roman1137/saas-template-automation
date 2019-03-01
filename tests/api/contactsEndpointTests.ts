@@ -9,8 +9,8 @@ describe("Contacts endpoint tests", async () => {
     describe("Get contact by its info", async () => {
 
         before(async () => {
-            const contactInfo: IContactInfoModel = {firstName: "John", lastName: "Doe", email: "john.doe@unknown.com" };
-            response = await contactsEndpoint.getContactByItsInfo(contactInfo);
+            //const contactInfo: IContactInfoModel = {firstName: "John", lastName: "Doe", email: "john.doe@unknown.com" };
+            //response = await contactsEndpoint.getContactByItsInfo(contactInfo);
             const aa = 2;
         });
 

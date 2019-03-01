@@ -508,6 +508,25 @@ describe('"Contacts with uuid endpoint tests"', async () => {
                 });
             });
 
+            describe("invaid field in model-related.", async () => {
+
+                beforeEach(async () => {
+                    contactInfo = ContactBuilder.Create()
+                        .withFirstName(Name.Valid())
+                        .withLastName(Name.Valid())
+                        .withEmail(Email.Valid())
+                        .withInvalidField()
+                        .build();
+
+                    // act
+                    response = await contactsWithuuidEndpoint.createContact(contactInfo.string);
+                });
+
+                it("should return 415 Status Code", async () => {
+                    expect(response).to.have.status(415);
+                });
+            });
+
             describe("duplicate-contact related.", async () => {
 
                 beforeEach(async () => {

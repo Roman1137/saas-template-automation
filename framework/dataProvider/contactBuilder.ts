@@ -1,4 +1,3 @@
-import {String} from "../helperTypes";
 import {IContactInfoModel} from "../models";
 
 export class ContactBuilder {
@@ -7,7 +6,7 @@ export class ContactBuilder {
         return new ContactBuilder();
     }
 
-    private contactInfo: IContactInfoModel = {email: undefined, lastName: undefined, firstName: undefined};
+    private contactInfo: IContactInfoModel = {email: undefined, lastName: undefined, firstName: undefined, invalidField: undefined};
 
     public withFirstName(firstName: string): ContactBuilder {
         this.contactInfo.firstName = firstName;
@@ -21,6 +20,11 @@ export class ContactBuilder {
 
     public withEmail(email: string): ContactBuilder {
         this.contactInfo.email = email;
+        return this;
+    }
+
+    public withInvalidField(): ContactBuilder {
+        this.contactInfo.invalidField = "something";
         return this;
     }
 

@@ -4,6 +4,5 @@
     "module": "commonjs",
     "sourceMap": true,
     "inlineSources": true,
-    "outDir": "./built"
   }
 }
