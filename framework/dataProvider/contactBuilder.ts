@@ -9,18 +9,18 @@ export class ContactBuilder {
     }
     private contactInfo: IContactInfoModel = {email: String.Empty, lastName: String.Empty, firstName: String.Empty};
 
-    public withFirstName(): ContactBuilder {
-        this.contactInfo.firstName = RandomDataGenerator.getRandomName();
+    public withFirstName(firstName: string): ContactBuilder {
+        this.contactInfo.firstName = firstName;
         return this;
     }
 
-    public withLastName(): ContactBuilder {
-        this.contactInfo.lastName = RandomDataGenerator.getRandomName();
+    public withLastName(lastName: string): ContactBuilder {
+        this.contactInfo.lastName = lastName;
         return this;
     }
 
-    public withEmail(): ContactBuilder {
-        this.contactInfo.email = RandomDataGenerator.getRandomEmail();
+    public withEmail(email: string): ContactBuilder {
+        this.contactInfo.email = email;
         return this;
     }
 
