@@ -1,18 +1,29 @@
 export class RandomDataGenerator {
 
-    public static getRandomName(): string {
-        let text = "";
-        const possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    public static DotSign = "@";
+    public static EmailDomain = "gmail";
+    public static PointSign = ".";
+    public static CountryCode = "com";
 
-        for (let i = 0; i < 10; i++) {
-            text += possible.charAt(Math.floor(Math.random() * possible.length));
+    public static getRandomName(length: number, containNumbers = false, containSpace = false): string {
+        let text = "";
+        let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+        if (containNumbers) {
+            possible += "1234567890";
+        }
+        if (containSpace) {
+            possible += " ";
         }
 
+        for (let i = 0; i < length; i++) {
+            text += possible.charAt(Math.floor(Math.random() * possible.length));
+        }
 
         return text;
     }
 
-    public static getRandomEmail(): string {
-        return RandomDataGenerator.getRandomName() + "gmail.com";
+    public static getRandomEmail(length: number, containNumbers = false, containSpace = false): string {
+        return RandomDataGenerator.getRandomName(length, containNumbers, containSpace) +
+            `${RandomDataGenerator.DotSign + RandomDataGenerator.EmailDomain + RandomDataGenerator.PointSign + RandomDataGenerator.CountryCode}`;
     }
 }

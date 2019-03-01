@@ -5,7 +5,6 @@ import {
     IContentType,
     String,
 } from "../index";
-import {ReporterLogger} from "../../loggers";
 
 export class BaseEndpoint {
 
@@ -22,15 +21,7 @@ export class BaseEndpoint {
             .request(process.env.SAAS_TEMPLATE_LOCAL)
             .get(this.baseUrn + additionalUrn)
             .set(contentType.name, contentType.value)
-            .send()
-            .then((r) => {
-                    const step = ReporterLogger.createStep("one more step", () => {
-                        ReporterLogger.createAttachment("tratata2", JSON.stringify(r));
-                    });
-                    step();
-                    return r;
-                }
-            );
+            .send();
     }
 
     public async sendPost(additionalUrn: string = String.Empty,

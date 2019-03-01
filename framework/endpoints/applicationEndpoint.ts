@@ -9,9 +9,9 @@ export class ApplicationEndpoint extends BaseEndpoint {
     }
 
     public async getAppDescription(): Promise<request.Response> {
-        return ReporterLogger.createStep("tratata2", async () => {
+        /*return ReporterLogger.createStep("tratata2", async () => {
             return await this.sendGet();
-        })();
-        //return await this.sendGet();
+        })();*/
+        return await this.sendGet();
     }
 }
