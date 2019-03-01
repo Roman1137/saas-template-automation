@@ -62,18 +62,18 @@ describe('"Contacts with uuid endpoint tests"', async () => {
                 });
 
                 it("should contain contact model in response body ", async () => {
-                    expect(response.body.data[0].info.firstName).to.eql(contactInfo.model.firstName);
-                    expect(response.body.data[0].info.lastName).to.eql(contactInfo.model.lastName);
-                    expect(response.body.data[0].info.email).to.eql(contactInfo.model.email);
+                    expect(responseBody.data[0].info.firstName).to.eql(contactInfo.model.firstName);
+                    expect(responseBody.data[0].info.lastName).to.eql(contactInfo.model.lastName);
+                    expect(responseBody.data[0].info.email).to.eql(contactInfo.model.email);
                 });
 
                 it("should contain refs list in response body ", async () => {
-                    const id = response.body.data[0].id;
+                    const id = responseBody.data[0].id;
 
-                    expect(response.body.data[0].refs.delete).to.eql(`${ContactsWithuuidEndpoint.RefsUrl}${id}`);
-                    expect(response.body.data[0].refs.get).to.eql(`${ContactsWithuuidEndpoint.RefsUrl}${id}`);
-                    expect(response.body.data[0].refs.patch).to.eql(`${ContactsWithuuidEndpoint.RefsUrl}${id}`);
-                    expect(response.body.data[0].refs.put).to.eql(`${ContactsWithuuidEndpoint.RefsUrl}${id}`);
+                    expect(responseBody.data[0].refs.delete).to.eql(`${ContactsWithuuidEndpoint.RefsUrl}${id}`);
+                    expect(responseBody.data[0].refs.get).to.eql(`${ContactsWithuuidEndpoint.RefsUrl}${id}`);
+                    expect(responseBody.data[0].refs.patch).to.eql(`${ContactsWithuuidEndpoint.RefsUrl}${id}`);
+                    expect(responseBody.data[0].refs.put).to.eql(`${ContactsWithuuidEndpoint.RefsUrl}${id}`);
                 });
             });
 
@@ -103,18 +103,18 @@ describe('"Contacts with uuid endpoint tests"', async () => {
                 });
 
                 it("should contain contact model in response body ", async () => {
-                    expect(response.body.data[0].info.firstName).to.eql(contactInfo.model.firstName);
-                    expect(response.body.data[0].info.lastName).to.eql(contactInfo.model.lastName);
-                    expect(response.body.data[0].info.email).to.eql(contactInfo.model.email);
+                    expect(responseBody.data[0].info.firstName).to.eql(contactInfo.model.firstName);
+                    expect(responseBody.data[0].info.lastName).to.eql(contactInfo.model.lastName);
+                    expect(responseBody.data[0].info.email).to.eql(contactInfo.model.email);
                 });
 
                 it("should contain refs list in response body ", async () => {
-                    const id = response.body.data[0].id;
+                    const id = responseBody.data[0].id;
 
-                    expect(response.body.data[0].refs.delete).to.eql(`${ContactsWithuuidEndpoint.RefsUrl}${id}`);
-                    expect(response.body.data[0].refs.get).to.eql(`${ContactsWithuuidEndpoint.RefsUrl}${id}`);
-                    expect(response.body.data[0].refs.patch).to.eql(`${ContactsWithuuidEndpoint.RefsUrl}${id}`);
-                    expect(response.body.data[0].refs.put).to.eql(`${ContactsWithuuidEndpoint.RefsUrl}${id}`);
+                    expect(responseBody.data[0].refs.delete).to.eql(`${ContactsWithuuidEndpoint.RefsUrl}${id}`);
+                    expect(responseBody.data[0].refs.get).to.eql(`${ContactsWithuuidEndpoint.RefsUrl}${id}`);
+                    expect(responseBody.data[0].refs.patch).to.eql(`${ContactsWithuuidEndpoint.RefsUrl}${id}`);
+                    expect(responseBody.data[0].refs.put).to.eql(`${ContactsWithuuidEndpoint.RefsUrl}${id}`);
                 });
             });
         });

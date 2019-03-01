@@ -18,7 +18,7 @@ export class ContactsEndpoint extends BaseEndpoint {
         return await this.sendGet();
     }
 
-    private getUrnByContactInfo(contactInfo: IContactInfoModel): string {
+    private getUrnByContactInfo(contactInfo: any): string {
         // building url using parameters name and values
         let paramsUrl = "";
         for (const contactProperty in contactInfo) {

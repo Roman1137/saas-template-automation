@@ -28,7 +28,7 @@ describe("Application.wadl endpoint tests.", async () => {
         });
     });
 
-    describe("Negative cases.", async () => {
+    describe("Negative HTTP methods tests.", async () => {
 
         describe("Send OPTIONS request", async () => {
 

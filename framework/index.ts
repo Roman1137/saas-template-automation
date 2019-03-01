@@ -11,7 +11,6 @@ export {
     IMainResponseModel,
     IContactModel,
     IActionsRefsModel,
-    IDataModel,
     IContactInfoModel,
 } from "./models";
 
