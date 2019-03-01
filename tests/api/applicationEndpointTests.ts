@@ -1,6 +1,6 @@
 import {expect} from "chai";
 import * as request from "superagent";
-import {ApplicationEndpoint} from "../index";
+import {ApplicationEndpoint, ReporterLogger} from "../index";
 
 describe("Application.wadl endpoint tests.", async () => {
 
@@ -10,10 +10,11 @@ describe("Application.wadl endpoint tests.", async () => {
     describe("Positive cases.", async () => {
 
         before("Send Get request with valid params", async () => {
-            response = await appEndpoint.getAppDescription();
+
         });
 
-        it("should respond with 200 Status Code", async () => {
+        it.only("should respond with 200 Status Code", async () => {
+            response = await appEndpoint.getAppDescription();
             expect(response).to.have.status(200);
         });
 

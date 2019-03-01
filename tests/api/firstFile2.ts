@@ -1,10 +1,10 @@
 import * as chai from "chai";
-import {Severity} from "../loggers/reporterLogger/allureTypes/severity";
+import {Severity} from "../../loggers/reporterLogger/allureTypes/severity";
 import chaiHttp = require("chai-http");
-import {ConsoleLogger} from "../loggers/consoleLogger/consoleLogger";
+import {ConsoleLogger} from "../../loggers/consoleLogger/consoleLogger";
 
-import {ReporterLogger} from "../loggers/reporterLogger/ReporterLogger";
-import {IMainResponseModel} from "../framework/models/response/MainResponseModel";
+import {ReporterLogger} from "../../loggers/reporterLogger/ReporterLogger";
+import {IMainResponseModel} from "../../framework/models/response/MainResponseModel";
 
 import * as request from "superagent";
 
@@ -12,7 +12,7 @@ chai.use(chaiHttp);
 
 
 
-describe.skip("My testHealth check test 22222222222222", async () => {
+describe("My testHealth check test 22222222222222", async () => {
 
    /* beforeEach(() => {
         allure.feature('Open browser');
