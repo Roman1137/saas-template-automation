@@ -1,5 +1,5 @@
 import {IActionsRefsModel} from "./ActionRefsModel";
-import {IContactInfoModel} from "../request+response/ContactInfoModel";
+import {IContactInfoModel} from "..";
 
 export interface IContactModel {
     id: number;

@@ -10,7 +10,7 @@ after(() => ConsoleLogger.info("Mocha Test Finished"));
 
 export {
     chai,
-    chaiHttp
+    chaiHttp,
 };
 export * from "../loggers";
 export * from "../framework";

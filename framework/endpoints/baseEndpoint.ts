@@ -8,8 +8,12 @@ import {
 
 export class BaseEndpoint {
 
-    private static get contentTypeJson(): IContentType {
+    public static get contentTypeJson(): IContentType {
         return {name: "Content-Type", value: ContentType.APPLICATION_JSON} as IContentType;
+    }
+
+    public static get contentTypeWadlXml(): IContentType {
+        return {name: "Content-Type", value: ContentType.WADL_XML} as IContentType;
     }
 
     constructor(public baseUrn: string) {

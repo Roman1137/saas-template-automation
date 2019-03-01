@@ -23,7 +23,8 @@ export {
 export {
     ContactBuilder,
     Name,
-    Email
+    Email,
+    IBuilderResponse
 } from "./dataProvider";
 
 

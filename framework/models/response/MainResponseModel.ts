@@ -1,7 +1,7 @@
 import {IDataModel} from "./DataModel";
 
 export interface IMainResponseModel {
-    dataModel: IDataModel;
+    data: IDataModel;
     message: any;
     status: number;
 }

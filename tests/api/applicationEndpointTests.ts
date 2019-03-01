@@ -13,7 +13,7 @@ describe("Application.wadl endpoint tests.", async () => {
 
         });
 
-        it.only("should respond with 200 Status Code", async () => {
+        it("should respond with 200 Status Code", async () => {
             response = await appEndpoint.getAppDescription();
             expect(response).to.have.status(200);
         });
