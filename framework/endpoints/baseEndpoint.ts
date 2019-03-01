@@ -41,67 +41,121 @@ export class BaseEndpoint {
                           body?: string,
                           contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
 
+        const url = process.env.SAAS_TEMPLATE_LOCAL + this.baseUrn + additionalUrn;
+        HttpResuestsLogger.LogRequest("POST", url, body, contentType);
+
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
             .post(this.baseUrn)
             .set(contentType.name, contentType.value)
-            .send(body);
+            .send(body)
+            .then((response) => {
+                HttpResuestsLogger.LogResponse(response);
+                return response;
+            });
     }
 
     public async sendPut(additionalUrn: string = String.Empty,
                          body?: string,
                          contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
 
+        const url = process.env.SAAS_TEMPLATE_LOCAL + this.baseUrn + additionalUrn;
+        HttpResuestsLogger.LogRequest("PUT", url, body, contentType);
+
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
             .put(this.baseUrn + additionalUrn)
             .set(contentType.name, contentType.value)
-            .send(body);
+            .send(body)
+            .then((response) => {
+                HttpResuestsLogger.LogResponse(response);
+                return response;
+            });
     }
 
     public async sendPatch(additionalUrn: string = String.Empty,
                            body?: string,
                            contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
+
+        const url = process.env.SAAS_TEMPLATE_LOCAL + this.baseUrn + additionalUrn;
+        HttpResuestsLogger.LogRequest("PATCH", url, body, contentType);
+
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
             .patch(this.baseUrn + additionalUrn)
             .set(contentType.name, contentType.value)
-            .send(body);
+            .send(body)
+            .then((response) => {
+                HttpResuestsLogger.LogResponse(response);
+                return response;
+            });
     }
 
     public async sendDelete(additionalUrn: string = String.Empty,
                             contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
+
+        const url = process.env.SAAS_TEMPLATE_LOCAL + this.baseUrn + additionalUrn;
+        HttpResuestsLogger.LogRequest("DELETE", url, undefined, contentType);
+
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
             .delete(this.baseUrn + additionalUrn)
             .set(contentType.name, contentType.value)
-            .send();
+            .send()
+            .then((response) => {
+                HttpResuestsLogger.LogResponse(response);
+                return response;
+            });
     }
 
     public async sendOptions(additionalUrn: string = String.Empty,
                              contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
+
+        const url = process.env.SAAS_TEMPLATE_LOCAL + this.baseUrn + additionalUrn;
+        HttpResuestsLogger.LogRequest("OPTIONS", url, undefined, contentType);
+
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
             .options(this.baseUrn + additionalUrn)
             .set(contentType.name, contentType.value)
-            .send();
+            .send()
+            .then((response) => {
+                HttpResuestsLogger.LogResponse(response);
+                return response;
+            });
     }
 
     public async sendHead(additionalUrn: string = String.Empty,
                           contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
+
+        const url = process.env.SAAS_TEMPLATE_LOCAL + this.baseUrn + additionalUrn;
+        HttpResuestsLogger.LogRequest("HEAD", url, undefined, contentType);
+
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
             .head(this.baseUrn + additionalUrn)
             .set(contentType.name, contentType.value)
-            .send();
+            .send()
+            .then((response) => {
+                HttpResuestsLogger.LogResponse(response);
+                return response;
+            });
     }
 
     public async sendTrace(additionalUrn: string = String.Empty,
                            contentType: IContentType = BaseEndpoint.contentTypeJson): Promise<request.Response> {
+
+        const url = process.env.SAAS_TEMPLATE_LOCAL + this.baseUrn + additionalUrn;
+        HttpResuestsLogger.LogRequest("TRACE", url, undefined, contentType);
+
         return await chai
             .request(process.env.SAAS_TEMPLATE_LOCAL)
             .trace(this.baseUrn + additionalUrn)
             .set(contentType.name, contentType.value)
-            .send();
+            .send()
+            .then((response) => {
+                HttpResuestsLogger.LogResponse(response);
+                return response;
+            });
     }
 }

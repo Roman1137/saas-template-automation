@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee7f6fae-34f3-453d-9e21-cde7bc62d377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/loggers/httpRequestsLogger/httpResuestsLogger.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/endpoints/baseEndpoint.ts" beforeDir="false" afterPath="$PROJECT_DIR$/framework/endpoints/baseEndpoint.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -75,7 +73,7 @@
           <entry key="js" value="22" />
           <entry key="json" value="659" />
           <entry key="opts" value="155" />
-          <entry key="ts" value="11217" />
+          <entry key="ts" value="11288" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
@@ -84,7 +82,7 @@
           <entry key="JSON" value="658" />
           <entry key="JavaScript" value="22" />
           <entry key="PLAIN_TEXT" value="401" />
-          <entry key="TypeScript" value="11217" />
+          <entry key="TypeScript" value="11288" />
           <entry key="XML" value="2" />
           <entry key="tsconfig" value="1" />
         </counts>
@@ -99,23 +97,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/api/firstFile2.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/framework/endpoints/baseEndpoint.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="554">
+              <caret line="160" column="1" lean-forward="true" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="1" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -186,13 +172,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loggers/httpRequestsLogger/httpResuestsLogger.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <element signature="e#0#49#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -293,8 +279,8 @@
         <option value="$PROJECT_DIR$/framework/endpoints/contactsWithuuidEndpoint.ts" />
         <option value="$PROJECT_DIR$/framework/endpoints/applicationEndpoint.ts" />
         <option value="$PROJECT_DIR$/framework/endpoints/healthcheckEndpoint.ts" />
-        <option value="$PROJECT_DIR$/framework/endpoints/baseEndpoint.ts" />
         <option value="$PROJECT_DIR$/loggers/httpRequestsLogger/httpResuestsLogger.ts" />
+        <option value="$PROJECT_DIR$/framework/endpoints/baseEndpoint.ts" />
       </list>
     </option>
   </component>
@@ -524,7 +510,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85998000" />
+    <option name="totallyTimeSpent" value="86317000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,7 +525,7 @@
     <frame x="1358" y="-319" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11064278" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11064278" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -552,7 +538,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3492334" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27363738" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27363738" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -606,11 +592,6 @@
           <url>file://$PROJECT_DIR$/built/test/firstFile2.js</url>
           <line>31</line>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/tests/api/firstFile2.ts</url>
-          <line>70</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/tests/api/contactsEndpointTests.ts</url>
@@ -967,23 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/endpoints/contactsEndpoint.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loggers/consoleLogger/consoleLogger.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/helperTypes/content-types.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/framework/models/request+response/IContentType.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1011,6 +975,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/framework/helperTypes/content-types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/framework/endpoints/applicationEndpoint.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1021,22 +992,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/endpoints/baseEndpoint.ts">
+    <entry file="file://$PROJECT_DIR$/framework/endpoints/contactsEndpoint.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="235">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/loggers/httpRequestsLogger/httpResuestsLogger.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loggers/consoleLogger/consoleLogger.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/endpoints/baseEndpoint.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="160" column="1" lean-forward="true" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
