@@ -35,7 +35,7 @@ describe("HealthCheck endpoint tests.", async () => {
 
         describe("Send OPTIONS request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await healthCheckEndpoint.sendOptions();
             });
 
@@ -46,7 +46,7 @@ describe("HealthCheck endpoint tests.", async () => {
 
         describe("Send HEAD request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await healthCheckEndpoint.sendHead();
             });
 
@@ -57,7 +57,7 @@ describe("HealthCheck endpoint tests.", async () => {
 
         describe("Send POST request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await healthCheckEndpoint.sendPost();
             });
 
@@ -68,7 +68,7 @@ describe("HealthCheck endpoint tests.", async () => {
 
         describe("Send PUT request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await healthCheckEndpoint.sendPut();
             });
 
@@ -79,7 +79,7 @@ describe("HealthCheck endpoint tests.", async () => {
 
         describe("Send PATCH request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await healthCheckEndpoint.sendPatch();
             });
 
@@ -90,7 +90,7 @@ describe("HealthCheck endpoint tests.", async () => {
 
         describe("Send DELETE request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await healthCheckEndpoint.sendDelete();
             });
 
@@ -101,7 +101,7 @@ describe("HealthCheck endpoint tests.", async () => {
 
         describe("Send TRACE request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await healthCheckEndpoint.sendTrace();
             });
 

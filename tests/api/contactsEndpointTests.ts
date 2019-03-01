@@ -19,7 +19,7 @@ describe("Contacts endpoint tests", async () => {
 
     describe("Get contact by its info", async () => {
 
-        before(async () => {
+        beforeEach(async () => {
             // arrange
             contactInfo = ContactBuilder.Create()
                 .withFirstName(Name.Valid())
@@ -47,7 +47,7 @@ describe("Contacts endpoint tests", async () => {
 
     describe("Get all contacts", async () => {
 
-        before(async () => {
+        beforeEach(async () => {
             // arrange
             contactInfo = ContactBuilder.Create()
                 .withFirstName(Name.Valid())
@@ -78,7 +78,7 @@ describe("Contacts endpoint tests", async () => {
 
         describe("Send OPTIONS request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await contactsEndpoint.sendOptions();
             });
 
@@ -89,7 +89,7 @@ describe("Contacts endpoint tests", async () => {
 
         describe("Send HEAD request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await contactsEndpoint.sendHead();
             });
 
@@ -100,7 +100,7 @@ describe("Contacts endpoint tests", async () => {
 
         describe("Send POST request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await contactsEndpoint.sendPost();
             });
 
@@ -111,7 +111,7 @@ describe("Contacts endpoint tests", async () => {
 
         describe("Send PUT request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await contactsEndpoint.sendPut();
             });
 
@@ -122,7 +122,7 @@ describe("Contacts endpoint tests", async () => {
 
         describe("Send PATCH request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await contactsEndpoint.sendPatch();
             });
 
@@ -133,7 +133,7 @@ describe("Contacts endpoint tests", async () => {
 
         describe("Send DELETE request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await contactsEndpoint.sendDelete();
             });
 
@@ -144,7 +144,7 @@ describe("Contacts endpoint tests", async () => {
 
         describe("Send TRACE request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await contactsEndpoint.sendTrace();
             });
 

@@ -2,6 +2,7 @@ import * as request from "superagent";
 import {String} from "../helperTypes";
 import {IContactInfoModel} from "../models";
 import {BaseEndpoint} from "./baseEndpoint";
+import {ReporterLogger} from "../../loggers";
 
 export class ContactsEndpoint extends BaseEndpoint {
     constructor() {
@@ -10,12 +11,16 @@ export class ContactsEndpoint extends BaseEndpoint {
     }
 
     public async getContactByItsInfo(contactInfo: IContactInfoModel): Promise<request.Response> {
-        const additionalUrn = this.getUrnByContactInfo(contactInfo);
-        return await this.sendGet(additionalUrn);
+        return ReporterLogger.createStep(`Getting contact by contact info ${contactInfo}`, async () => {
+            const additionalUrn = this.getUrnByContactInfo(contactInfo);
+            return await this.sendGet(additionalUrn);
+        })();
     }
 
     public async getContactsAll(): Promise<request.Response> {
-        return await this.sendGet();
+        return ReporterLogger.createStep(`Getting all contacts`, async () => {
+            return await this.sendGet();
+        })();
     }
 
     private getUrnByContactInfo(contactInfo: IContactInfoModel): string {

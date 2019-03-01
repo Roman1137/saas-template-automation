@@ -9,12 +9,11 @@ describe("Application.wadl endpoint tests.", async () => {
 
     describe("Positive cases.", async () => {
 
-        before("Send Get request with valid params", async () => {
-
+        beforeEach("Send Get request with valid params", async () => {
+            response = await appEndpoint.getAppDescription();
         });
 
         it("should respond with 200 Status Code", async () => {
-            response = await appEndpoint.getAppDescription();
             expect(response).to.have.status(200);
         });
 
@@ -32,7 +31,7 @@ describe("Application.wadl endpoint tests.", async () => {
 
         describe("Send OPTIONS request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await appEndpoint.sendOptions();
             });
 
@@ -43,7 +42,7 @@ describe("Application.wadl endpoint tests.", async () => {
 
         describe("Send HEAD request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await appEndpoint.sendHead();
             });
 
@@ -54,7 +53,7 @@ describe("Application.wadl endpoint tests.", async () => {
 
         describe("Send POST request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await appEndpoint.sendPost();
             });
 
@@ -65,7 +64,7 @@ describe("Application.wadl endpoint tests.", async () => {
 
         describe("Send PUT request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await appEndpoint.sendPut();
             });
 
@@ -76,7 +75,7 @@ describe("Application.wadl endpoint tests.", async () => {
 
         describe("Send PATCH request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await appEndpoint.sendPatch();
             });
 
@@ -87,7 +86,7 @@ describe("Application.wadl endpoint tests.", async () => {
 
         describe("Send DELETE request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await appEndpoint.sendDelete();
             });
 
@@ -98,7 +97,7 @@ describe("Application.wadl endpoint tests.", async () => {
 
         describe("Send TRACE request", async () => {
 
-            before(async () => {
+            beforeEach(async () => {
                 response = await appEndpoint.sendTrace();
             });
 

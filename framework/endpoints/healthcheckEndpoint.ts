@@ -1,5 +1,6 @@
 import {BaseEndpoint} from "./baseEndpoint";
 import * as request from "superagent";
+import {ReporterLogger} from "../../loggers";
 
 export class HealthcheckEndpoint extends BaseEndpoint {
     public SUCCESS_TEXT_RESPONSE: string;
@@ -11,6 +12,8 @@ export class HealthcheckEndpoint extends BaseEndpoint {
     }
 
     public async performHealthCheck(): Promise<request.Response> {
-        return await this.sendGet();
+        return ReporterLogger.createStep(`Performing healthcheck`, async () => {
+            return await this.sendGet();
+        })();
     }
 }
