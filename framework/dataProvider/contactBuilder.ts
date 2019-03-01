@@ -6,7 +6,7 @@ export class ContactBuilder {
         return new ContactBuilder();
     }
 
-    private contactInfo: IContactInfoModel = {email: undefined, lastName: undefined, firstName: undefined, invalidField: undefined};
+    private contactInfo: IContactInfoModel = {email: undefined, lastName: undefined, firstName: undefined};
 
     public withFirstName(firstName: string): ContactBuilder {
         this.contactInfo.firstName = firstName;
