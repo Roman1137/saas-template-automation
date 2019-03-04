@@ -4,6 +4,9 @@ node_modules
 # allure results
 allure-results
 
+# allure-report
+allure-report
+
 # folder where TS compiles puts files
 built
 
